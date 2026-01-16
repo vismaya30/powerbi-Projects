@@ -1,3 +1,4 @@
-# Stock Market Analytics Dashboard
-
-This project analyzes stock price trends, returns, and risk using Python and Power BI.
+## Data Pipeline
+- Stock data fetched via yfinance
+- Data processed in Python
+- Final dataset consumed by Power BI
