@@ -1,0 +1,129 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "overview_tableEx_9",
+  "position": {
+    "x": 20,
+    "y": 206,
+    "z": 9000,
+    "height": 160,
+    "width": 620,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "region_lookup"
+                    }
+                  },
+                  "Property": "region"
+                }
+              },
+              "queryRef": "region_lookup.region",
+              "nativeQueryRef": "region"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "region_lookup"
+                    }
+                  },
+                  "Property": "region_name"
+                }
+              },
+              "queryRef": "region_lookup.region_name",
+              "nativeQueryRef": "region_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "region_lookup"
+                    }
+                  },
+                  "Property": "bidding_zone"
+                }
+              },
+              "queryRef": "region_lookup.bidding_zone",
+              "nativeQueryRef": "bidding_zone"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "region_lookup"
+                    }
+                  },
+                  "Property": "responsible_team"
+                }
+              },
+              "queryRef": "region_lookup.responsible_team",
+              "nativeQueryRef": "responsible_team"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "smard_values"
+                    }
+                  },
+                  "Property": "Avg Price"
+                }
+              },
+              "queryRef": "smard_values.Avg Price",
+              "nativeQueryRef": "Avg Price"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "smard_values"
+                    }
+                  },
+                  "Property": "Total Load GWh"
+                }
+              },
+              "queryRef": "smard_values.Total Load GWh",
+              "nativeQueryRef": "Total Load GWh"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Regions (lookup table)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

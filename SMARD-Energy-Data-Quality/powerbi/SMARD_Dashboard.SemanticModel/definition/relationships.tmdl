@@ -1,0 +1,34 @@
+relationship date_smard_values
+	fromColumn: smard_values.day
+	toColumn: Date.Date
+
+relationship region_smard_values
+	fromColumn: smard_values.region
+	toColumn: region_lookup.region
+
+relationship date_error_log
+	fromColumn: error_log.day
+	toColumn: Date.Date
+
+relationship region_error_log
+	fromColumn: error_log.region
+	toColumn: region_lookup.region
+
+relationship date_completeness
+	fromColumn: completeness.day
+	toColumn: Date.Date
+
+relationship region_completeness
+	fromColumn: completeness.region
+	toColumn: region_lookup.region
+
+relationship 4d2b6953-c1fc-48f8-b883-93b0a1236adf
+	joinOnDateBehavior: datePartOnly
+	fromColumn: smard_values.ts
+	toColumn: LocalDateTable_a199d0fb-42b4-4619-956c-1d9467ed4d6b.Date
+
+relationship 33a9f26f-0852-4036-898b-058a035d783b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: error_log.ts
+	toColumn: LocalDateTable_ed9b3dab-9316-4eb7-9462-1f708b169b0a.Date
+

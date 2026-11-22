@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "SMARD_Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "82a2a849-0bb1-4953-b526-500db42e5bf9"
+  }
+}

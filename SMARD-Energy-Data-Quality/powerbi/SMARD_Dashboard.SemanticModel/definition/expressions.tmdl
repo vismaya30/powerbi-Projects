@@ -1,0 +1,5 @@
+expression DataFolder = "\\Mac\Home\Documents\Interviews\TUV\smard_build\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 604e8b30-2ee8-47bd-ad7b-a5df6b6ae0d3
+
+	annotation PBI_ResultType = Text
+

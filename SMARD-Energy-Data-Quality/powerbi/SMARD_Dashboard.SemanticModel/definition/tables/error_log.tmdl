@@ -1,0 +1,125 @@
+table error_log
+	lineageTag: 4475ef30-a5df-427d-b064-7a162ed67bd7
+
+	measure Errors = COUNTROWS(error_log) + 0
+		formatString: #,0
+		lineageTag: d9157280-87ca-4ff5-8bc6-b4b374b82caf
+
+	measure 'High Errors' = CALCULATE(COUNTROWS(error_log), error_log[severity] = "High") + 0
+		formatString: #,0
+		lineageTag: d894ae76-9b35-4eed-93df-256297d5a9bd
+
+	measure 'Errors per 1000 Hours' = DIVIDE([Errors], SUM(completeness[expected_hours])) * 1000
+		formatString: #,0.00
+		lineageTag: 4fcf9682-e6af-4121-ba85-ccccc00136ee
+
+	column error_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 14249a7a-1302-4c7a-8c95-31e94cf8fd9c
+		summarizeBy: sum
+		sourceColumn: error_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column dataset
+		dataType: string
+		lineageTag: 71f6112b-2c27-4d88-a2ac-cea25f6c0da0
+		summarizeBy: none
+		sourceColumn: dataset
+
+	column ts
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: a3cf9783-04df-4608-a1cd-6b419a2301eb
+		summarizeBy: none
+		sourceColumn: ts
+
+		variation Variation
+			isDefault
+			relationship: 33a9f26f-0852-4036-898b-058a035d783b
+			defaultHierarchy: LocalDateTable_ed9b3dab-9316-4eb7-9462-1f708b169b0a.'Date Hierarchy'
+
+	column region
+		dataType: string
+		lineageTag: 0a0c251f-10da-4697-b304-1147152a8bbf
+		summarizeBy: none
+		sourceColumn: region
+
+	column check_type
+		dataType: string
+		lineageTag: 45800dd0-6a46-4450-9c55-182024736c3b
+		summarizeBy: none
+		sourceColumn: check_type
+
+	column severity
+		dataType: string
+		lineageTag: 4f67174e-2079-4c97-bb62-d1c4146aaecd
+		summarizeBy: none
+		sourceColumn: severity
+		sortByColumn: severity_rank
+
+	column severity_rank
+		dataType: int64
+		formatString: 0
+		lineageTag: 8e52f067-e0c2-4d02-827f-c27150dec206
+		summarizeBy: sum
+		sourceColumn: severity_rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column value
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 8737ddc5-eadd-4c34-af63-0d8bb15abc99
+		summarizeBy: sum
+		sourceColumn: value
+
+		annotation SummarizationSetBy = Automatic
+
+	column details
+		dataType: string
+		lineageTag: 16b0fbd5-ad92-4044-940c-af7dfef5369b
+		summarizeBy: none
+		sourceColumn: details
+
+	column day
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 46d5559a-d283-4684-8c00-f6375a1b50ee
+		summarizeBy: none
+		sourceColumn: day
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column region_name
+		dataType: string
+		lineageTag: aa926113-2279-4aee-8751-09ea40ce1fac
+		summarizeBy: none
+		sourceColumn: region_name
+
+	column responsible_team
+		dataType: string
+		lineageTag: 302a3f3c-7224-4632-8c02-db6385e612bc
+		summarizeBy: none
+		sourceColumn: responsible_team
+
+	column match_status
+		dataType: string
+		lineageTag: cf218517-709c-497d-8f4f-5028ab40fe23
+		summarizeBy: none
+		sourceColumn: match_status
+
+	partition error_log = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "python\csv_for_powerbi\error_log.csv"), [Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"error_id", Int64.Type}, {"dataset", type text}, {"ts", type datetime}, {"region", type text}, {"check_type", type text}, {"severity", type text}, {"severity_rank", Int64.Type}, {"value", type number}, {"details", type text}, {"day", type date}}, "en-US"),
+				    Merged = Table.NestedJoin(Typed, {"region"}, region_lookup, {"region"}, "lookup", JoinKind.LeftOuter),
+				    Expanded = Table.ExpandTableColumn(Merged, "lookup", {"region_name", "responsible_team"}, {"region_name", "responsible_team"}),
+				    Matched = Table.AddColumn(Expanded, "match_status", each if [responsible_team] = null then "Unmatched" else "Matched", type text)
+				in
+				    Matched
+

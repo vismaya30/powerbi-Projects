@@ -1,0 +1,37 @@
+table region_lookup
+	lineageTag: 9fdeb0d1-ce9d-46d7-908a-8a23f8262928
+
+	column region
+		dataType: string
+		lineageTag: f7479c8a-998c-4272-9758-b31118b4e081
+		summarizeBy: none
+		sourceColumn: region
+
+	column region_name
+		dataType: string
+		lineageTag: f278c8c6-ba03-4c1f-a73f-93a02b7f00f4
+		summarizeBy: none
+		sourceColumn: region_name
+
+	column bidding_zone
+		dataType: string
+		lineageTag: 934c0b1c-c736-4fd9-83fd-a77f4eb3e339
+		summarizeBy: none
+		sourceColumn: bidding_zone
+
+	column responsible_team
+		dataType: string
+		lineageTag: 9103c2ac-a690-426d-9cfa-25464de6efe4
+		summarizeBy: none
+		sourceColumn: responsible_team
+
+	partition region_lookup = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataFolder & "region_lookup.xlsx"), null, true),
+				    Lookup = Source{[Item="region_lookup", Kind="Table"]}[Data],
+				    Typed = Table.TransformColumnTypes(Lookup, {{"region", type text}, {"region_name", type text}, {"bidding_zone", type text}, {"responsible_team", type text}})
+				in
+				    Typed
+

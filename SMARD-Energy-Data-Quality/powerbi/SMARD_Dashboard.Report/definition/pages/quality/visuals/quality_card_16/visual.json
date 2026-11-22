@@ -1,0 +1,77 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "quality_card_16",
+  "position": {
+    "x": 972.5,
+    "y": 172.5,
+    "z": 6000,
+    "height": 126.66666666666667,
+    "width": 300,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "error_log"
+                    }
+                  },
+                  "Property": "Errors per 1000 Hours"
+                }
+              },
+              "queryRef": "error_log.Errors per 1000 Hours",
+              "nativeQueryRef": "Errors per 1000 Hours"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Errors per 1000 hours'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "041347a1776c29570095",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "error_log"
+              }
+            },
+            "Property": "Errors per 1000 Hours"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1540 @@
+error_id,dataset,ts,region,check_type,severity,severity_rank,value,details,day
+1,load,2024-01-10 10:00:00,AT,Missing hour,High,3,,No row for this hour,2024-01-10
+2,load,2024-01-10 11:00:00,AT,Missing hour,High,3,,No row for this hour,2024-01-10
+3,load,2024-01-10 12:00:00,AT,Missing hour,High,3,,No row for this hour,2024-01-10
+4,load,2024-01-10 13:00:00,AT,Missing hour,High,3,,No row for this hour,2024-01-10
+5,load,2024-01-10 14:00:00,AT,Missing hour,High,3,,No row for this hour,2024-01-10
+6,load,2024-03-31 02:00:00,AT,Missing hour,High,3,,No row for this hour,2024-03-31
+7,load,2024-03-31 02:00:00,DE,Missing hour,High,3,,No row for this hour,2024-03-31
+8,load,2024-03-31 02:00:00,LU,Missing hour,High,3,,No row for this hour,2024-03-31
+9,price,2024-03-31 02:00:00,AT,Missing hour,High,3,,No row for this hour,2024-03-31
+10,price,2024-03-31 02:00:00,DE,Missing hour,High,3,,No row for this hour,2024-03-31
+11,price,2024-03-31 02:00:00,LU,Missing hour,High,3,,No row for this hour,2024-03-31
+12,load,2024-02-15 00:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+13,load,2024-02-15 01:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+14,load,2024-02-15 02:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+15,load,2024-02-15 03:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+16,load,2024-02-15 04:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+17,load,2024-02-15 05:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+18,load,2024-02-15 06:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+19,load,2024-02-15 07:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+20,load,2024-02-15 08:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+21,load,2024-02-15 09:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+22,load,2024-02-15 10:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+23,load,2024-02-15 11:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+24,load,2024-02-15 12:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+25,load,2024-02-15 13:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+26,load,2024-02-15 14:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+27,load,2024-02-15 15:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+28,load,2024-02-15 16:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+29,load,2024-02-15 17:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+30,load,2024-02-15 18:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+31,load,2024-02-15 19:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+32,load,2024-02-15 20:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+33,load,2024-02-15 21:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+34,load,2024-02-15 22:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+35,load,2024-02-15 23:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-02-15
+36,load,2024-10-27 02:00:00,AT,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-10-27
+37,load,2024-10-27 02:00:00,DE,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-10-27
+38,load,2024-10-27 02:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-10-27
+39,price,2024-10-27 02:00:00,AT,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-10-27
+40,price,2024-10-27 02:00:00,DE,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-10-27
+41,price,2024-10-27 02:00:00,LU,Duplicate hour,Medium,2,2,2 rows for the same hour,2024-10-27
+42,price,2024-06-20 00:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+43,price,2024-06-20 01:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+44,price,2024-06-20 02:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+45,price,2024-06-20 03:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+46,price,2024-06-20 04:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+47,price,2024-06-20 05:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+48,price,2024-06-20 06:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+49,price,2024-06-20 07:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+50,price,2024-06-20 08:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+51,price,2024-06-20 09:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+52,price,2024-06-20 10:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+53,price,2024-06-20 11:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+54,price,2024-06-20 12:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+55,price,2024-06-20 13:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+56,price,2024-06-20 14:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+57,price,2024-06-20 15:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+58,price,2024-06-20 16:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+59,price,2024-06-20 17:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+60,price,2024-06-20 18:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+61,price,2024-06-20 19:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+62,price,2024-06-20 20:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+63,price,2024-06-20 21:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+64,price,2024-06-20 22:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+65,price,2024-06-20 23:00:00,AT,Empty value,Medium,2,,Row exists but the value is empty,2024-06-20
+66,load,2024-03-05 12:00:00,DE,Negative value,High,3,-68743.25,Load can never be negative,2024-03-05
+67,price,2024-01-01 03:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-01-01
+68,price,2024-01-01 04:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-01-01
+69,price,2024-01-01 05:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-01-01
+70,price,2024-01-01 06:00:00,DE,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-01-01
+71,price,2024-01-01 07:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-01-01
+72,price,2024-01-03 00:00:00,DE,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-01-03
+73,price,2024-01-03 01:00:00,DE,Negative value,Low,1,-1.23,"Negative price: real market event, worth a look",2024-01-03
+74,price,2024-01-03 02:00:00,DE,Negative value,Low,1,-1.3,"Negative price: real market event, worth a look",2024-01-03
+75,price,2024-01-03 03:00:00,DE,Negative value,Low,1,-1.31,"Negative price: real market event, worth a look",2024-01-03
+76,price,2024-01-03 04:00:00,DE,Negative value,Low,1,-1.31,"Negative price: real market event, worth a look",2024-01-03
+77,price,2024-01-03 05:00:00,DE,Negative value,Low,1,-1.38,"Negative price: real market event, worth a look",2024-01-03
+78,price,2024-01-24 01:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-01-24
+79,price,2024-01-24 02:00:00,DE,Negative value,Low,1,-0.64,"Negative price: real market event, worth a look",2024-01-24
+80,price,2024-01-24 03:00:00,DE,Negative value,Low,1,-4.41,"Negative price: real market event, worth a look",2024-01-24
+81,price,2024-01-24 04:00:00,DE,Negative value,Low,1,-4.84,"Negative price: real market event, worth a look",2024-01-24
+82,price,2024-01-24 05:00:00,DE,Negative value,Low,1,-0.18,"Negative price: real market event, worth a look",2024-01-24
+83,price,2024-02-05 01:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-02-05
+84,price,2024-02-05 02:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-02-05
+85,price,2024-02-05 03:00:00,DE,Negative value,Low,1,-0.13,"Negative price: real market event, worth a look",2024-02-05
+86,price,2024-02-05 04:00:00,DE,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-02-05
+87,price,2024-03-09 12:00:00,DE,Negative value,Low,1,-1.15,"Negative price: real market event, worth a look",2024-03-09
+88,price,2024-03-09 13:00:00,DE,Negative value,Low,1,-5.02,"Negative price: real market event, worth a look",2024-03-09
+89,price,2024-03-09 14:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-03-09
+90,price,2024-03-10 11:00:00,DE,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-03-10
+91,price,2024-03-10 12:00:00,DE,Negative value,Low,1,-8.24,"Negative price: real market event, worth a look",2024-03-10
+92,price,2024-03-10 13:00:00,DE,Negative value,Low,1,-9.98,"Negative price: real market event, worth a look",2024-03-10
+93,price,2024-03-10 14:00:00,DE,Negative value,Low,1,-0.51,"Negative price: real market event, worth a look",2024-03-10
+94,price,2024-03-23 11:00:00,DE,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-03-23
+95,price,2024-03-23 12:00:00,DE,Negative value,Low,1,-1.94,"Negative price: real market event, worth a look",2024-03-23
+96,price,2024-03-23 13:00:00,DE,Negative value,Low,1,-5.71,"Negative price: real market event, worth a look",2024-03-23
+97,price,2024-03-23 14:00:00,DE,Negative value,Low,1,-8.45,"Negative price: real market event, worth a look",2024-03-23
+98,price,2024-03-23 15:00:00,DE,Negative value,Low,1,-1.46,"Negative price: real market event, worth a look",2024-03-23
+99,price,2024-04-01 14:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-01
+100,price,2024-04-01 15:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-01
+101,price,2024-04-01 16:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-01
+102,price,2024-04-02 11:00:00,DE,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-04-02
+103,price,2024-04-02 12:00:00,DE,Negative value,Low,1,-1.09,"Negative price: real market event, worth a look",2024-04-02
+104,price,2024-04-02 13:00:00,DE,Negative value,Low,1,-0.97,"Negative price: real market event, worth a look",2024-04-02
+105,price,2024-04-02 14:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-04-02
+106,price,2024-04-05 14:00:00,DE,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-04-05
+107,price,2024-04-06 11:00:00,DE,Negative value,Low,1,-0.73,"Negative price: real market event, worth a look",2024-04-06
+108,price,2024-04-06 12:00:00,DE,Negative value,Low,1,-16.4,"Negative price: real market event, worth a look",2024-04-06
+109,price,2024-04-06 13:00:00,DE,Negative value,Low,1,-59.92,"Negative price: real market event, worth a look",2024-04-06
+110,price,2024-04-06 14:00:00,DE,Negative value,Low,1,-57.59,"Negative price: real market event, worth a look",2024-04-06
+111,price,2024-04-06 15:00:00,DE,Negative value,Low,1,-34.61,"Negative price: real market event, worth a look",2024-04-06
+112,price,2024-04-06 16:00:00,DE,Negative value,Low,1,-4.66,"Negative price: real market event, worth a look",2024-04-06
+113,price,2024-04-07 09:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-07
+114,price,2024-04-07 10:00:00,DE,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-04-07
+115,price,2024-04-07 11:00:00,DE,Negative value,Low,1,-3.25,"Negative price: real market event, worth a look",2024-04-07
+116,price,2024-04-07 12:00:00,DE,Negative value,Low,1,-9.94,"Negative price: real market event, worth a look",2024-04-07
+117,price,2024-04-07 13:00:00,DE,Negative value,Low,1,-26.79,"Negative price: real market event, worth a look",2024-04-07
+118,price,2024-04-07 14:00:00,DE,Negative value,Low,1,-20.06,"Negative price: real market event, worth a look",2024-04-07
+119,price,2024-04-07 15:00:00,DE,Negative value,Low,1,-5.04,"Negative price: real market event, worth a look",2024-04-07
+120,price,2024-04-07 16:00:00,DE,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-04-07
+121,price,2024-04-12 13:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-04-12
+122,price,2024-04-13 10:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-04-13
+123,price,2024-04-13 11:00:00,DE,Negative value,Low,1,-9.97,"Negative price: real market event, worth a look",2024-04-13
+124,price,2024-04-13 12:00:00,DE,Negative value,Low,1,-25.96,"Negative price: real market event, worth a look",2024-04-13
+125,price,2024-04-13 13:00:00,DE,Negative value,Low,1,-50.0,"Negative price: real market event, worth a look",2024-04-13
+126,price,2024-04-13 14:00:00,DE,Negative value,Low,1,-55.01,"Negative price: real market event, worth a look",2024-04-13
+127,price,2024-04-13 15:00:00,DE,Negative value,Low,1,-49.91,"Negative price: real market event, worth a look",2024-04-13
+128,price,2024-04-13 16:00:00,DE,Negative value,Low,1,-19.16,"Negative price: real market event, worth a look",2024-04-13
+129,price,2024-04-13 17:00:00,DE,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-04-13
+130,price,2024-04-14 10:00:00,DE,Negative value,Low,1,-2.37,"Negative price: real market event, worth a look",2024-04-14
+131,price,2024-04-14 11:00:00,DE,Negative value,Low,1,-12.17,"Negative price: real market event, worth a look",2024-04-14
+132,price,2024-04-14 12:00:00,DE,Negative value,Low,1,-42.27,"Negative price: real market event, worth a look",2024-04-14
+133,price,2024-04-14 13:00:00,DE,Negative value,Low,1,-60.05,"Negative price: real market event, worth a look",2024-04-14
+134,price,2024-04-14 14:00:00,DE,Negative value,Low,1,-60.07,"Negative price: real market event, worth a look",2024-04-14
+135,price,2024-04-14 15:00:00,DE,Negative value,Low,1,-40.05,"Negative price: real market event, worth a look",2024-04-14
+136,price,2024-04-14 16:00:00,DE,Negative value,Low,1,-6.25,"Negative price: real market event, worth a look",2024-04-14
+137,price,2024-04-21 14:00:00,DE,Negative value,Low,1,-0.9,"Negative price: real market event, worth a look",2024-04-21
+138,price,2024-04-27 13:00:00,DE,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-04-27
+139,price,2024-04-28 08:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-04-28
+140,price,2024-04-28 09:00:00,DE,Negative value,Low,1,-1.02,"Negative price: real market event, worth a look",2024-04-28
+141,price,2024-04-28 10:00:00,DE,Negative value,Low,1,-16.63,"Negative price: real market event, worth a look",2024-04-28
+142,price,2024-04-28 11:00:00,DE,Negative value,Low,1,-36.72,"Negative price: real market event, worth a look",2024-04-28
+143,price,2024-04-28 12:00:00,DE,Negative value,Low,1,-60.05,"Negative price: real market event, worth a look",2024-04-28
+144,price,2024-04-28 13:00:00,DE,Negative value,Low,1,-60.09,"Negative price: real market event, worth a look",2024-04-28
+145,price,2024-04-28 14:00:00,DE,Negative value,Low,1,-65.06,"Negative price: real market event, worth a look",2024-04-28
+146,price,2024-04-28 15:00:00,DE,Negative value,Low,1,-52.43,"Negative price: real market event, worth a look",2024-04-28
+147,price,2024-04-28 16:00:00,DE,Negative value,Low,1,-23.45,"Negative price: real market event, worth a look",2024-04-28
+148,price,2024-04-28 17:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-04-28
+149,price,2024-05-01 10:00:00,DE,Negative value,Low,1,-0.97,"Negative price: real market event, worth a look",2024-05-01
+150,price,2024-05-01 11:00:00,DE,Negative value,Low,1,-40.05,"Negative price: real market event, worth a look",2024-05-01
+151,price,2024-05-01 12:00:00,DE,Negative value,Low,1,-91.9,"Negative price: real market event, worth a look",2024-05-01
+152,price,2024-05-01 13:00:00,DE,Negative value,Low,1,-120.0,"Negative price: real market event, worth a look",2024-05-01
+153,price,2024-05-01 14:00:00,DE,Negative value,Low,1,-120.07,"Negative price: real market event, worth a look",2024-05-01
+154,price,2024-05-01 15:00:00,DE,Negative value,Low,1,-79.98,"Negative price: real market event, worth a look",2024-05-01
+155,price,2024-05-01 16:00:00,DE,Negative value,Low,1,-30.01,"Negative price: real market event, worth a look",2024-05-01
+156,price,2024-05-01 17:00:00,DE,Negative value,Low,1,-1.14,"Negative price: real market event, worth a look",2024-05-01
+157,price,2024-05-02 11:00:00,DE,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-05-02
+158,price,2024-05-02 12:00:00,DE,Negative value,Low,1,-1.73,"Negative price: real market event, worth a look",2024-05-02
+159,price,2024-05-02 13:00:00,DE,Negative value,Low,1,-4.19,"Negative price: real market event, worth a look",2024-05-02
+160,price,2024-05-02 14:00:00,DE,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-05-02
+161,price,2024-05-02 15:00:00,DE,Negative value,Low,1,-1.39,"Negative price: real market event, worth a look",2024-05-02
+162,price,2024-05-05 13:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-05-05
+163,price,2024-05-05 14:00:00,DE,Negative value,Low,1,-0.97,"Negative price: real market event, worth a look",2024-05-05
+164,price,2024-05-05 15:00:00,DE,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-05-05
+165,price,2024-05-09 11:00:00,DE,Negative value,Low,1,-0.52,"Negative price: real market event, worth a look",2024-05-09
+166,price,2024-05-09 12:00:00,DE,Negative value,Low,1,-0.88,"Negative price: real market event, worth a look",2024-05-09
+167,price,2024-05-09 13:00:00,DE,Negative value,Low,1,-1.35,"Negative price: real market event, worth a look",2024-05-09
+168,price,2024-05-09 14:00:00,DE,Negative value,Low,1,-2.03,"Negative price: real market event, worth a look",2024-05-09
+169,price,2024-05-09 15:00:00,DE,Negative value,Low,1,-0.93,"Negative price: real market event, worth a look",2024-05-09
+170,price,2024-05-11 11:00:00,DE,Negative value,Low,1,-10.47,"Negative price: real market event, worth a look",2024-05-11
+171,price,2024-05-11 12:00:00,DE,Negative value,Low,1,-21.21,"Negative price: real market event, worth a look",2024-05-11
+172,price,2024-05-11 13:00:00,DE,Negative value,Low,1,-21.99,"Negative price: real market event, worth a look",2024-05-11
+173,price,2024-05-11 14:00:00,DE,Negative value,Low,1,-24.23,"Negative price: real market event, worth a look",2024-05-11
+174,price,2024-05-11 15:00:00,DE,Negative value,Low,1,-11.46,"Negative price: real market event, worth a look",2024-05-11
+175,price,2024-05-11 16:00:00,DE,Negative value,Low,1,-0.41,"Negative price: real market event, worth a look",2024-05-11
+176,price,2024-05-12 09:00:00,DE,Negative value,Low,1,-2.8,"Negative price: real market event, worth a look",2024-05-12
+177,price,2024-05-12 10:00:00,DE,Negative value,Low,1,-25.0,"Negative price: real market event, worth a look",2024-05-12
+178,price,2024-05-12 11:00:00,DE,Negative value,Low,1,-69.64,"Negative price: real market event, worth a look",2024-05-12
+179,price,2024-05-12 12:00:00,DE,Negative value,Low,1,-100.06,"Negative price: real market event, worth a look",2024-05-12
+180,price,2024-05-12 13:00:00,DE,Negative value,Low,1,-135.45,"Negative price: real market event, worth a look",2024-05-12
+181,price,2024-05-12 14:00:00,DE,Negative value,Low,1,-132.85,"Negative price: real market event, worth a look",2024-05-12
+182,price,2024-05-12 15:00:00,DE,Negative value,Low,1,-85.08,"Negative price: real market event, worth a look",2024-05-12
+183,price,2024-05-12 16:00:00,DE,Negative value,Low,1,-30.0,"Negative price: real market event, worth a look",2024-05-12
+184,price,2024-05-12 17:00:00,DE,Negative value,Low,1,-1.33,"Negative price: real market event, worth a look",2024-05-12
+185,price,2024-05-13 11:00:00,DE,Negative value,Low,1,-0.97,"Negative price: real market event, worth a look",2024-05-13
+186,price,2024-05-13 12:00:00,DE,Negative value,Low,1,-2.69,"Negative price: real market event, worth a look",2024-05-13
+187,price,2024-05-13 13:00:00,DE,Negative value,Low,1,-2.27,"Negative price: real market event, worth a look",2024-05-13
+188,price,2024-05-13 14:00:00,DE,Negative value,Low,1,-2.46,"Negative price: real market event, worth a look",2024-05-13
+189,price,2024-05-13 15:00:00,DE,Negative value,Low,1,-0.73,"Negative price: real market event, worth a look",2024-05-13
+190,price,2024-05-14 10:00:00,DE,Negative value,Low,1,-2.33,"Negative price: real market event, worth a look",2024-05-14
+191,price,2024-05-14 11:00:00,DE,Negative value,Low,1,-11.12,"Negative price: real market event, worth a look",2024-05-14
+192,price,2024-05-14 12:00:00,DE,Negative value,Low,1,-36.33,"Negative price: real market event, worth a look",2024-05-14
+193,price,2024-05-14 13:00:00,DE,Negative value,Low,1,-42.95,"Negative price: real market event, worth a look",2024-05-14
+194,price,2024-05-14 14:00:00,DE,Negative value,Low,1,-39.66,"Negative price: real market event, worth a look",2024-05-14
+195,price,2024-05-14 15:00:00,DE,Negative value,Low,1,-19.86,"Negative price: real market event, worth a look",2024-05-14
+196,price,2024-05-14 16:00:00,DE,Negative value,Low,1,-2.93,"Negative price: real market event, worth a look",2024-05-14
+197,price,2024-05-14 17:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-05-14
+198,price,2024-05-15 11:00:00,DE,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-05-15
+199,price,2024-05-15 12:00:00,DE,Negative value,Low,1,-9.95,"Negative price: real market event, worth a look",2024-05-15
+200,price,2024-05-15 13:00:00,DE,Negative value,Low,1,-11.18,"Negative price: real market event, worth a look",2024-05-15
+201,price,2024-05-15 14:00:00,DE,Negative value,Low,1,-9.91,"Negative price: real market event, worth a look",2024-05-15
+202,price,2024-05-15 15:00:00,DE,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-05-15
+203,price,2024-05-16 12:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-05-16
+204,price,2024-05-16 13:00:00,DE,Negative value,Low,1,-0.71,"Negative price: real market event, worth a look",2024-05-16
+205,price,2024-05-16 14:00:00,DE,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-05-16
+206,price,2024-05-18 12:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-05-18
+207,price,2024-05-18 13:00:00,DE,Negative value,Low,1,-1.3,"Negative price: real market event, worth a look",2024-05-18
+208,price,2024-05-18 14:00:00,DE,Negative value,Low,1,-2.79,"Negative price: real market event, worth a look",2024-05-18
+209,price,2024-05-18 15:00:00,DE,Negative value,Low,1,-1.92,"Negative price: real market event, worth a look",2024-05-18
+210,price,2024-05-18 16:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-05-18
+211,price,2024-05-19 10:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-05-19
+212,price,2024-05-19 11:00:00,DE,Negative value,Low,1,-0.18,"Negative price: real market event, worth a look",2024-05-19
+213,price,2024-05-19 12:00:00,DE,Negative value,Low,1,-2.06,"Negative price: real market event, worth a look",2024-05-19
+214,price,2024-05-19 13:00:00,DE,Negative value,Low,1,-7.41,"Negative price: real market event, worth a look",2024-05-19
+215,price,2024-05-19 14:00:00,DE,Negative value,Low,1,-15.13,"Negative price: real market event, worth a look",2024-05-19
+216,price,2024-05-19 15:00:00,DE,Negative value,Low,1,-10.0,"Negative price: real market event, worth a look",2024-05-19
+217,price,2024-05-19 16:00:00,DE,Negative value,Low,1,-3.79,"Negative price: real market event, worth a look",2024-05-19
+218,price,2024-05-19 17:00:00,DE,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-05-19
+219,price,2024-05-20 14:00:00,DE,Negative value,Low,1,-0.33,"Negative price: real market event, worth a look",2024-05-20
+220,price,2024-05-20 15:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-05-20
+221,price,2024-05-26 11:00:00,DE,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-05-26
+222,price,2024-05-26 12:00:00,DE,Negative value,Low,1,-2.12,"Negative price: real market event, worth a look",2024-05-26
+223,price,2024-05-26 13:00:00,DE,Negative value,Low,1,-10.66,"Negative price: real market event, worth a look",2024-05-26
+224,price,2024-05-26 14:00:00,DE,Negative value,Low,1,-23.88,"Negative price: real market event, worth a look",2024-05-26
+225,price,2024-05-26 15:00:00,DE,Negative value,Low,1,-9.91,"Negative price: real market event, worth a look",2024-05-26
+226,price,2024-05-26 16:00:00,DE,Negative value,Low,1,-0.6,"Negative price: real market event, worth a look",2024-05-26
+227,price,2024-06-02 12:00:00,DE,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-06-02
+228,price,2024-06-02 13:00:00,DE,Negative value,Low,1,-4.01,"Negative price: real market event, worth a look",2024-06-02
+229,price,2024-06-02 14:00:00,DE,Negative value,Low,1,-15.93,"Negative price: real market event, worth a look",2024-06-02
+230,price,2024-06-02 15:00:00,DE,Negative value,Low,1,-19.58,"Negative price: real market event, worth a look",2024-06-02
+231,price,2024-06-02 16:00:00,DE,Negative value,Low,1,-8.98,"Negative price: real market event, worth a look",2024-06-02
+232,price,2024-06-02 17:00:00,DE,Negative value,Low,1,-1.27,"Negative price: real market event, worth a look",2024-06-02
+233,price,2024-06-08 10:00:00,DE,Negative value,Low,1,-0.13,"Negative price: real market event, worth a look",2024-06-08
+234,price,2024-06-08 11:00:00,DE,Negative value,Low,1,-2.27,"Negative price: real market event, worth a look",2024-06-08
+235,price,2024-06-08 12:00:00,DE,Negative value,Low,1,-10.26,"Negative price: real market event, worth a look",2024-06-08
+236,price,2024-06-08 13:00:00,DE,Negative value,Low,1,-23.7,"Negative price: real market event, worth a look",2024-06-08
+237,price,2024-06-08 14:00:00,DE,Negative value,Low,1,-30.03,"Negative price: real market event, worth a look",2024-06-08
+238,price,2024-06-08 15:00:00,DE,Negative value,Low,1,-20.62,"Negative price: real market event, worth a look",2024-06-08
+239,price,2024-06-08 16:00:00,DE,Negative value,Low,1,-8.25,"Negative price: real market event, worth a look",2024-06-08
+240,price,2024-06-09 08:00:00,DE,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-06-09
+241,price,2024-06-09 09:00:00,DE,Negative value,Low,1,-2.01,"Negative price: real market event, worth a look",2024-06-09
+242,price,2024-06-09 10:00:00,DE,Negative value,Low,1,-7.6,"Negative price: real market event, worth a look",2024-06-09
+243,price,2024-06-09 11:00:00,DE,Negative value,Low,1,-15.0,"Negative price: real market event, worth a look",2024-06-09
+244,price,2024-06-09 12:00:00,DE,Negative value,Low,1,-25.0,"Negative price: real market event, worth a look",2024-06-09
+245,price,2024-06-09 13:00:00,DE,Negative value,Low,1,-32.69,"Negative price: real market event, worth a look",2024-06-09
+246,price,2024-06-09 14:00:00,DE,Negative value,Low,1,-37.14,"Negative price: real market event, worth a look",2024-06-09
+247,price,2024-06-09 15:00:00,DE,Negative value,Low,1,-28.68,"Negative price: real market event, worth a look",2024-06-09
+248,price,2024-06-09 16:00:00,DE,Negative value,Low,1,-5.84,"Negative price: real market event, worth a look",2024-06-09
+249,price,2024-06-09 17:00:00,DE,Negative value,Low,1,-0.5,"Negative price: real market event, worth a look",2024-06-09
+250,price,2024-06-15 09:00:00,DE,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-06-15
+251,price,2024-06-15 10:00:00,DE,Negative value,Low,1,-10.08,"Negative price: real market event, worth a look",2024-06-15
+252,price,2024-06-15 11:00:00,DE,Negative value,Low,1,-29.04,"Negative price: real market event, worth a look",2024-06-15
+253,price,2024-06-15 12:00:00,DE,Negative value,Low,1,-44.92,"Negative price: real market event, worth a look",2024-06-15
+254,price,2024-06-15 13:00:00,DE,Negative value,Low,1,-65.46,"Negative price: real market event, worth a look",2024-06-15
+255,price,2024-06-15 14:00:00,DE,Negative value,Low,1,-80.01,"Negative price: real market event, worth a look",2024-06-15
+256,price,2024-06-15 15:00:00,DE,Negative value,Low,1,-56.23,"Negative price: real market event, worth a look",2024-06-15
+257,price,2024-06-15 16:00:00,DE,Negative value,Low,1,-29.53,"Negative price: real market event, worth a look",2024-06-15
+258,price,2024-06-15 17:00:00,DE,Negative value,Low,1,-4.84,"Negative price: real market event, worth a look",2024-06-15
+259,price,2024-06-15 18:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-06-15
+260,price,2024-06-16 08:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-06-16
+261,price,2024-06-16 09:00:00,DE,Negative value,Low,1,-1.28,"Negative price: real market event, worth a look",2024-06-16
+262,price,2024-06-16 10:00:00,DE,Negative value,Low,1,-10.0,"Negative price: real market event, worth a look",2024-06-16
+263,price,2024-06-16 11:00:00,DE,Negative value,Low,1,-13.33,"Negative price: real market event, worth a look",2024-06-16
+264,price,2024-06-16 12:00:00,DE,Negative value,Low,1,-20.01,"Negative price: real market event, worth a look",2024-06-16
+265,price,2024-06-16 13:00:00,DE,Negative value,Low,1,-30.01,"Negative price: real market event, worth a look",2024-06-16
+266,price,2024-06-16 14:00:00,DE,Negative value,Low,1,-35.67,"Negative price: real market event, worth a look",2024-06-16
+267,price,2024-06-16 15:00:00,DE,Negative value,Low,1,-29.04,"Negative price: real market event, worth a look",2024-06-16
+268,price,2024-06-16 16:00:00,DE,Negative value,Low,1,-10.14,"Negative price: real market event, worth a look",2024-06-16
+269,price,2024-06-16 17:00:00,DE,Negative value,Low,1,-2.34,"Negative price: real market event, worth a look",2024-06-16
+270,price,2024-06-22 14:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-06-22
+271,price,2024-06-22 15:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-06-22
+272,price,2024-06-23 11:00:00,DE,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-06-23
+273,price,2024-06-23 12:00:00,DE,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-06-23
+274,price,2024-06-23 13:00:00,DE,Negative value,Low,1,-1.05,"Negative price: real market event, worth a look",2024-06-23
+275,price,2024-06-23 14:00:00,DE,Negative value,Low,1,-2.21,"Negative price: real market event, worth a look",2024-06-23
+276,price,2024-06-23 15:00:00,DE,Negative value,Low,1,-2.05,"Negative price: real market event, worth a look",2024-06-23
+277,price,2024-06-23 16:00:00,DE,Negative value,Low,1,-0.27,"Negative price: real market event, worth a look",2024-06-23
+278,price,2024-06-25 13:00:00,DE,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-06-25
+279,price,2024-06-25 14:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-06-25
+280,price,2024-06-28 12:00:00,DE,Negative value,Low,1,-1.56,"Negative price: real market event, worth a look",2024-06-28
+281,price,2024-06-28 13:00:00,DE,Negative value,Low,1,-5.09,"Negative price: real market event, worth a look",2024-06-28
+282,price,2024-06-28 14:00:00,DE,Negative value,Low,1,-9.95,"Negative price: real market event, worth a look",2024-06-28
+283,price,2024-06-28 15:00:00,DE,Negative value,Low,1,-9.91,"Negative price: real market event, worth a look",2024-06-28
+284,price,2024-06-28 16:00:00,DE,Negative value,Low,1,-6.48,"Negative price: real market event, worth a look",2024-06-28
+285,price,2024-06-29 12:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-06-29
+286,price,2024-06-29 13:00:00,DE,Negative value,Low,1,-0.23,"Negative price: real market event, worth a look",2024-06-29
+287,price,2024-06-29 14:00:00,DE,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-06-29
+288,price,2024-06-30 12:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-06-30
+289,price,2024-06-30 13:00:00,DE,Negative value,Low,1,-1.51,"Negative price: real market event, worth a look",2024-06-30
+290,price,2024-06-30 14:00:00,DE,Negative value,Low,1,-1.09,"Negative price: real market event, worth a look",2024-06-30
+291,price,2024-07-04 12:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-07-04
+292,price,2024-07-04 13:00:00,DE,Negative value,Low,1,-5.03,"Negative price: real market event, worth a look",2024-07-04
+293,price,2024-07-04 14:00:00,DE,Negative value,Low,1,-19.09,"Negative price: real market event, worth a look",2024-07-04
+294,price,2024-07-04 15:00:00,DE,Negative value,Low,1,-18.03,"Negative price: real market event, worth a look",2024-07-04
+295,price,2024-07-04 16:00:00,DE,Negative value,Low,1,-8.7,"Negative price: real market event, worth a look",2024-07-04
+296,price,2024-07-04 17:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-07-04
+297,price,2024-07-05 12:00:00,DE,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-07-05
+298,price,2024-07-05 13:00:00,DE,Negative value,Low,1,-0.64,"Negative price: real market event, worth a look",2024-07-05
+299,price,2024-07-05 14:00:00,DE,Negative value,Low,1,-0.78,"Negative price: real market event, worth a look",2024-07-05
+300,price,2024-07-05 15:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-07-05
+301,price,2024-07-06 10:00:00,DE,Negative value,Low,1,-9.92,"Negative price: real market event, worth a look",2024-07-06
+302,price,2024-07-06 11:00:00,DE,Negative value,Low,1,-28.87,"Negative price: real market event, worth a look",2024-07-06
+303,price,2024-07-06 12:00:00,DE,Negative value,Low,1,-32.69,"Negative price: real market event, worth a look",2024-07-06
+304,price,2024-07-06 13:00:00,DE,Negative value,Low,1,-44.1,"Negative price: real market event, worth a look",2024-07-06
+305,price,2024-07-06 14:00:00,DE,Negative value,Low,1,-48.07,"Negative price: real market event, worth a look",2024-07-06
+306,price,2024-07-06 15:00:00,DE,Negative value,Low,1,-34.84,"Negative price: real market event, worth a look",2024-07-06
+307,price,2024-07-06 16:00:00,DE,Negative value,Low,1,-13.68,"Negative price: real market event, worth a look",2024-07-06
+308,price,2024-07-06 17:00:00,DE,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-07-06
+309,price,2024-07-07 00:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-07-07
+310,price,2024-07-07 01:00:00,DE,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-07-07
+311,price,2024-07-07 02:00:00,DE,Negative value,Low,1,-0.8,"Negative price: real market event, worth a look",2024-07-07
+312,price,2024-07-07 03:00:00,DE,Negative value,Low,1,-0.48,"Negative price: real market event, worth a look",2024-07-07
+313,price,2024-07-07 04:00:00,DE,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-07-07
+314,price,2024-07-07 05:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-07
+315,price,2024-07-07 06:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-07
+316,price,2024-07-07 07:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-07
+317,price,2024-07-07 08:00:00,DE,Negative value,Low,1,-0.6,"Negative price: real market event, worth a look",2024-07-07
+318,price,2024-07-07 09:00:00,DE,Negative value,Low,1,-6.49,"Negative price: real market event, worth a look",2024-07-07
+319,price,2024-07-07 10:00:00,DE,Negative value,Low,1,-9.98,"Negative price: real market event, worth a look",2024-07-07
+320,price,2024-07-07 11:00:00,DE,Negative value,Low,1,-12.04,"Negative price: real market event, worth a look",2024-07-07
+321,price,2024-07-07 12:00:00,DE,Negative value,Low,1,-13.49,"Negative price: real market event, worth a look",2024-07-07
+322,price,2024-07-07 13:00:00,DE,Negative value,Low,1,-22.37,"Negative price: real market event, worth a look",2024-07-07
+323,price,2024-07-07 14:00:00,DE,Negative value,Low,1,-20.98,"Negative price: real market event, worth a look",2024-07-07
+324,price,2024-07-07 15:00:00,DE,Negative value,Low,1,-12.2,"Negative price: real market event, worth a look",2024-07-07
+325,price,2024-07-07 16:00:00,DE,Negative value,Low,1,-6.16,"Negative price: real market event, worth a look",2024-07-07
+326,price,2024-07-07 17:00:00,DE,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-07-07
+327,price,2024-07-13 12:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-13
+328,price,2024-07-13 13:00:00,DE,Negative value,Low,1,-5.0,"Negative price: real market event, worth a look",2024-07-13
+329,price,2024-07-13 14:00:00,DE,Negative value,Low,1,-14.9,"Negative price: real market event, worth a look",2024-07-13
+330,price,2024-07-13 15:00:00,DE,Negative value,Low,1,-11.47,"Negative price: real market event, worth a look",2024-07-13
+331,price,2024-07-13 16:00:00,DE,Negative value,Low,1,-3.48,"Negative price: real market event, worth a look",2024-07-13
+332,price,2024-07-13 17:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-13
+333,price,2024-07-14 09:00:00,DE,Negative value,Low,1,-3.31,"Negative price: real market event, worth a look",2024-07-14
+334,price,2024-07-14 10:00:00,DE,Negative value,Low,1,-21.13,"Negative price: real market event, worth a look",2024-07-14
+335,price,2024-07-14 11:00:00,DE,Negative value,Low,1,-40.08,"Negative price: real market event, worth a look",2024-07-14
+336,price,2024-07-14 12:00:00,DE,Negative value,Low,1,-59.47,"Negative price: real market event, worth a look",2024-07-14
+337,price,2024-07-14 13:00:00,DE,Negative value,Low,1,-73.96,"Negative price: real market event, worth a look",2024-07-14
+338,price,2024-07-14 14:00:00,DE,Negative value,Low,1,-73.96,"Negative price: real market event, worth a look",2024-07-14
+339,price,2024-07-14 15:00:00,DE,Negative value,Low,1,-51.82,"Negative price: real market event, worth a look",2024-07-14
+340,price,2024-07-14 16:00:00,DE,Negative value,Low,1,-20.03,"Negative price: real market event, worth a look",2024-07-14
+341,price,2024-07-14 17:00:00,DE,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-07-14
+342,price,2024-07-15 13:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-15
+343,price,2024-07-15 14:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-07-15
+344,price,2024-07-16 12:00:00,DE,Negative value,Low,1,-8.03,"Negative price: real market event, worth a look",2024-07-16
+345,price,2024-07-16 13:00:00,DE,Negative value,Low,1,-11.03,"Negative price: real market event, worth a look",2024-07-16
+346,price,2024-07-16 14:00:00,DE,Negative value,Low,1,-11.48,"Negative price: real market event, worth a look",2024-07-16
+347,price,2024-07-16 15:00:00,DE,Negative value,Low,1,-11.14,"Negative price: real market event, worth a look",2024-07-16
+348,price,2024-07-16 16:00:00,DE,Negative value,Low,1,-2.3,"Negative price: real market event, worth a look",2024-07-16
+349,price,2024-07-20 12:00:00,DE,Negative value,Low,1,-4.65,"Negative price: real market event, worth a look",2024-07-20
+350,price,2024-07-20 13:00:00,DE,Negative value,Low,1,-4.29,"Negative price: real market event, worth a look",2024-07-20
+351,price,2024-07-20 14:00:00,DE,Negative value,Low,1,-2.88,"Negative price: real market event, worth a look",2024-07-20
+352,price,2024-07-20 15:00:00,DE,Negative value,Low,1,-2.71,"Negative price: real market event, worth a look",2024-07-20
+353,price,2024-07-21 13:00:00,DE,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-07-21
+354,price,2024-07-21 14:00:00,DE,Negative value,Low,1,-0.21,"Negative price: real market event, worth a look",2024-07-21
+355,price,2024-07-24 13:00:00,DE,Negative value,Low,1,-0.15,"Negative price: real market event, worth a look",2024-07-24
+356,price,2024-07-24 14:00:00,DE,Negative value,Low,1,-2.06,"Negative price: real market event, worth a look",2024-07-24
+357,price,2024-07-24 15:00:00,DE,Negative value,Low,1,-1.96,"Negative price: real market event, worth a look",2024-07-24
+358,price,2024-07-28 11:00:00,DE,Negative value,Low,1,-2.43,"Negative price: real market event, worth a look",2024-07-28
+359,price,2024-07-28 12:00:00,DE,Negative value,Low,1,-16.63,"Negative price: real market event, worth a look",2024-07-28
+360,price,2024-07-28 13:00:00,DE,Negative value,Low,1,-39.91,"Negative price: real market event, worth a look",2024-07-28
+361,price,2024-07-28 14:00:00,DE,Negative value,Low,1,-48.69,"Negative price: real market event, worth a look",2024-07-28
+362,price,2024-07-28 15:00:00,DE,Negative value,Low,1,-33.53,"Negative price: real market event, worth a look",2024-07-28
+363,price,2024-07-28 16:00:00,DE,Negative value,Low,1,-13.77,"Negative price: real market event, worth a look",2024-07-28
+364,price,2024-07-28 17:00:00,DE,Negative value,Low,1,-1.99,"Negative price: real market event, worth a look",2024-07-28
+365,price,2024-07-29 11:00:00,DE,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-07-29
+366,price,2024-07-29 12:00:00,DE,Negative value,Low,1,-0.19,"Negative price: real market event, worth a look",2024-07-29
+367,price,2024-07-29 13:00:00,DE,Negative value,Low,1,-1.7,"Negative price: real market event, worth a look",2024-07-29
+368,price,2024-07-29 14:00:00,DE,Negative value,Low,1,-0.98,"Negative price: real market event, worth a look",2024-07-29
+369,price,2024-07-29 15:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-07-29
+370,price,2024-07-30 13:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-07-30
+371,price,2024-07-30 14:00:00,DE,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-07-30
+372,price,2024-08-04 13:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-08-04
+373,price,2024-08-04 14:00:00,DE,Negative value,Low,1,-2.16,"Negative price: real market event, worth a look",2024-08-04
+374,price,2024-08-04 15:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-04
+375,price,2024-08-09 12:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-08-09
+376,price,2024-08-09 13:00:00,DE,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-08-09
+377,price,2024-08-09 14:00:00,DE,Negative value,Low,1,-0.8,"Negative price: real market event, worth a look",2024-08-09
+378,price,2024-08-09 15:00:00,DE,Negative value,Low,1,-0.11,"Negative price: real market event, worth a look",2024-08-09
+379,price,2024-08-09 16:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-09
+380,price,2024-08-10 10:00:00,DE,Negative value,Low,1,-3.0,"Negative price: real market event, worth a look",2024-08-10
+381,price,2024-08-10 11:00:00,DE,Negative value,Low,1,-12.2,"Negative price: real market event, worth a look",2024-08-10
+382,price,2024-08-10 12:00:00,DE,Negative value,Low,1,-22.49,"Negative price: real market event, worth a look",2024-08-10
+383,price,2024-08-10 13:00:00,DE,Negative value,Low,1,-40.77,"Negative price: real market event, worth a look",2024-08-10
+384,price,2024-08-10 14:00:00,DE,Negative value,Low,1,-40.09,"Negative price: real market event, worth a look",2024-08-10
+385,price,2024-08-10 15:00:00,DE,Negative value,Low,1,-29.67,"Negative price: real market event, worth a look",2024-08-10
+386,price,2024-08-10 16:00:00,DE,Negative value,Low,1,-8.2,"Negative price: real market event, worth a look",2024-08-10
+387,price,2024-08-11 10:00:00,DE,Negative value,Low,1,-5.01,"Negative price: real market event, worth a look",2024-08-11
+388,price,2024-08-11 11:00:00,DE,Negative value,Low,1,-14.99,"Negative price: real market event, worth a look",2024-08-11
+389,price,2024-08-11 12:00:00,DE,Negative value,Low,1,-32.04,"Negative price: real market event, worth a look",2024-08-11
+390,price,2024-08-11 13:00:00,DE,Negative value,Low,1,-59.96,"Negative price: real market event, worth a look",2024-08-11
+391,price,2024-08-11 14:00:00,DE,Negative value,Low,1,-50.09,"Negative price: real market event, worth a look",2024-08-11
+392,price,2024-08-11 15:00:00,DE,Negative value,Low,1,-31.42,"Negative price: real market event, worth a look",2024-08-11
+393,price,2024-08-11 16:00:00,DE,Negative value,Low,1,-4.97,"Negative price: real market event, worth a look",2024-08-11
+394,price,2024-08-15 14:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-08-15
+395,price,2024-08-21 11:00:00,DE,Negative value,Low,1,-4.95,"Negative price: real market event, worth a look",2024-08-21
+396,price,2024-08-21 12:00:00,DE,Negative value,Low,1,-13.01,"Negative price: real market event, worth a look",2024-08-21
+397,price,2024-08-21 13:00:00,DE,Negative value,Low,1,-20.32,"Negative price: real market event, worth a look",2024-08-21
+398,price,2024-08-21 14:00:00,DE,Negative value,Low,1,-21.28,"Negative price: real market event, worth a look",2024-08-21
+399,price,2024-08-21 15:00:00,DE,Negative value,Low,1,-16.05,"Negative price: real market event, worth a look",2024-08-21
+400,price,2024-08-21 16:00:00,DE,Negative value,Low,1,-12.64,"Negative price: real market event, worth a look",2024-08-21
+401,price,2024-08-22 12:00:00,DE,Negative value,Low,1,-0.38,"Negative price: real market event, worth a look",2024-08-22
+402,price,2024-08-22 13:00:00,DE,Negative value,Low,1,-2.56,"Negative price: real market event, worth a look",2024-08-22
+403,price,2024-08-22 14:00:00,DE,Negative value,Low,1,-1.51,"Negative price: real market event, worth a look",2024-08-22
+404,price,2024-08-22 15:00:00,DE,Negative value,Low,1,-4.35,"Negative price: real market event, worth a look",2024-08-22
+405,price,2024-08-22 16:00:00,DE,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-08-22
+406,price,2024-08-23 10:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-23
+407,price,2024-08-23 11:00:00,DE,Negative value,Low,1,-3.97,"Negative price: real market event, worth a look",2024-08-23
+408,price,2024-08-23 12:00:00,DE,Negative value,Low,1,-9.54,"Negative price: real market event, worth a look",2024-08-23
+409,price,2024-08-23 13:00:00,DE,Negative value,Low,1,-15.32,"Negative price: real market event, worth a look",2024-08-23
+410,price,2024-08-23 14:00:00,DE,Negative value,Low,1,-16.55,"Negative price: real market event, worth a look",2024-08-23
+411,price,2024-08-23 15:00:00,DE,Negative value,Low,1,-10.15,"Negative price: real market event, worth a look",2024-08-23
+412,price,2024-08-23 16:00:00,DE,Negative value,Low,1,-9.18,"Negative price: real market event, worth a look",2024-08-23
+413,price,2024-08-23 17:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-08-23
+414,price,2024-08-24 10:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-08-24
+415,price,2024-08-24 11:00:00,DE,Negative value,Low,1,-6.85,"Negative price: real market event, worth a look",2024-08-24
+416,price,2024-08-24 12:00:00,DE,Negative value,Low,1,-18.68,"Negative price: real market event, worth a look",2024-08-24
+417,price,2024-08-24 13:00:00,DE,Negative value,Low,1,-40.09,"Negative price: real market event, worth a look",2024-08-24
+418,price,2024-08-24 14:00:00,DE,Negative value,Low,1,-44.18,"Negative price: real market event, worth a look",2024-08-24
+419,price,2024-08-24 15:00:00,DE,Negative value,Low,1,-27.64,"Negative price: real market event, worth a look",2024-08-24
+420,price,2024-08-24 16:00:00,DE,Negative value,Low,1,-8.15,"Negative price: real market event, worth a look",2024-08-24
+421,price,2024-08-24 17:00:00,DE,Negative value,Low,1,-0.99,"Negative price: real market event, worth a look",2024-08-24
+422,price,2024-08-25 01:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-08-25
+423,price,2024-08-25 02:00:00,DE,Negative value,Low,1,-0.34,"Negative price: real market event, worth a look",2024-08-25
+424,price,2024-08-25 03:00:00,DE,Negative value,Low,1,-1.0,"Negative price: real market event, worth a look",2024-08-25
+425,price,2024-08-25 04:00:00,DE,Negative value,Low,1,-0.89,"Negative price: real market event, worth a look",2024-08-25
+426,price,2024-08-25 05:00:00,DE,Negative value,Low,1,-0.42,"Negative price: real market event, worth a look",2024-08-25
+427,price,2024-08-25 06:00:00,DE,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-08-25
+428,price,2024-08-25 07:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-25
+429,price,2024-08-25 08:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-25
+430,price,2024-08-25 09:00:00,DE,Negative value,Low,1,-1.39,"Negative price: real market event, worth a look",2024-08-25
+431,price,2024-08-25 10:00:00,DE,Negative value,Low,1,-6.07,"Negative price: real market event, worth a look",2024-08-25
+432,price,2024-08-25 11:00:00,DE,Negative value,Low,1,-10.1,"Negative price: real market event, worth a look",2024-08-25
+433,price,2024-08-25 12:00:00,DE,Negative value,Low,1,-15.5,"Negative price: real market event, worth a look",2024-08-25
+434,price,2024-08-25 13:00:00,DE,Negative value,Low,1,-20.01,"Negative price: real market event, worth a look",2024-08-25
+435,price,2024-08-25 14:00:00,DE,Negative value,Low,1,-19.83,"Negative price: real market event, worth a look",2024-08-25
+436,price,2024-08-25 15:00:00,DE,Negative value,Low,1,-10.15,"Negative price: real market event, worth a look",2024-08-25
+437,price,2024-08-25 16:00:00,DE,Negative value,Low,1,-5.01,"Negative price: real market event, worth a look",2024-08-25
+438,price,2024-08-31 13:00:00,DE,Negative value,Low,1,-0.59,"Negative price: real market event, worth a look",2024-08-31
+439,price,2024-08-31 14:00:00,DE,Negative value,Low,1,-0.8,"Negative price: real market event, worth a look",2024-08-31
+440,price,2024-09-01 11:00:00,DE,Negative value,Low,1,-0.79,"Negative price: real market event, worth a look",2024-09-01
+441,price,2024-09-01 12:00:00,DE,Negative value,Low,1,-9.17,"Negative price: real market event, worth a look",2024-09-01
+442,price,2024-09-01 13:00:00,DE,Negative value,Low,1,-24.0,"Negative price: real market event, worth a look",2024-09-01
+443,price,2024-09-01 14:00:00,DE,Negative value,Low,1,-19.94,"Negative price: real market event, worth a look",2024-09-01
+444,price,2024-09-01 15:00:00,DE,Negative value,Low,1,-4.99,"Negative price: real market event, worth a look",2024-09-01
+445,price,2024-09-05 12:00:00,DE,Negative value,Low,1,-3.05,"Negative price: real market event, worth a look",2024-09-05
+446,price,2024-09-05 13:00:00,DE,Negative value,Low,1,-11.7,"Negative price: real market event, worth a look",2024-09-05
+447,price,2024-09-05 14:00:00,DE,Negative value,Low,1,-19.68,"Negative price: real market event, worth a look",2024-09-05
+448,price,2024-09-05 15:00:00,DE,Negative value,Low,1,-7.02,"Negative price: real market event, worth a look",2024-09-05
+449,price,2024-09-05 16:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-05
+450,price,2024-09-10 13:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-09-10
+451,price,2024-09-10 14:00:00,DE,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-09-10
+452,price,2024-09-10 15:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-09-10
+453,price,2024-09-14 13:00:00,DE,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-09-14
+454,price,2024-09-14 14:00:00,DE,Negative value,Low,1,-0.46,"Negative price: real market event, worth a look",2024-09-14
+455,price,2024-09-14 15:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-09-14
+456,price,2024-09-15 13:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-15
+457,price,2024-09-15 14:00:00,DE,Negative value,Low,1,-0.41,"Negative price: real market event, worth a look",2024-09-15
+458,price,2024-09-15 15:00:00,DE,Negative value,Low,1,-0.27,"Negative price: real market event, worth a look",2024-09-15
+459,price,2024-09-18 14:00:00,DE,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-09-18
+460,price,2024-09-19 13:00:00,DE,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-09-19
+461,price,2024-09-19 14:00:00,DE,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-09-19
+462,price,2024-09-20 13:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-20
+463,price,2024-09-21 13:00:00,DE,Negative value,Low,1,-3.36,"Negative price: real market event, worth a look",2024-09-21
+464,price,2024-09-21 14:00:00,DE,Negative value,Low,1,-3.95,"Negative price: real market event, worth a look",2024-09-21
+465,price,2024-09-22 13:00:00,DE,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-09-22
+466,price,2024-09-27 00:00:00,DE,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-09-27
+467,price,2024-09-27 02:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-27
+468,price,2024-09-27 03:00:00,DE,Negative value,Low,1,-0.59,"Negative price: real market event, worth a look",2024-09-27
+469,price,2024-09-27 04:00:00,DE,Negative value,Low,1,-0.2,"Negative price: real market event, worth a look",2024-09-27
+470,price,2024-09-27 05:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-09-27
+471,price,2024-09-27 10:00:00,DE,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-09-27
+472,price,2024-09-27 11:00:00,DE,Negative value,Low,1,-3.75,"Negative price: real market event, worth a look",2024-09-27
+473,price,2024-09-27 12:00:00,DE,Negative value,Low,1,-5.56,"Negative price: real market event, worth a look",2024-09-27
+474,price,2024-09-27 13:00:00,DE,Negative value,Low,1,-6.32,"Negative price: real market event, worth a look",2024-09-27
+475,price,2024-09-27 14:00:00,DE,Negative value,Low,1,-5.05,"Negative price: real market event, worth a look",2024-09-27
+476,price,2024-09-27 15:00:00,DE,Negative value,Low,1,-0.11,"Negative price: real market event, worth a look",2024-09-27
+477,price,2024-09-29 12:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-29
+478,price,2024-09-29 13:00:00,DE,Negative value,Low,1,-0.5,"Negative price: real market event, worth a look",2024-09-29
+479,price,2024-09-29 14:00:00,DE,Negative value,Low,1,-0.45,"Negative price: real market event, worth a look",2024-09-29
+480,price,2024-10-06 13:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-10-06
+481,price,2024-10-06 14:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-10-06
+482,price,2024-10-13 01:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-10-13
+483,price,2024-10-13 02:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-10-13
+484,price,2024-10-13 03:00:00,DE,Negative value,Low,1,-0.37,"Negative price: real market event, worth a look",2024-10-13
+485,price,2024-10-13 04:00:00,DE,Negative value,Low,1,-0.51,"Negative price: real market event, worth a look",2024-10-13
+486,price,2024-10-13 05:00:00,DE,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-10-13
+487,price,2024-10-13 06:00:00,DE,Negative value,Low,1,-0.3,"Negative price: real market event, worth a look",2024-10-13
+488,price,2024-10-13 07:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-10-13
+489,price,2024-10-13 08:00:00,DE,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-10-13
+490,price,2024-10-13 09:00:00,DE,Negative value,Low,1,-0.86,"Negative price: real market event, worth a look",2024-10-13
+491,price,2024-10-13 10:00:00,DE,Negative value,Low,1,-0.64,"Negative price: real market event, worth a look",2024-10-13
+492,price,2024-10-13 11:00:00,DE,Negative value,Low,1,-1.97,"Negative price: real market event, worth a look",2024-10-13
+493,price,2024-10-13 12:00:00,DE,Negative value,Low,1,-7.49,"Negative price: real market event, worth a look",2024-10-13
+494,price,2024-10-13 13:00:00,DE,Negative value,Low,1,-15.16,"Negative price: real market event, worth a look",2024-10-13
+495,price,2024-10-13 14:00:00,DE,Negative value,Low,1,-15.69,"Negative price: real market event, worth a look",2024-10-13
+496,price,2024-10-13 15:00:00,DE,Negative value,Low,1,-5.01,"Negative price: real market event, worth a look",2024-10-13
+497,price,2024-10-13 16:00:00,DE,Negative value,Low,1,-1.99,"Negative price: real market event, worth a look",2024-10-13
+498,price,2024-10-20 13:00:00,DE,Negative value,Low,1,-0.98,"Negative price: real market event, worth a look",2024-10-20
+499,price,2024-10-20 14:00:00,DE,Negative value,Low,1,-2.01,"Negative price: real market event, worth a look",2024-10-20
+500,price,2024-10-21 00:00:00,DE,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-10-21
+501,price,2024-10-21 01:00:00,DE,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-10-21
+502,price,2024-10-21 02:00:00,DE,Negative value,Low,1,-0.14,"Negative price: real market event, worth a look",2024-10-21
+503,price,2024-10-21 03:00:00,DE,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-10-21
+504,price,2024-10-21 04:00:00,DE,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-10-21
+505,price,2024-11-24 03:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-11-24
+506,price,2024-11-24 04:00:00,DE,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-11-24
+507,price,2024-11-24 05:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-11-24
+508,price,2024-11-24 06:00:00,DE,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-11-24
+509,price,2024-11-24 07:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-11-24
+510,price,2024-11-25 00:00:00,DE,Negative value,Low,1,-1.25,"Negative price: real market event, worth a look",2024-11-25
+511,price,2024-11-25 01:00:00,DE,Negative value,Low,1,-1.59,"Negative price: real market event, worth a look",2024-11-25
+512,price,2024-11-25 02:00:00,DE,Negative value,Low,1,-1.42,"Negative price: real market event, worth a look",2024-11-25
+513,price,2024-11-25 03:00:00,DE,Negative value,Low,1,-1.86,"Negative price: real market event, worth a look",2024-11-25
+514,price,2024-11-25 04:00:00,DE,Negative value,Low,1,-1.42,"Negative price: real market event, worth a look",2024-11-25
+515,price,2024-11-25 05:00:00,DE,Negative value,Low,1,-0.28,"Negative price: real market event, worth a look",2024-11-25
+516,price,2024-12-16 04:00:00,DE,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-12-16
+517,price,2024-12-22 01:00:00,DE,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-12-22
+518,price,2024-12-22 02:00:00,DE,Negative value,Low,1,-0.46,"Negative price: real market event, worth a look",2024-12-22
+519,price,2024-12-22 03:00:00,DE,Negative value,Low,1,-1.04,"Negative price: real market event, worth a look",2024-12-22
+520,price,2024-12-22 04:00:00,DE,Negative value,Low,1,-2.06,"Negative price: real market event, worth a look",2024-12-22
+521,price,2024-12-22 05:00:00,DE,Negative value,Low,1,-0.47,"Negative price: real market event, worth a look",2024-12-22
+522,price,2024-12-22 06:00:00,DE,Negative value,Low,1,-0.68,"Negative price: real market event, worth a look",2024-12-22
+523,price,2024-12-22 07:00:00,DE,Negative value,Low,1,-0.12,"Negative price: real market event, worth a look",2024-12-22
+524,price,2024-01-01 04:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-01-01
+525,price,2024-01-01 05:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-01-01
+526,price,2024-03-31 10:00:00,AT,Negative value,Low,1,-31.39,"Negative price: real market event, worth a look",2024-03-31
+527,price,2024-03-31 11:00:00,AT,Negative value,Low,1,-14.79,"Negative price: real market event, worth a look",2024-03-31
+528,price,2024-03-31 12:00:00,AT,Negative value,Low,1,-13.27,"Negative price: real market event, worth a look",2024-03-31
+529,price,2024-03-31 13:00:00,AT,Negative value,Low,1,-3.91,"Negative price: real market event, worth a look",2024-03-31
+530,price,2024-03-31 14:00:00,AT,Negative value,Low,1,-0.57,"Negative price: real market event, worth a look",2024-03-31
+531,price,2024-03-31 15:00:00,AT,Negative value,Low,1,-12.48,"Negative price: real market event, worth a look",2024-03-31
+532,price,2024-04-01 14:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-01
+533,price,2024-04-01 15:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-01
+534,price,2024-04-01 16:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-01
+535,price,2024-04-02 13:00:00,AT,Negative value,Low,1,-0.25,"Negative price: real market event, worth a look",2024-04-02
+536,price,2024-04-02 14:00:00,AT,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-04-02
+537,price,2024-04-06 12:00:00,AT,Negative value,Low,1,-5.48,"Negative price: real market event, worth a look",2024-04-06
+538,price,2024-04-06 13:00:00,AT,Negative value,Low,1,-48.17,"Negative price: real market event, worth a look",2024-04-06
+539,price,2024-04-06 14:00:00,AT,Negative value,Low,1,-56.66,"Negative price: real market event, worth a look",2024-04-06
+540,price,2024-04-06 15:00:00,AT,Negative value,Low,1,-18.58,"Negative price: real market event, worth a look",2024-04-06
+541,price,2024-04-06 16:00:00,AT,Negative value,Low,1,-1.68,"Negative price: real market event, worth a look",2024-04-06
+542,price,2024-04-07 09:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-07
+543,price,2024-04-07 10:00:00,AT,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-04-07
+544,price,2024-04-07 11:00:00,AT,Negative value,Low,1,-3.25,"Negative price: real market event, worth a look",2024-04-07
+545,price,2024-04-07 12:00:00,AT,Negative value,Low,1,-8.28,"Negative price: real market event, worth a look",2024-04-07
+546,price,2024-04-07 13:00:00,AT,Negative value,Low,1,-24.63,"Negative price: real market event, worth a look",2024-04-07
+547,price,2024-04-07 14:00:00,AT,Negative value,Low,1,-20.12,"Negative price: real market event, worth a look",2024-04-07
+548,price,2024-04-07 15:00:00,AT,Negative value,Low,1,-5.04,"Negative price: real market event, worth a look",2024-04-07
+549,price,2024-04-07 16:00:00,AT,Negative value,Low,1,-0.15,"Negative price: real market event, worth a look",2024-04-07
+550,price,2024-04-08 13:00:00,AT,Negative value,Low,1,-2.5,"Negative price: real market event, worth a look",2024-04-08
+551,price,2024-04-08 14:00:00,AT,Negative value,Low,1,-3.98,"Negative price: real market event, worth a look",2024-04-08
+552,price,2024-04-12 13:00:00,AT,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-04-12
+553,price,2024-04-12 14:00:00,AT,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-04-12
+554,price,2024-04-13 10:00:00,AT,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-04-13
+555,price,2024-04-13 11:00:00,AT,Negative value,Low,1,-9.97,"Negative price: real market event, worth a look",2024-04-13
+556,price,2024-04-13 12:00:00,AT,Negative value,Low,1,-24.92,"Negative price: real market event, worth a look",2024-04-13
+557,price,2024-04-13 13:00:00,AT,Negative value,Low,1,-50.0,"Negative price: real market event, worth a look",2024-04-13
+558,price,2024-04-13 14:00:00,AT,Negative value,Low,1,-55.01,"Negative price: real market event, worth a look",2024-04-13
+559,price,2024-04-13 15:00:00,AT,Negative value,Low,1,-49.91,"Negative price: real market event, worth a look",2024-04-13
+560,price,2024-04-13 16:00:00,AT,Negative value,Low,1,-18.73,"Negative price: real market event, worth a look",2024-04-13
+561,price,2024-04-14 03:00:00,AT,Negative value,Low,1,-1.64,"Negative price: real market event, worth a look",2024-04-14
+562,price,2024-04-14 04:00:00,AT,Negative value,Low,1,-1.87,"Negative price: real market event, worth a look",2024-04-14
+563,price,2024-04-14 10:00:00,AT,Negative value,Low,1,-2.03,"Negative price: real market event, worth a look",2024-04-14
+564,price,2024-04-14 11:00:00,AT,Negative value,Low,1,-11.29,"Negative price: real market event, worth a look",2024-04-14
+565,price,2024-04-14 12:00:00,AT,Negative value,Low,1,-39.07,"Negative price: real market event, worth a look",2024-04-14
+566,price,2024-04-14 13:00:00,AT,Negative value,Low,1,-54.61,"Negative price: real market event, worth a look",2024-04-14
+567,price,2024-04-14 14:00:00,AT,Negative value,Low,1,-56.06,"Negative price: real market event, worth a look",2024-04-14
+568,price,2024-04-14 15:00:00,AT,Negative value,Low,1,-40.04,"Negative price: real market event, worth a look",2024-04-14
+569,price,2024-04-14 16:00:00,AT,Negative value,Low,1,-6.25,"Negative price: real market event, worth a look",2024-04-14
+570,price,2024-04-21 12:00:00,AT,Negative value,Low,1,-0.76,"Negative price: real market event, worth a look",2024-04-21
+571,price,2024-04-21 13:00:00,AT,Negative value,Low,1,-0.23,"Negative price: real market event, worth a look",2024-04-21
+572,price,2024-04-21 14:00:00,AT,Negative value,Low,1,-1.1,"Negative price: real market event, worth a look",2024-04-21
+573,price,2024-04-21 15:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-21
+574,price,2024-04-27 13:00:00,AT,Negative value,Low,1,-0.14,"Negative price: real market event, worth a look",2024-04-27
+575,price,2024-04-28 08:00:00,AT,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-04-28
+576,price,2024-04-28 09:00:00,AT,Negative value,Low,1,-1.02,"Negative price: real market event, worth a look",2024-04-28
+577,price,2024-04-28 10:00:00,AT,Negative value,Low,1,-16.71,"Negative price: real market event, worth a look",2024-04-28
+578,price,2024-04-28 11:00:00,AT,Negative value,Low,1,-36.83,"Negative price: real market event, worth a look",2024-04-28
+579,price,2024-04-28 12:00:00,AT,Negative value,Low,1,-117.74,"Negative price: real market event, worth a look",2024-04-28
+580,price,2024-04-28 13:00:00,AT,Negative value,Low,1,-56.1,"Negative price: real market event, worth a look",2024-04-28
+581,price,2024-04-28 14:00:00,AT,Negative value,Low,1,-65.06,"Negative price: real market event, worth a look",2024-04-28
+582,price,2024-04-28 15:00:00,AT,Negative value,Low,1,-52.43,"Negative price: real market event, worth a look",2024-04-28
+583,price,2024-04-28 16:00:00,AT,Negative value,Low,1,-24.31,"Negative price: real market event, worth a look",2024-04-28
+584,price,2024-04-28 17:00:00,AT,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-04-28
+585,price,2024-05-01 09:00:00,AT,Negative value,Low,1,-0.12,"Negative price: real market event, worth a look",2024-05-01
+586,price,2024-05-01 10:00:00,AT,Negative value,Low,1,-0.91,"Negative price: real market event, worth a look",2024-05-01
+587,price,2024-05-01 11:00:00,AT,Negative value,Low,1,-36.01,"Negative price: real market event, worth a look",2024-05-01
+588,price,2024-05-01 12:00:00,AT,Negative value,Low,1,-82.63,"Negative price: real market event, worth a look",2024-05-01
+589,price,2024-05-01 13:00:00,AT,Negative value,Low,1,-105.16,"Negative price: real market event, worth a look",2024-05-01
+590,price,2024-05-01 14:00:00,AT,Negative value,Low,1,-105.99,"Negative price: real market event, worth a look",2024-05-01
+591,price,2024-05-01 15:00:00,AT,Negative value,Low,1,-72.68,"Negative price: real market event, worth a look",2024-05-01
+592,price,2024-05-01 16:00:00,AT,Negative value,Low,1,-19.55,"Negative price: real market event, worth a look",2024-05-01
+593,price,2024-05-01 17:00:00,AT,Negative value,Low,1,-0.5,"Negative price: real market event, worth a look",2024-05-01
+594,price,2024-05-02 13:00:00,AT,Negative value,Low,1,-3.35,"Negative price: real market event, worth a look",2024-05-02
+595,price,2024-05-02 14:00:00,AT,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-05-02
+596,price,2024-05-02 15:00:00,AT,Negative value,Low,1,-14.28,"Negative price: real market event, worth a look",2024-05-02
+597,price,2024-05-02 16:00:00,AT,Negative value,Low,1,-16.11,"Negative price: real market event, worth a look",2024-05-02
+598,price,2024-05-05 13:00:00,AT,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-05-05
+599,price,2024-05-05 14:00:00,AT,Negative value,Low,1,-0.97,"Negative price: real market event, worth a look",2024-05-05
+600,price,2024-05-05 15:00:00,AT,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-05-05
+601,price,2024-05-09 11:00:00,AT,Negative value,Low,1,-2.5,"Negative price: real market event, worth a look",2024-05-09
+602,price,2024-05-09 12:00:00,AT,Negative value,Low,1,-5.64,"Negative price: real market event, worth a look",2024-05-09
+603,price,2024-05-09 13:00:00,AT,Negative value,Low,1,-5.97,"Negative price: real market event, worth a look",2024-05-09
+604,price,2024-05-09 14:00:00,AT,Negative value,Low,1,-7.22,"Negative price: real market event, worth a look",2024-05-09
+605,price,2024-05-09 15:00:00,AT,Negative value,Low,1,-6.11,"Negative price: real market event, worth a look",2024-05-09
+606,price,2024-05-09 16:00:00,AT,Negative value,Low,1,-7.03,"Negative price: real market event, worth a look",2024-05-09
+607,price,2024-05-11 11:00:00,AT,Negative value,Low,1,-10.43,"Negative price: real market event, worth a look",2024-05-11
+608,price,2024-05-11 12:00:00,AT,Negative value,Low,1,-20.63,"Negative price: real market event, worth a look",2024-05-11
+609,price,2024-05-11 13:00:00,AT,Negative value,Low,1,-22.84,"Negative price: real market event, worth a look",2024-05-11
+610,price,2024-05-11 14:00:00,AT,Negative value,Low,1,-23.99,"Negative price: real market event, worth a look",2024-05-11
+611,price,2024-05-11 15:00:00,AT,Negative value,Low,1,-11.68,"Negative price: real market event, worth a look",2024-05-11
+612,price,2024-05-11 16:00:00,AT,Negative value,Low,1,-0.41,"Negative price: real market event, worth a look",2024-05-11
+613,price,2024-05-12 09:00:00,AT,Negative value,Low,1,-2.81,"Negative price: real market event, worth a look",2024-05-12
+614,price,2024-05-12 10:00:00,AT,Negative value,Low,1,-24.87,"Negative price: real market event, worth a look",2024-05-12
+615,price,2024-05-12 11:00:00,AT,Negative value,Low,1,-65.5,"Negative price: real market event, worth a look",2024-05-12
+616,price,2024-05-12 12:00:00,AT,Negative value,Low,1,-89.44,"Negative price: real market event, worth a look",2024-05-12
+617,price,2024-05-12 13:00:00,AT,Negative value,Low,1,-126.05,"Negative price: real market event, worth a look",2024-05-12
+618,price,2024-05-12 14:00:00,AT,Negative value,Low,1,-126.42,"Negative price: real market event, worth a look",2024-05-12
+619,price,2024-05-12 15:00:00,AT,Negative value,Low,1,-82.42,"Negative price: real market event, worth a look",2024-05-12
+620,price,2024-05-12 16:00:00,AT,Negative value,Low,1,-30.0,"Negative price: real market event, worth a look",2024-05-12
+621,price,2024-05-12 17:00:00,AT,Negative value,Low,1,-1.33,"Negative price: real market event, worth a look",2024-05-12
+622,price,2024-05-13 11:00:00,AT,Negative value,Low,1,-0.97,"Negative price: real market event, worth a look",2024-05-13
+623,price,2024-05-13 12:00:00,AT,Negative value,Low,1,-2.69,"Negative price: real market event, worth a look",2024-05-13
+624,price,2024-05-13 13:00:00,AT,Negative value,Low,1,-2.27,"Negative price: real market event, worth a look",2024-05-13
+625,price,2024-05-13 14:00:00,AT,Negative value,Low,1,-2.46,"Negative price: real market event, worth a look",2024-05-13
+626,price,2024-05-13 15:00:00,AT,Negative value,Low,1,-6.08,"Negative price: real market event, worth a look",2024-05-13
+627,price,2024-05-13 16:00:00,AT,Negative value,Low,1,-5.22,"Negative price: real market event, worth a look",2024-05-13
+628,price,2024-05-14 10:00:00,AT,Negative value,Low,1,-2.33,"Negative price: real market event, worth a look",2024-05-14
+629,price,2024-05-14 11:00:00,AT,Negative value,Low,1,-11.12,"Negative price: real market event, worth a look",2024-05-14
+630,price,2024-05-14 12:00:00,AT,Negative value,Low,1,-24.05,"Negative price: real market event, worth a look",2024-05-14
+631,price,2024-05-14 13:00:00,AT,Negative value,Low,1,-28.59,"Negative price: real market event, worth a look",2024-05-14
+632,price,2024-05-14 14:00:00,AT,Negative value,Low,1,-26.84,"Negative price: real market event, worth a look",2024-05-14
+633,price,2024-05-14 15:00:00,AT,Negative value,Low,1,-16.52,"Negative price: real market event, worth a look",2024-05-14
+634,price,2024-05-14 16:00:00,AT,Negative value,Low,1,-2.93,"Negative price: real market event, worth a look",2024-05-14
+635,price,2024-05-14 17:00:00,AT,Negative value,Low,1,-5.09,"Negative price: real market event, worth a look",2024-05-14
+636,price,2024-05-15 12:00:00,AT,Negative value,Low,1,-3.42,"Negative price: real market event, worth a look",2024-05-15
+637,price,2024-05-15 13:00:00,AT,Negative value,Low,1,-4.24,"Negative price: real market event, worth a look",2024-05-15
+638,price,2024-05-15 14:00:00,AT,Negative value,Low,1,-1.71,"Negative price: real market event, worth a look",2024-05-15
+639,price,2024-05-18 12:00:00,AT,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-05-18
+640,price,2024-05-18 13:00:00,AT,Negative value,Low,1,-1.28,"Negative price: real market event, worth a look",2024-05-18
+641,price,2024-05-18 14:00:00,AT,Negative value,Low,1,-2.75,"Negative price: real market event, worth a look",2024-05-18
+642,price,2024-05-18 15:00:00,AT,Negative value,Low,1,-1.84,"Negative price: real market event, worth a look",2024-05-18
+643,price,2024-05-18 16:00:00,AT,Negative value,Low,1,-0.44,"Negative price: real market event, worth a look",2024-05-18
+644,price,2024-05-19 11:00:00,AT,Negative value,Low,1,-4.37,"Negative price: real market event, worth a look",2024-05-19
+645,price,2024-05-19 12:00:00,AT,Negative value,Low,1,-7.31,"Negative price: real market event, worth a look",2024-05-19
+646,price,2024-05-19 13:00:00,AT,Negative value,Low,1,-13.42,"Negative price: real market event, worth a look",2024-05-19
+647,price,2024-05-19 14:00:00,AT,Negative value,Low,1,-19.56,"Negative price: real market event, worth a look",2024-05-19
+648,price,2024-05-19 15:00:00,AT,Negative value,Low,1,-12.89,"Negative price: real market event, worth a look",2024-05-19
+649,price,2024-05-19 16:00:00,AT,Negative value,Low,1,-5.97,"Negative price: real market event, worth a look",2024-05-19
+650,price,2024-05-19 17:00:00,AT,Negative value,Low,1,-5.91,"Negative price: real market event, worth a look",2024-05-19
+651,price,2024-05-20 15:00:00,AT,Negative value,Low,1,-0.68,"Negative price: real market event, worth a look",2024-05-20
+652,price,2024-05-26 11:00:00,AT,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-05-26
+653,price,2024-05-26 12:00:00,AT,Negative value,Low,1,-2.02,"Negative price: real market event, worth a look",2024-05-26
+654,price,2024-05-26 13:00:00,AT,Negative value,Low,1,-10.18,"Negative price: real market event, worth a look",2024-05-26
+655,price,2024-05-26 14:00:00,AT,Negative value,Low,1,-22.81,"Negative price: real market event, worth a look",2024-05-26
+656,price,2024-05-26 15:00:00,AT,Negative value,Low,1,-9.47,"Negative price: real market event, worth a look",2024-05-26
+657,price,2024-05-26 16:00:00,AT,Negative value,Low,1,-0.57,"Negative price: real market event, worth a look",2024-05-26
+658,price,2024-06-02 11:00:00,AT,Negative value,Low,1,-0.23,"Negative price: real market event, worth a look",2024-06-02
+659,price,2024-06-02 12:00:00,AT,Negative value,Low,1,-1.26,"Negative price: real market event, worth a look",2024-06-02
+660,price,2024-06-02 13:00:00,AT,Negative value,Low,1,-6.65,"Negative price: real market event, worth a look",2024-06-02
+661,price,2024-06-02 14:00:00,AT,Negative value,Low,1,-18.6,"Negative price: real market event, worth a look",2024-06-02
+662,price,2024-06-02 15:00:00,AT,Negative value,Low,1,-19.23,"Negative price: real market event, worth a look",2024-06-02
+663,price,2024-06-02 16:00:00,AT,Negative value,Low,1,-7.5,"Negative price: real market event, worth a look",2024-06-02
+664,price,2024-06-02 17:00:00,AT,Negative value,Low,1,-0.91,"Negative price: real market event, worth a look",2024-06-02
+665,price,2024-06-08 10:00:00,AT,Negative value,Low,1,-2.09,"Negative price: real market event, worth a look",2024-06-08
+666,price,2024-06-08 11:00:00,AT,Negative value,Low,1,-2.22,"Negative price: real market event, worth a look",2024-06-08
+667,price,2024-06-08 12:00:00,AT,Negative value,Low,1,-14.15,"Negative price: real market event, worth a look",2024-06-08
+668,price,2024-06-08 13:00:00,AT,Negative value,Low,1,-31.43,"Negative price: real market event, worth a look",2024-06-08
+669,price,2024-06-08 14:00:00,AT,Negative value,Low,1,-37.84,"Negative price: real market event, worth a look",2024-06-08
+670,price,2024-06-08 15:00:00,AT,Negative value,Low,1,-25.55,"Negative price: real market event, worth a look",2024-06-08
+671,price,2024-06-08 16:00:00,AT,Negative value,Low,1,-6.5,"Negative price: real market event, worth a look",2024-06-08
+672,price,2024-06-09 05:00:00,AT,Negative value,Low,1,-5.64,"Negative price: real market event, worth a look",2024-06-09
+673,price,2024-06-09 06:00:00,AT,Negative value,Low,1,-6.89,"Negative price: real market event, worth a look",2024-06-09
+674,price,2024-06-09 07:00:00,AT,Negative value,Low,1,-3.51,"Negative price: real market event, worth a look",2024-06-09
+675,price,2024-06-09 08:00:00,AT,Negative value,Low,1,-1.37,"Negative price: real market event, worth a look",2024-06-09
+676,price,2024-06-09 09:00:00,AT,Negative value,Low,1,-2.58,"Negative price: real market event, worth a look",2024-06-09
+677,price,2024-06-09 10:00:00,AT,Negative value,Low,1,-9.04,"Negative price: real market event, worth a look",2024-06-09
+678,price,2024-06-09 11:00:00,AT,Negative value,Low,1,-14.93,"Negative price: real market event, worth a look",2024-06-09
+679,price,2024-06-09 12:00:00,AT,Negative value,Low,1,-29.19,"Negative price: real market event, worth a look",2024-06-09
+680,price,2024-06-09 13:00:00,AT,Negative value,Low,1,-34.44,"Negative price: real market event, worth a look",2024-06-09
+681,price,2024-06-09 14:00:00,AT,Negative value,Low,1,-38.32,"Negative price: real market event, worth a look",2024-06-09
+682,price,2024-06-09 15:00:00,AT,Negative value,Low,1,-28.56,"Negative price: real market event, worth a look",2024-06-09
+683,price,2024-06-09 16:00:00,AT,Negative value,Low,1,-4.84,"Negative price: real market event, worth a look",2024-06-09
+684,price,2024-06-15 09:00:00,AT,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-06-15
+685,price,2024-06-15 10:00:00,AT,Negative value,Low,1,-10.08,"Negative price: real market event, worth a look",2024-06-15
+686,price,2024-06-15 11:00:00,AT,Negative value,Low,1,-30.41,"Negative price: real market event, worth a look",2024-06-15
+687,price,2024-06-15 12:00:00,AT,Negative value,Low,1,-47.05,"Negative price: real market event, worth a look",2024-06-15
+688,price,2024-06-15 13:00:00,AT,Negative value,Low,1,-68.37,"Negative price: real market event, worth a look",2024-06-15
+689,price,2024-06-15 14:00:00,AT,Negative value,Low,1,-83.62,"Negative price: real market event, worth a look",2024-06-15
+690,price,2024-06-15 15:00:00,AT,Negative value,Low,1,-57.45,"Negative price: real market event, worth a look",2024-06-15
+691,price,2024-06-15 16:00:00,AT,Negative value,Low,1,-26.64,"Negative price: real market event, worth a look",2024-06-15
+692,price,2024-06-16 08:00:00,AT,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-06-16
+693,price,2024-06-16 09:00:00,AT,Negative value,Low,1,-1.26,"Negative price: real market event, worth a look",2024-06-16
+694,price,2024-06-16 10:00:00,AT,Negative value,Low,1,-10.46,"Negative price: real market event, worth a look",2024-06-16
+695,price,2024-06-16 11:00:00,AT,Negative value,Low,1,-13.94,"Negative price: real market event, worth a look",2024-06-16
+696,price,2024-06-16 12:00:00,AT,Negative value,Low,1,-20.78,"Negative price: real market event, worth a look",2024-06-16
+697,price,2024-06-16 13:00:00,AT,Negative value,Low,1,-31.24,"Negative price: real market event, worth a look",2024-06-16
+698,price,2024-06-16 14:00:00,AT,Negative value,Low,1,-37.32,"Negative price: real market event, worth a look",2024-06-16
+699,price,2024-06-16 15:00:00,AT,Negative value,Low,1,-30.64,"Negative price: real market event, worth a look",2024-06-16
+700,price,2024-06-16 16:00:00,AT,Negative value,Low,1,-10.22,"Negative price: real market event, worth a look",2024-06-16
+701,price,2024-06-22 13:00:00,AT,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-06-22
+702,price,2024-06-22 14:00:00,AT,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-06-22
+703,price,2024-06-23 11:00:00,AT,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-06-23
+704,price,2024-06-23 12:00:00,AT,Negative value,Low,1,-0.13,"Negative price: real market event, worth a look",2024-06-23
+705,price,2024-06-23 13:00:00,AT,Negative value,Low,1,-1.43,"Negative price: real market event, worth a look",2024-06-23
+706,price,2024-06-23 14:00:00,AT,Negative value,Low,1,-2.27,"Negative price: real market event, worth a look",2024-06-23
+707,price,2024-06-23 15:00:00,AT,Negative value,Low,1,-2.24,"Negative price: real market event, worth a look",2024-06-23
+708,price,2024-06-23 16:00:00,AT,Negative value,Low,1,-1.02,"Negative price: real market event, worth a look",2024-06-23
+709,price,2024-06-25 13:00:00,AT,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-06-25
+710,price,2024-06-25 14:00:00,AT,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-06-25
+711,price,2024-06-28 11:00:00,AT,Negative value,Low,1,-9.38,"Negative price: real market event, worth a look",2024-06-28
+712,price,2024-06-28 12:00:00,AT,Negative value,Low,1,-6.5,"Negative price: real market event, worth a look",2024-06-28
+713,price,2024-06-29 12:00:00,AT,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-06-29
+714,price,2024-06-29 13:00:00,AT,Negative value,Low,1,-0.39,"Negative price: real market event, worth a look",2024-06-29
+715,price,2024-06-29 14:00:00,AT,Negative value,Low,1,-0.11,"Negative price: real market event, worth a look",2024-06-29
+716,price,2024-06-30 12:00:00,AT,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-06-30
+717,price,2024-06-30 13:00:00,AT,Negative value,Low,1,-1.56,"Negative price: real market event, worth a look",2024-06-30
+718,price,2024-06-30 14:00:00,AT,Negative value,Low,1,-1.13,"Negative price: real market event, worth a look",2024-06-30
+719,price,2024-07-06 09:00:00,AT,Negative value,Low,1,-0.2,"Negative price: real market event, worth a look",2024-07-06
+720,price,2024-07-06 10:00:00,AT,Negative value,Low,1,-8.01,"Negative price: real market event, worth a look",2024-07-06
+721,price,2024-07-06 11:00:00,AT,Negative value,Low,1,-24.78,"Negative price: real market event, worth a look",2024-07-06
+722,price,2024-07-06 12:00:00,AT,Negative value,Low,1,-30.12,"Negative price: real market event, worth a look",2024-07-06
+723,price,2024-07-06 13:00:00,AT,Negative value,Low,1,-30.81,"Negative price: real market event, worth a look",2024-07-06
+724,price,2024-07-06 14:00:00,AT,Negative value,Low,1,-71.12,"Negative price: real market event, worth a look",2024-07-06
+725,price,2024-07-06 15:00:00,AT,Negative value,Low,1,-54.63,"Negative price: real market event, worth a look",2024-07-06
+726,price,2024-07-06 16:00:00,AT,Negative value,Low,1,-27.66,"Negative price: real market event, worth a look",2024-07-06
+727,price,2024-07-07 08:00:00,AT,Negative value,Low,1,-0.21,"Negative price: real market event, worth a look",2024-07-07
+728,price,2024-07-07 09:00:00,AT,Negative value,Low,1,-4.03,"Negative price: real market event, worth a look",2024-07-07
+729,price,2024-07-07 10:00:00,AT,Negative value,Low,1,-5.74,"Negative price: real market event, worth a look",2024-07-07
+730,price,2024-07-07 11:00:00,AT,Negative value,Low,1,-5.92,"Negative price: real market event, worth a look",2024-07-07
+731,price,2024-07-07 12:00:00,AT,Negative value,Low,1,-6.55,"Negative price: real market event, worth a look",2024-07-07
+732,price,2024-07-07 13:00:00,AT,Negative value,Low,1,-12.96,"Negative price: real market event, worth a look",2024-07-07
+733,price,2024-07-07 14:00:00,AT,Negative value,Low,1,-13.31,"Negative price: real market event, worth a look",2024-07-07
+734,price,2024-07-07 15:00:00,AT,Negative value,Low,1,-2.29,"Negative price: real market event, worth a look",2024-07-07
+735,price,2024-07-09 13:00:00,AT,Negative value,Low,1,-9.75,"Negative price: real market event, worth a look",2024-07-09
+736,price,2024-07-09 14:00:00,AT,Negative value,Low,1,-6.52,"Negative price: real market event, worth a look",2024-07-09
+737,price,2024-07-13 11:00:00,AT,Negative value,Low,1,-0.31,"Negative price: real market event, worth a look",2024-07-13
+738,price,2024-07-13 12:00:00,AT,Negative value,Low,1,-0.51,"Negative price: real market event, worth a look",2024-07-13
+739,price,2024-07-13 13:00:00,AT,Negative value,Low,1,-5.97,"Negative price: real market event, worth a look",2024-07-13
+740,price,2024-07-13 14:00:00,AT,Negative value,Low,1,-17.89,"Negative price: real market event, worth a look",2024-07-13
+741,price,2024-07-13 15:00:00,AT,Negative value,Low,1,-17.28,"Negative price: real market event, worth a look",2024-07-13
+742,price,2024-07-13 16:00:00,AT,Negative value,Low,1,-8.32,"Negative price: real market event, worth a look",2024-07-13
+743,price,2024-07-14 09:00:00,AT,Negative value,Low,1,-3.63,"Negative price: real market event, worth a look",2024-07-14
+744,price,2024-07-14 10:00:00,AT,Negative value,Low,1,-21.03,"Negative price: real market event, worth a look",2024-07-14
+745,price,2024-07-14 11:00:00,AT,Negative value,Low,1,-40.51,"Negative price: real market event, worth a look",2024-07-14
+746,price,2024-07-14 12:00:00,AT,Negative value,Low,1,-63.93,"Negative price: real market event, worth a look",2024-07-14
+747,price,2024-07-14 13:00:00,AT,Negative value,Low,1,-74.78,"Negative price: real market event, worth a look",2024-07-14
+748,price,2024-07-14 14:00:00,AT,Negative value,Low,1,-92.34,"Negative price: real market event, worth a look",2024-07-14
+749,price,2024-07-14 15:00:00,AT,Negative value,Low,1,-61.89,"Negative price: real market event, worth a look",2024-07-14
+750,price,2024-07-14 16:00:00,AT,Negative value,Low,1,-25.1,"Negative price: real market event, worth a look",2024-07-14
+751,price,2024-07-14 17:00:00,AT,Negative value,Low,1,-6.55,"Negative price: real market event, worth a look",2024-07-14
+752,price,2024-07-21 10:00:00,AT,Negative value,Low,1,-1.79,"Negative price: real market event, worth a look",2024-07-21
+753,price,2024-07-21 11:00:00,AT,Negative value,Low,1,-1.25,"Negative price: real market event, worth a look",2024-07-21
+754,price,2024-07-21 12:00:00,AT,Negative value,Low,1,-1.13,"Negative price: real market event, worth a look",2024-07-21
+755,price,2024-07-21 13:00:00,AT,Negative value,Low,1,-1.71,"Negative price: real market event, worth a look",2024-07-21
+756,price,2024-07-21 14:00:00,AT,Negative value,Low,1,-3.09,"Negative price: real market event, worth a look",2024-07-21
+757,price,2024-07-21 15:00:00,AT,Negative value,Low,1,-3.61,"Negative price: real market event, worth a look",2024-07-21
+758,price,2024-07-21 16:00:00,AT,Negative value,Low,1,-7.54,"Negative price: real market event, worth a look",2024-07-21
+759,price,2024-07-28 12:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-28
+760,price,2024-07-28 13:00:00,AT,Negative value,Low,1,-14.84,"Negative price: real market event, worth a look",2024-07-28
+761,price,2024-07-28 14:00:00,AT,Negative value,Low,1,-38.91,"Negative price: real market event, worth a look",2024-07-28
+762,price,2024-07-28 15:00:00,AT,Negative value,Low,1,-9.91,"Negative price: real market event, worth a look",2024-07-28
+763,price,2024-07-29 11:00:00,AT,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-07-29
+764,price,2024-08-04 13:00:00,AT,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-08-04
+765,price,2024-08-04 14:00:00,AT,Negative value,Low,1,-2.0,"Negative price: real market event, worth a look",2024-08-04
+766,price,2024-08-04 15:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-04
+767,price,2024-08-10 10:00:00,AT,Negative value,Low,1,-2.67,"Negative price: real market event, worth a look",2024-08-10
+768,price,2024-08-10 11:00:00,AT,Negative value,Low,1,-11.39,"Negative price: real market event, worth a look",2024-08-10
+769,price,2024-08-10 12:00:00,AT,Negative value,Low,1,-21.36,"Negative price: real market event, worth a look",2024-08-10
+770,price,2024-08-10 13:00:00,AT,Negative value,Low,1,-29.87,"Negative price: real market event, worth a look",2024-08-10
+771,price,2024-08-10 14:00:00,AT,Negative value,Low,1,-21.92,"Negative price: real market event, worth a look",2024-08-10
+772,price,2024-08-10 15:00:00,AT,Negative value,Low,1,-10.76,"Negative price: real market event, worth a look",2024-08-10
+773,price,2024-08-11 10:00:00,AT,Negative value,Low,1,-4.84,"Negative price: real market event, worth a look",2024-08-11
+774,price,2024-08-11 11:00:00,AT,Negative value,Low,1,-14.43,"Negative price: real market event, worth a look",2024-08-11
+775,price,2024-08-11 12:00:00,AT,Negative value,Low,1,-30.64,"Negative price: real market event, worth a look",2024-08-11
+776,price,2024-08-11 13:00:00,AT,Negative value,Low,1,-57.88,"Negative price: real market event, worth a look",2024-08-11
+777,price,2024-08-11 14:00:00,AT,Negative value,Low,1,-49.66,"Negative price: real market event, worth a look",2024-08-11
+778,price,2024-08-11 15:00:00,AT,Negative value,Low,1,-28.11,"Negative price: real market event, worth a look",2024-08-11
+779,price,2024-08-24 11:00:00,AT,Negative value,Low,1,-6.56,"Negative price: real market event, worth a look",2024-08-24
+780,price,2024-08-24 12:00:00,AT,Negative value,Low,1,-17.88,"Negative price: real market event, worth a look",2024-08-24
+781,price,2024-08-24 13:00:00,AT,Negative value,Low,1,-30.11,"Negative price: real market event, worth a look",2024-08-24
+782,price,2024-08-24 14:00:00,AT,Negative value,Low,1,-26.98,"Negative price: real market event, worth a look",2024-08-24
+783,price,2024-08-25 09:00:00,AT,Negative value,Low,1,-0.94,"Negative price: real market event, worth a look",2024-08-25
+784,price,2024-08-25 10:00:00,AT,Negative value,Low,1,-3.99,"Negative price: real market event, worth a look",2024-08-25
+785,price,2024-08-25 11:00:00,AT,Negative value,Low,1,-4.73,"Negative price: real market event, worth a look",2024-08-25
+786,price,2024-08-25 12:00:00,AT,Negative value,Low,1,-8.53,"Negative price: real market event, worth a look",2024-08-25
+787,price,2024-08-25 13:00:00,AT,Negative value,Low,1,-12.81,"Negative price: real market event, worth a look",2024-08-25
+788,price,2024-08-25 14:00:00,AT,Negative value,Low,1,-13.57,"Negative price: real market event, worth a look",2024-08-25
+789,price,2024-08-25 15:00:00,AT,Negative value,Low,1,-6.93,"Negative price: real market event, worth a look",2024-08-25
+790,price,2024-09-01 12:00:00,AT,Negative value,Low,1,-0.52,"Negative price: real market event, worth a look",2024-09-01
+791,price,2024-09-01 13:00:00,AT,Negative value,Low,1,-9.36,"Negative price: real market event, worth a look",2024-09-01
+792,price,2024-09-01 14:00:00,AT,Negative value,Low,1,-4.53,"Negative price: real market event, worth a look",2024-09-01
+793,price,2024-09-15 14:00:00,AT,Negative value,Low,1,-0.21,"Negative price: real market event, worth a look",2024-09-15
+794,price,2024-09-21 13:00:00,AT,Negative value,Low,1,-3.36,"Negative price: real market event, worth a look",2024-09-21
+795,price,2024-09-21 14:00:00,AT,Negative value,Low,1,-3.95,"Negative price: real market event, worth a look",2024-09-21
+796,price,2024-09-22 12:00:00,AT,Negative value,Low,1,-4.84,"Negative price: real market event, worth a look",2024-09-22
+797,price,2024-09-22 13:00:00,AT,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-09-22
+798,price,2024-09-29 12:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-29
+799,price,2024-09-29 13:00:00,AT,Negative value,Low,1,-0.5,"Negative price: real market event, worth a look",2024-09-29
+800,price,2024-09-29 14:00:00,AT,Negative value,Low,1,-0.45,"Negative price: real market event, worth a look",2024-09-29
+801,price,2024-10-06 13:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-10-06
+802,price,2024-10-06 14:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-10-06
+803,price,2024-10-08 12:00:00,AT,Negative value,Low,1,-1.74,"Negative price: real market event, worth a look",2024-10-08
+804,price,2024-10-08 13:00:00,AT,Negative value,Low,1,-8.32,"Negative price: real market event, worth a look",2024-10-08
+805,price,2024-10-08 14:00:00,AT,Negative value,Low,1,-6.22,"Negative price: real market event, worth a look",2024-10-08
+806,price,2024-10-13 01:00:00,AT,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-10-13
+807,price,2024-10-13 02:00:00,AT,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-10-13
+808,price,2024-10-13 03:00:00,AT,Negative value,Low,1,-0.37,"Negative price: real market event, worth a look",2024-10-13
+809,price,2024-10-13 04:00:00,AT,Negative value,Low,1,-0.51,"Negative price: real market event, worth a look",2024-10-13
+810,price,2024-10-13 05:00:00,AT,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-10-13
+811,price,2024-10-13 06:00:00,AT,Negative value,Low,1,-0.12,"Negative price: real market event, worth a look",2024-10-13
+812,price,2024-10-13 11:00:00,AT,Negative value,Low,1,-0.87,"Negative price: real market event, worth a look",2024-10-13
+813,price,2024-10-13 12:00:00,AT,Negative value,Low,1,-6.04,"Negative price: real market event, worth a look",2024-10-13
+814,price,2024-10-13 13:00:00,AT,Negative value,Low,1,-12.16,"Negative price: real market event, worth a look",2024-10-13
+815,price,2024-10-13 14:00:00,AT,Negative value,Low,1,-7.86,"Negative price: real market event, worth a look",2024-10-13
+816,price,2024-10-13 15:00:00,AT,Negative value,Low,1,-1.48,"Negative price: real market event, worth a look",2024-10-13
+817,price,2024-10-17 13:00:00,AT,Negative value,Low,1,-5.91,"Negative price: real market event, worth a look",2024-10-17
+818,price,2024-10-20 13:00:00,AT,Negative value,Low,1,-0.98,"Negative price: real market event, worth a look",2024-10-20
+819,price,2024-10-20 14:00:00,AT,Negative value,Low,1,-2.01,"Negative price: real market event, worth a look",2024-10-20
+820,price,2024-01-01 03:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-01-01
+821,price,2024-01-01 04:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-01-01
+822,price,2024-01-01 05:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-01-01
+823,price,2024-01-01 06:00:00,LU,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-01-01
+824,price,2024-01-01 07:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-01-01
+825,price,2024-01-03 00:00:00,LU,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-01-03
+826,price,2024-01-03 01:00:00,LU,Negative value,Low,1,-1.23,"Negative price: real market event, worth a look",2024-01-03
+827,price,2024-01-03 02:00:00,LU,Negative value,Low,1,-1.3,"Negative price: real market event, worth a look",2024-01-03
+828,price,2024-01-03 03:00:00,LU,Negative value,Low,1,-1.31,"Negative price: real market event, worth a look",2024-01-03
+829,price,2024-01-03 04:00:00,LU,Negative value,Low,1,-1.31,"Negative price: real market event, worth a look",2024-01-03
+830,price,2024-01-03 05:00:00,LU,Negative value,Low,1,-1.38,"Negative price: real market event, worth a look",2024-01-03
+831,price,2024-01-24 01:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-01-24
+832,price,2024-01-24 02:00:00,LU,Negative value,Low,1,-0.64,"Negative price: real market event, worth a look",2024-01-24
+833,price,2024-01-24 03:00:00,LU,Negative value,Low,1,-4.41,"Negative price: real market event, worth a look",2024-01-24
+834,price,2024-01-24 04:00:00,LU,Negative value,Low,1,-4.84,"Negative price: real market event, worth a look",2024-01-24
+835,price,2024-01-24 05:00:00,LU,Negative value,Low,1,-0.18,"Negative price: real market event, worth a look",2024-01-24
+836,price,2024-02-05 01:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-02-05
+837,price,2024-02-05 02:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-02-05
+838,price,2024-02-05 03:00:00,LU,Negative value,Low,1,-0.13,"Negative price: real market event, worth a look",2024-02-05
+839,price,2024-02-05 04:00:00,LU,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-02-05
+840,price,2024-03-09 12:00:00,LU,Negative value,Low,1,-1.15,"Negative price: real market event, worth a look",2024-03-09
+841,price,2024-03-09 13:00:00,LU,Negative value,Low,1,-5.02,"Negative price: real market event, worth a look",2024-03-09
+842,price,2024-03-09 14:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-03-09
+843,price,2024-03-10 11:00:00,LU,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-03-10
+844,price,2024-03-10 12:00:00,LU,Negative value,Low,1,-8.24,"Negative price: real market event, worth a look",2024-03-10
+845,price,2024-03-10 13:00:00,LU,Negative value,Low,1,-9.98,"Negative price: real market event, worth a look",2024-03-10
+846,price,2024-03-10 14:00:00,LU,Negative value,Low,1,-0.51,"Negative price: real market event, worth a look",2024-03-10
+847,price,2024-03-23 11:00:00,LU,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-03-23
+848,price,2024-03-23 12:00:00,LU,Negative value,Low,1,-1.94,"Negative price: real market event, worth a look",2024-03-23
+849,price,2024-03-23 13:00:00,LU,Negative value,Low,1,-5.71,"Negative price: real market event, worth a look",2024-03-23
+850,price,2024-03-23 14:00:00,LU,Negative value,Low,1,-8.45,"Negative price: real market event, worth a look",2024-03-23
+851,price,2024-03-23 15:00:00,LU,Negative value,Low,1,-1.46,"Negative price: real market event, worth a look",2024-03-23
+852,price,2024-04-01 14:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-01
+853,price,2024-04-01 15:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-01
+854,price,2024-04-01 16:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-01
+855,price,2024-04-02 11:00:00,LU,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-04-02
+856,price,2024-04-02 12:00:00,LU,Negative value,Low,1,-1.09,"Negative price: real market event, worth a look",2024-04-02
+857,price,2024-04-02 13:00:00,LU,Negative value,Low,1,-0.97,"Negative price: real market event, worth a look",2024-04-02
+858,price,2024-04-02 14:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-04-02
+859,price,2024-04-05 14:00:00,LU,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-04-05
+860,price,2024-04-06 11:00:00,LU,Negative value,Low,1,-0.73,"Negative price: real market event, worth a look",2024-04-06
+861,price,2024-04-06 12:00:00,LU,Negative value,Low,1,-16.4,"Negative price: real market event, worth a look",2024-04-06
+862,price,2024-04-06 13:00:00,LU,Negative value,Low,1,-59.92,"Negative price: real market event, worth a look",2024-04-06
+863,price,2024-04-06 14:00:00,LU,Negative value,Low,1,-57.59,"Negative price: real market event, worth a look",2024-04-06
+864,price,2024-04-06 15:00:00,LU,Negative value,Low,1,-34.61,"Negative price: real market event, worth a look",2024-04-06
+865,price,2024-04-06 16:00:00,LU,Negative value,Low,1,-4.66,"Negative price: real market event, worth a look",2024-04-06
+866,price,2024-04-07 09:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-04-07
+867,price,2024-04-07 10:00:00,LU,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-04-07
+868,price,2024-04-07 11:00:00,LU,Negative value,Low,1,-3.25,"Negative price: real market event, worth a look",2024-04-07
+869,price,2024-04-07 12:00:00,LU,Negative value,Low,1,-9.94,"Negative price: real market event, worth a look",2024-04-07
+870,price,2024-04-07 13:00:00,LU,Negative value,Low,1,-26.79,"Negative price: real market event, worth a look",2024-04-07
+871,price,2024-04-07 14:00:00,LU,Negative value,Low,1,-20.06,"Negative price: real market event, worth a look",2024-04-07
+872,price,2024-04-07 15:00:00,LU,Negative value,Low,1,-5.04,"Negative price: real market event, worth a look",2024-04-07
+873,price,2024-04-07 16:00:00,LU,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-04-07
+874,price,2024-04-12 13:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-04-12
+875,price,2024-04-13 10:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-04-13
+876,price,2024-04-13 11:00:00,LU,Negative value,Low,1,-9.97,"Negative price: real market event, worth a look",2024-04-13
+877,price,2024-04-13 12:00:00,LU,Negative value,Low,1,-25.96,"Negative price: real market event, worth a look",2024-04-13
+878,price,2024-04-13 13:00:00,LU,Negative value,Low,1,-50.0,"Negative price: real market event, worth a look",2024-04-13
+879,price,2024-04-13 14:00:00,LU,Negative value,Low,1,-55.01,"Negative price: real market event, worth a look",2024-04-13
+880,price,2024-04-13 15:00:00,LU,Negative value,Low,1,-49.91,"Negative price: real market event, worth a look",2024-04-13
+881,price,2024-04-13 16:00:00,LU,Negative value,Low,1,-19.16,"Negative price: real market event, worth a look",2024-04-13
+882,price,2024-04-13 17:00:00,LU,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-04-13
+883,price,2024-04-14 10:00:00,LU,Negative value,Low,1,-2.37,"Negative price: real market event, worth a look",2024-04-14
+884,price,2024-04-14 11:00:00,LU,Negative value,Low,1,-12.17,"Negative price: real market event, worth a look",2024-04-14
+885,price,2024-04-14 12:00:00,LU,Negative value,Low,1,-42.27,"Negative price: real market event, worth a look",2024-04-14
+886,price,2024-04-14 13:00:00,LU,Negative value,Low,1,-60.05,"Negative price: real market event, worth a look",2024-04-14
+887,price,2024-04-14 14:00:00,LU,Negative value,Low,1,-60.07,"Negative price: real market event, worth a look",2024-04-14
+888,price,2024-04-14 15:00:00,LU,Negative value,Low,1,-40.05,"Negative price: real market event, worth a look",2024-04-14
+889,price,2024-04-14 16:00:00,LU,Negative value,Low,1,-6.25,"Negative price: real market event, worth a look",2024-04-14
+890,price,2024-04-21 14:00:00,LU,Negative value,Low,1,-0.9,"Negative price: real market event, worth a look",2024-04-21
+891,price,2024-04-27 13:00:00,LU,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-04-27
+892,price,2024-04-28 08:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-04-28
+893,price,2024-04-28 09:00:00,LU,Negative value,Low,1,-1.02,"Negative price: real market event, worth a look",2024-04-28
+894,price,2024-04-28 10:00:00,LU,Negative value,Low,1,-16.63,"Negative price: real market event, worth a look",2024-04-28
+895,price,2024-04-28 11:00:00,LU,Negative value,Low,1,-36.72,"Negative price: real market event, worth a look",2024-04-28
+896,price,2024-04-28 12:00:00,LU,Negative value,Low,1,-60.05,"Negative price: real market event, worth a look",2024-04-28
+897,price,2024-04-28 13:00:00,LU,Negative value,Low,1,-60.09,"Negative price: real market event, worth a look",2024-04-28
+898,price,2024-04-28 14:00:00,LU,Negative value,Low,1,-65.06,"Negative price: real market event, worth a look",2024-04-28
+899,price,2024-04-28 15:00:00,LU,Negative value,Low,1,-52.43,"Negative price: real market event, worth a look",2024-04-28
+900,price,2024-04-28 16:00:00,LU,Negative value,Low,1,-23.45,"Negative price: real market event, worth a look",2024-04-28
+901,price,2024-04-28 17:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-04-28
+902,price,2024-05-01 10:00:00,LU,Negative value,Low,1,-0.97,"Negative price: real market event, worth a look",2024-05-01
+903,price,2024-05-01 11:00:00,LU,Negative value,Low,1,-40.05,"Negative price: real market event, worth a look",2024-05-01
+904,price,2024-05-01 12:00:00,LU,Negative value,Low,1,-91.9,"Negative price: real market event, worth a look",2024-05-01
+905,price,2024-05-01 13:00:00,LU,Negative value,Low,1,-120.0,"Negative price: real market event, worth a look",2024-05-01
+906,price,2024-05-01 14:00:00,LU,Negative value,Low,1,-120.07,"Negative price: real market event, worth a look",2024-05-01
+907,price,2024-05-01 15:00:00,LU,Negative value,Low,1,-79.98,"Negative price: real market event, worth a look",2024-05-01
+908,price,2024-05-01 16:00:00,LU,Negative value,Low,1,-30.01,"Negative price: real market event, worth a look",2024-05-01
+909,price,2024-05-01 17:00:00,LU,Negative value,Low,1,-1.14,"Negative price: real market event, worth a look",2024-05-01
+910,price,2024-05-02 11:00:00,LU,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-05-02
+911,price,2024-05-02 12:00:00,LU,Negative value,Low,1,-1.73,"Negative price: real market event, worth a look",2024-05-02
+912,price,2024-05-02 13:00:00,LU,Negative value,Low,1,-4.19,"Negative price: real market event, worth a look",2024-05-02
+913,price,2024-05-02 14:00:00,LU,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-05-02
+914,price,2024-05-02 15:00:00,LU,Negative value,Low,1,-1.39,"Negative price: real market event, worth a look",2024-05-02
+915,price,2024-05-05 13:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-05-05
+916,price,2024-05-05 14:00:00,LU,Negative value,Low,1,-0.97,"Negative price: real market event, worth a look",2024-05-05
+917,price,2024-05-05 15:00:00,LU,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-05-05
+918,price,2024-05-09 11:00:00,LU,Negative value,Low,1,-0.52,"Negative price: real market event, worth a look",2024-05-09
+919,price,2024-05-09 12:00:00,LU,Negative value,Low,1,-0.88,"Negative price: real market event, worth a look",2024-05-09
+920,price,2024-05-09 13:00:00,LU,Negative value,Low,1,-1.35,"Negative price: real market event, worth a look",2024-05-09
+921,price,2024-05-09 14:00:00,LU,Negative value,Low,1,-2.03,"Negative price: real market event, worth a look",2024-05-09
+922,price,2024-05-09 15:00:00,LU,Negative value,Low,1,-0.93,"Negative price: real market event, worth a look",2024-05-09
+923,price,2024-05-11 11:00:00,LU,Negative value,Low,1,-10.47,"Negative price: real market event, worth a look",2024-05-11
+924,price,2024-05-11 12:00:00,LU,Negative value,Low,1,-21.21,"Negative price: real market event, worth a look",2024-05-11
+925,price,2024-05-11 13:00:00,LU,Negative value,Low,1,-21.99,"Negative price: real market event, worth a look",2024-05-11
+926,price,2024-05-11 14:00:00,LU,Negative value,Low,1,-24.23,"Negative price: real market event, worth a look",2024-05-11
+927,price,2024-05-11 15:00:00,LU,Negative value,Low,1,-11.46,"Negative price: real market event, worth a look",2024-05-11
+928,price,2024-05-11 16:00:00,LU,Negative value,Low,1,-0.41,"Negative price: real market event, worth a look",2024-05-11
+929,price,2024-05-12 09:00:00,LU,Negative value,Low,1,-2.8,"Negative price: real market event, worth a look",2024-05-12
+930,price,2024-05-12 10:00:00,LU,Negative value,Low,1,-25.0,"Negative price: real market event, worth a look",2024-05-12
+931,price,2024-05-12 11:00:00,LU,Negative value,Low,1,-69.64,"Negative price: real market event, worth a look",2024-05-12
+932,price,2024-05-12 12:00:00,LU,Negative value,Low,1,-100.06,"Negative price: real market event, worth a look",2024-05-12
+933,price,2024-05-12 13:00:00,LU,Negative value,Low,1,-135.45,"Negative price: real market event, worth a look",2024-05-12
+934,price,2024-05-12 14:00:00,LU,Negative value,Low,1,-132.85,"Negative price: real market event, worth a look",2024-05-12
+935,price,2024-05-12 15:00:00,LU,Negative value,Low,1,-85.08,"Negative price: real market event, worth a look",2024-05-12
+936,price,2024-05-12 16:00:00,LU,Negative value,Low,1,-30.0,"Negative price: real market event, worth a look",2024-05-12
+937,price,2024-05-12 17:00:00,LU,Negative value,Low,1,-1.33,"Negative price: real market event, worth a look",2024-05-12
+938,price,2024-05-13 11:00:00,LU,Negative value,Low,1,-0.97,"Negative price: real market event, worth a look",2024-05-13
+939,price,2024-05-13 12:00:00,LU,Negative value,Low,1,-2.69,"Negative price: real market event, worth a look",2024-05-13
+940,price,2024-05-13 13:00:00,LU,Negative value,Low,1,-2.27,"Negative price: real market event, worth a look",2024-05-13
+941,price,2024-05-13 14:00:00,LU,Negative value,Low,1,-2.46,"Negative price: real market event, worth a look",2024-05-13
+942,price,2024-05-13 15:00:00,LU,Negative value,Low,1,-0.73,"Negative price: real market event, worth a look",2024-05-13
+943,price,2024-05-14 10:00:00,LU,Negative value,Low,1,-2.33,"Negative price: real market event, worth a look",2024-05-14
+944,price,2024-05-14 11:00:00,LU,Negative value,Low,1,-11.12,"Negative price: real market event, worth a look",2024-05-14
+945,price,2024-05-14 12:00:00,LU,Negative value,Low,1,-36.33,"Negative price: real market event, worth a look",2024-05-14
+946,price,2024-05-14 13:00:00,LU,Negative value,Low,1,-42.95,"Negative price: real market event, worth a look",2024-05-14
+947,price,2024-05-14 14:00:00,LU,Negative value,Low,1,-39.66,"Negative price: real market event, worth a look",2024-05-14
+948,price,2024-05-14 15:00:00,LU,Negative value,Low,1,-19.86,"Negative price: real market event, worth a look",2024-05-14
+949,price,2024-05-14 16:00:00,LU,Negative value,Low,1,-2.93,"Negative price: real market event, worth a look",2024-05-14
+950,price,2024-05-14 17:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-05-14
+951,price,2024-05-15 11:00:00,LU,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-05-15
+952,price,2024-05-15 12:00:00,LU,Negative value,Low,1,-9.95,"Negative price: real market event, worth a look",2024-05-15
+953,price,2024-05-15 13:00:00,LU,Negative value,Low,1,-11.18,"Negative price: real market event, worth a look",2024-05-15
+954,price,2024-05-15 14:00:00,LU,Negative value,Low,1,-9.91,"Negative price: real market event, worth a look",2024-05-15
+955,price,2024-05-15 15:00:00,LU,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-05-15
+956,price,2024-05-16 12:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-05-16
+957,price,2024-05-16 13:00:00,LU,Negative value,Low,1,-0.71,"Negative price: real market event, worth a look",2024-05-16
+958,price,2024-05-16 14:00:00,LU,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-05-16
+959,price,2024-05-18 12:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-05-18
+960,price,2024-05-18 13:00:00,LU,Negative value,Low,1,-1.3,"Negative price: real market event, worth a look",2024-05-18
+961,price,2024-05-18 14:00:00,LU,Negative value,Low,1,-2.79,"Negative price: real market event, worth a look",2024-05-18
+962,price,2024-05-18 15:00:00,LU,Negative value,Low,1,-1.92,"Negative price: real market event, worth a look",2024-05-18
+963,price,2024-05-18 16:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-05-18
+964,price,2024-05-19 10:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-05-19
+965,price,2024-05-19 11:00:00,LU,Negative value,Low,1,-0.18,"Negative price: real market event, worth a look",2024-05-19
+966,price,2024-05-19 12:00:00,LU,Negative value,Low,1,-2.06,"Negative price: real market event, worth a look",2024-05-19
+967,price,2024-05-19 13:00:00,LU,Negative value,Low,1,-7.41,"Negative price: real market event, worth a look",2024-05-19
+968,price,2024-05-19 14:00:00,LU,Negative value,Low,1,-15.13,"Negative price: real market event, worth a look",2024-05-19
+969,price,2024-05-19 15:00:00,LU,Negative value,Low,1,-10.0,"Negative price: real market event, worth a look",2024-05-19
+970,price,2024-05-19 16:00:00,LU,Negative value,Low,1,-3.79,"Negative price: real market event, worth a look",2024-05-19
+971,price,2024-05-19 17:00:00,LU,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-05-19
+972,price,2024-05-20 14:00:00,LU,Negative value,Low,1,-0.33,"Negative price: real market event, worth a look",2024-05-20
+973,price,2024-05-20 15:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-05-20
+974,price,2024-05-26 11:00:00,LU,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-05-26
+975,price,2024-05-26 12:00:00,LU,Negative value,Low,1,-2.12,"Negative price: real market event, worth a look",2024-05-26
+976,price,2024-05-26 13:00:00,LU,Negative value,Low,1,-10.66,"Negative price: real market event, worth a look",2024-05-26
+977,price,2024-05-26 14:00:00,LU,Negative value,Low,1,-23.88,"Negative price: real market event, worth a look",2024-05-26
+978,price,2024-05-26 15:00:00,LU,Negative value,Low,1,-9.91,"Negative price: real market event, worth a look",2024-05-26
+979,price,2024-05-26 16:00:00,LU,Negative value,Low,1,-0.6,"Negative price: real market event, worth a look",2024-05-26
+980,price,2024-06-02 12:00:00,LU,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-06-02
+981,price,2024-06-02 13:00:00,LU,Negative value,Low,1,-4.01,"Negative price: real market event, worth a look",2024-06-02
+982,price,2024-06-02 14:00:00,LU,Negative value,Low,1,-15.93,"Negative price: real market event, worth a look",2024-06-02
+983,price,2024-06-02 15:00:00,LU,Negative value,Low,1,-19.58,"Negative price: real market event, worth a look",2024-06-02
+984,price,2024-06-02 16:00:00,LU,Negative value,Low,1,-8.98,"Negative price: real market event, worth a look",2024-06-02
+985,price,2024-06-02 17:00:00,LU,Negative value,Low,1,-1.27,"Negative price: real market event, worth a look",2024-06-02
+986,price,2024-06-08 10:00:00,LU,Negative value,Low,1,-0.13,"Negative price: real market event, worth a look",2024-06-08
+987,price,2024-06-08 11:00:00,LU,Negative value,Low,1,-2.27,"Negative price: real market event, worth a look",2024-06-08
+988,price,2024-06-08 12:00:00,LU,Negative value,Low,1,-10.26,"Negative price: real market event, worth a look",2024-06-08
+989,price,2024-06-08 13:00:00,LU,Negative value,Low,1,-23.7,"Negative price: real market event, worth a look",2024-06-08
+990,price,2024-06-08 14:00:00,LU,Negative value,Low,1,-30.03,"Negative price: real market event, worth a look",2024-06-08
+991,price,2024-06-08 15:00:00,LU,Negative value,Low,1,-20.62,"Negative price: real market event, worth a look",2024-06-08
+992,price,2024-06-08 16:00:00,LU,Negative value,Low,1,-8.25,"Negative price: real market event, worth a look",2024-06-08
+993,price,2024-06-09 08:00:00,LU,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-06-09
+994,price,2024-06-09 09:00:00,LU,Negative value,Low,1,-2.01,"Negative price: real market event, worth a look",2024-06-09
+995,price,2024-06-09 10:00:00,LU,Negative value,Low,1,-7.6,"Negative price: real market event, worth a look",2024-06-09
+996,price,2024-06-09 11:00:00,LU,Negative value,Low,1,-15.0,"Negative price: real market event, worth a look",2024-06-09
+997,price,2024-06-09 12:00:00,LU,Negative value,Low,1,-25.0,"Negative price: real market event, worth a look",2024-06-09
+998,price,2024-06-09 13:00:00,LU,Negative value,Low,1,-32.69,"Negative price: real market event, worth a look",2024-06-09
+999,price,2024-06-09 14:00:00,LU,Negative value,Low,1,-37.14,"Negative price: real market event, worth a look",2024-06-09
+1000,price,2024-06-09 15:00:00,LU,Negative value,Low,1,-28.68,"Negative price: real market event, worth a look",2024-06-09
+1001,price,2024-06-09 16:00:00,LU,Negative value,Low,1,-5.84,"Negative price: real market event, worth a look",2024-06-09
+1002,price,2024-06-09 17:00:00,LU,Negative value,Low,1,-0.5,"Negative price: real market event, worth a look",2024-06-09
+1003,price,2024-06-15 09:00:00,LU,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-06-15
+1004,price,2024-06-15 10:00:00,LU,Negative value,Low,1,-10.08,"Negative price: real market event, worth a look",2024-06-15
+1005,price,2024-06-15 11:00:00,LU,Negative value,Low,1,-29.04,"Negative price: real market event, worth a look",2024-06-15
+1006,price,2024-06-15 12:00:00,LU,Negative value,Low,1,-44.92,"Negative price: real market event, worth a look",2024-06-15
+1007,price,2024-06-15 13:00:00,LU,Negative value,Low,1,-65.46,"Negative price: real market event, worth a look",2024-06-15
+1008,price,2024-06-15 14:00:00,LU,Negative value,Low,1,-80.01,"Negative price: real market event, worth a look",2024-06-15
+1009,price,2024-06-15 15:00:00,LU,Negative value,Low,1,-56.23,"Negative price: real market event, worth a look",2024-06-15
+1010,price,2024-06-15 16:00:00,LU,Negative value,Low,1,-29.53,"Negative price: real market event, worth a look",2024-06-15
+1011,price,2024-06-15 17:00:00,LU,Negative value,Low,1,-4.84,"Negative price: real market event, worth a look",2024-06-15
+1012,price,2024-06-15 18:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-06-15
+1013,price,2024-06-16 08:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-06-16
+1014,price,2024-06-16 09:00:00,LU,Negative value,Low,1,-1.28,"Negative price: real market event, worth a look",2024-06-16
+1015,price,2024-06-16 10:00:00,LU,Negative value,Low,1,-10.0,"Negative price: real market event, worth a look",2024-06-16
+1016,price,2024-06-16 11:00:00,LU,Negative value,Low,1,-13.33,"Negative price: real market event, worth a look",2024-06-16
+1017,price,2024-06-16 12:00:00,LU,Negative value,Low,1,-20.01,"Negative price: real market event, worth a look",2024-06-16
+1018,price,2024-06-16 13:00:00,LU,Negative value,Low,1,-30.01,"Negative price: real market event, worth a look",2024-06-16
+1019,price,2024-06-16 14:00:00,LU,Negative value,Low,1,-35.67,"Negative price: real market event, worth a look",2024-06-16
+1020,price,2024-06-16 15:00:00,LU,Negative value,Low,1,-29.04,"Negative price: real market event, worth a look",2024-06-16
+1021,price,2024-06-16 16:00:00,LU,Negative value,Low,1,-10.14,"Negative price: real market event, worth a look",2024-06-16
+1022,price,2024-06-16 17:00:00,LU,Negative value,Low,1,-2.34,"Negative price: real market event, worth a look",2024-06-16
+1023,price,2024-06-22 14:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-06-22
+1024,price,2024-06-22 15:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-06-22
+1025,price,2024-06-23 11:00:00,LU,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-06-23
+1026,price,2024-06-23 12:00:00,LU,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-06-23
+1027,price,2024-06-23 13:00:00,LU,Negative value,Low,1,-1.05,"Negative price: real market event, worth a look",2024-06-23
+1028,price,2024-06-23 14:00:00,LU,Negative value,Low,1,-2.21,"Negative price: real market event, worth a look",2024-06-23
+1029,price,2024-06-23 15:00:00,LU,Negative value,Low,1,-2.05,"Negative price: real market event, worth a look",2024-06-23
+1030,price,2024-06-23 16:00:00,LU,Negative value,Low,1,-0.27,"Negative price: real market event, worth a look",2024-06-23
+1031,price,2024-06-25 13:00:00,LU,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-06-25
+1032,price,2024-06-25 14:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-06-25
+1033,price,2024-06-28 12:00:00,LU,Negative value,Low,1,-1.56,"Negative price: real market event, worth a look",2024-06-28
+1034,price,2024-06-28 13:00:00,LU,Negative value,Low,1,-5.09,"Negative price: real market event, worth a look",2024-06-28
+1035,price,2024-06-28 14:00:00,LU,Negative value,Low,1,-9.95,"Negative price: real market event, worth a look",2024-06-28
+1036,price,2024-06-28 15:00:00,LU,Negative value,Low,1,-9.91,"Negative price: real market event, worth a look",2024-06-28
+1037,price,2024-06-28 16:00:00,LU,Negative value,Low,1,-6.48,"Negative price: real market event, worth a look",2024-06-28
+1038,price,2024-06-29 12:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-06-29
+1039,price,2024-06-29 13:00:00,LU,Negative value,Low,1,-0.23,"Negative price: real market event, worth a look",2024-06-29
+1040,price,2024-06-29 14:00:00,LU,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-06-29
+1041,price,2024-06-30 12:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-06-30
+1042,price,2024-06-30 13:00:00,LU,Negative value,Low,1,-1.51,"Negative price: real market event, worth a look",2024-06-30
+1043,price,2024-06-30 14:00:00,LU,Negative value,Low,1,-1.09,"Negative price: real market event, worth a look",2024-06-30
+1044,price,2024-07-04 12:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-07-04
+1045,price,2024-07-04 13:00:00,LU,Negative value,Low,1,-5.03,"Negative price: real market event, worth a look",2024-07-04
+1046,price,2024-07-04 14:00:00,LU,Negative value,Low,1,-19.09,"Negative price: real market event, worth a look",2024-07-04
+1047,price,2024-07-04 15:00:00,LU,Negative value,Low,1,-18.03,"Negative price: real market event, worth a look",2024-07-04
+1048,price,2024-07-04 16:00:00,LU,Negative value,Low,1,-8.7,"Negative price: real market event, worth a look",2024-07-04
+1049,price,2024-07-04 17:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-07-04
+1050,price,2024-07-05 12:00:00,LU,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-07-05
+1051,price,2024-07-05 13:00:00,LU,Negative value,Low,1,-0.64,"Negative price: real market event, worth a look",2024-07-05
+1052,price,2024-07-05 14:00:00,LU,Negative value,Low,1,-0.78,"Negative price: real market event, worth a look",2024-07-05
+1053,price,2024-07-05 15:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-07-05
+1054,price,2024-07-06 10:00:00,LU,Negative value,Low,1,-9.92,"Negative price: real market event, worth a look",2024-07-06
+1055,price,2024-07-06 11:00:00,LU,Negative value,Low,1,-28.87,"Negative price: real market event, worth a look",2024-07-06
+1056,price,2024-07-06 12:00:00,LU,Negative value,Low,1,-32.69,"Negative price: real market event, worth a look",2024-07-06
+1057,price,2024-07-06 13:00:00,LU,Negative value,Low,1,-44.1,"Negative price: real market event, worth a look",2024-07-06
+1058,price,2024-07-06 14:00:00,LU,Negative value,Low,1,-48.07,"Negative price: real market event, worth a look",2024-07-06
+1059,price,2024-07-06 15:00:00,LU,Negative value,Low,1,-34.84,"Negative price: real market event, worth a look",2024-07-06
+1060,price,2024-07-06 16:00:00,LU,Negative value,Low,1,-13.68,"Negative price: real market event, worth a look",2024-07-06
+1061,price,2024-07-06 17:00:00,LU,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-07-06
+1062,price,2024-07-07 00:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-07-07
+1063,price,2024-07-07 01:00:00,LU,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-07-07
+1064,price,2024-07-07 02:00:00,LU,Negative value,Low,1,-0.8,"Negative price: real market event, worth a look",2024-07-07
+1065,price,2024-07-07 03:00:00,LU,Negative value,Low,1,-0.48,"Negative price: real market event, worth a look",2024-07-07
+1066,price,2024-07-07 04:00:00,LU,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-07-07
+1067,price,2024-07-07 05:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-07
+1068,price,2024-07-07 06:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-07
+1069,price,2024-07-07 07:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-07
+1070,price,2024-07-07 08:00:00,LU,Negative value,Low,1,-0.6,"Negative price: real market event, worth a look",2024-07-07
+1071,price,2024-07-07 09:00:00,LU,Negative value,Low,1,-6.49,"Negative price: real market event, worth a look",2024-07-07
+1072,price,2024-07-07 10:00:00,LU,Negative value,Low,1,-9.98,"Negative price: real market event, worth a look",2024-07-07
+1073,price,2024-07-07 11:00:00,LU,Negative value,Low,1,-12.04,"Negative price: real market event, worth a look",2024-07-07
+1074,price,2024-07-07 12:00:00,LU,Negative value,Low,1,-13.49,"Negative price: real market event, worth a look",2024-07-07
+1075,price,2024-07-07 13:00:00,LU,Negative value,Low,1,-22.37,"Negative price: real market event, worth a look",2024-07-07
+1076,price,2024-07-07 14:00:00,LU,Negative value,Low,1,-20.98,"Negative price: real market event, worth a look",2024-07-07
+1077,price,2024-07-07 15:00:00,LU,Negative value,Low,1,-12.2,"Negative price: real market event, worth a look",2024-07-07
+1078,price,2024-07-07 16:00:00,LU,Negative value,Low,1,-6.16,"Negative price: real market event, worth a look",2024-07-07
+1079,price,2024-07-07 17:00:00,LU,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-07-07
+1080,price,2024-07-13 12:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-13
+1081,price,2024-07-13 13:00:00,LU,Negative value,Low,1,-5.0,"Negative price: real market event, worth a look",2024-07-13
+1082,price,2024-07-13 14:00:00,LU,Negative value,Low,1,-14.9,"Negative price: real market event, worth a look",2024-07-13
+1083,price,2024-07-13 15:00:00,LU,Negative value,Low,1,-11.47,"Negative price: real market event, worth a look",2024-07-13
+1084,price,2024-07-13 16:00:00,LU,Negative value,Low,1,-3.48,"Negative price: real market event, worth a look",2024-07-13
+1085,price,2024-07-13 17:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-13
+1086,price,2024-07-14 09:00:00,LU,Negative value,Low,1,-3.31,"Negative price: real market event, worth a look",2024-07-14
+1087,price,2024-07-14 10:00:00,LU,Negative value,Low,1,-21.13,"Negative price: real market event, worth a look",2024-07-14
+1088,price,2024-07-14 11:00:00,LU,Negative value,Low,1,-40.08,"Negative price: real market event, worth a look",2024-07-14
+1089,price,2024-07-14 12:00:00,LU,Negative value,Low,1,-59.47,"Negative price: real market event, worth a look",2024-07-14
+1090,price,2024-07-14 13:00:00,LU,Negative value,Low,1,-73.96,"Negative price: real market event, worth a look",2024-07-14
+1091,price,2024-07-14 14:00:00,LU,Negative value,Low,1,-73.96,"Negative price: real market event, worth a look",2024-07-14
+1092,price,2024-07-14 15:00:00,LU,Negative value,Low,1,-51.82,"Negative price: real market event, worth a look",2024-07-14
+1093,price,2024-07-14 16:00:00,LU,Negative value,Low,1,-20.03,"Negative price: real market event, worth a look",2024-07-14
+1094,price,2024-07-14 17:00:00,LU,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-07-14
+1095,price,2024-07-15 13:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-07-15
+1096,price,2024-07-15 14:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-07-15
+1097,price,2024-07-16 12:00:00,LU,Negative value,Low,1,-8.03,"Negative price: real market event, worth a look",2024-07-16
+1098,price,2024-07-16 13:00:00,LU,Negative value,Low,1,-11.03,"Negative price: real market event, worth a look",2024-07-16
+1099,price,2024-07-16 14:00:00,LU,Negative value,Low,1,-11.48,"Negative price: real market event, worth a look",2024-07-16
+1100,price,2024-07-16 15:00:00,LU,Negative value,Low,1,-11.14,"Negative price: real market event, worth a look",2024-07-16
+1101,price,2024-07-16 16:00:00,LU,Negative value,Low,1,-2.3,"Negative price: real market event, worth a look",2024-07-16
+1102,price,2024-07-20 12:00:00,LU,Negative value,Low,1,-4.65,"Negative price: real market event, worth a look",2024-07-20
+1103,price,2024-07-20 13:00:00,LU,Negative value,Low,1,-4.29,"Negative price: real market event, worth a look",2024-07-20
+1104,price,2024-07-20 14:00:00,LU,Negative value,Low,1,-2.88,"Negative price: real market event, worth a look",2024-07-20
+1105,price,2024-07-20 15:00:00,LU,Negative value,Low,1,-2.71,"Negative price: real market event, worth a look",2024-07-20
+1106,price,2024-07-21 13:00:00,LU,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-07-21
+1107,price,2024-07-21 14:00:00,LU,Negative value,Low,1,-0.21,"Negative price: real market event, worth a look",2024-07-21
+1108,price,2024-07-24 13:00:00,LU,Negative value,Low,1,-0.15,"Negative price: real market event, worth a look",2024-07-24
+1109,price,2024-07-24 14:00:00,LU,Negative value,Low,1,-2.06,"Negative price: real market event, worth a look",2024-07-24
+1110,price,2024-07-24 15:00:00,LU,Negative value,Low,1,-1.96,"Negative price: real market event, worth a look",2024-07-24
+1111,price,2024-07-28 11:00:00,LU,Negative value,Low,1,-2.43,"Negative price: real market event, worth a look",2024-07-28
+1112,price,2024-07-28 12:00:00,LU,Negative value,Low,1,-16.63,"Negative price: real market event, worth a look",2024-07-28
+1113,price,2024-07-28 13:00:00,LU,Negative value,Low,1,-39.91,"Negative price: real market event, worth a look",2024-07-28
+1114,price,2024-07-28 14:00:00,LU,Negative value,Low,1,-48.69,"Negative price: real market event, worth a look",2024-07-28
+1115,price,2024-07-28 15:00:00,LU,Negative value,Low,1,-33.53,"Negative price: real market event, worth a look",2024-07-28
+1116,price,2024-07-28 16:00:00,LU,Negative value,Low,1,-13.77,"Negative price: real market event, worth a look",2024-07-28
+1117,price,2024-07-28 17:00:00,LU,Negative value,Low,1,-1.99,"Negative price: real market event, worth a look",2024-07-28
+1118,price,2024-07-29 11:00:00,LU,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-07-29
+1119,price,2024-07-29 12:00:00,LU,Negative value,Low,1,-0.19,"Negative price: real market event, worth a look",2024-07-29
+1120,price,2024-07-29 13:00:00,LU,Negative value,Low,1,-1.7,"Negative price: real market event, worth a look",2024-07-29
+1121,price,2024-07-29 14:00:00,LU,Negative value,Low,1,-0.98,"Negative price: real market event, worth a look",2024-07-29
+1122,price,2024-07-29 15:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-07-29
+1123,price,2024-07-30 13:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-07-30
+1124,price,2024-07-30 14:00:00,LU,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-07-30
+1125,price,2024-08-04 13:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-08-04
+1126,price,2024-08-04 14:00:00,LU,Negative value,Low,1,-2.16,"Negative price: real market event, worth a look",2024-08-04
+1127,price,2024-08-04 15:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-04
+1128,price,2024-08-09 12:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-08-09
+1129,price,2024-08-09 13:00:00,LU,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-08-09
+1130,price,2024-08-09 14:00:00,LU,Negative value,Low,1,-0.8,"Negative price: real market event, worth a look",2024-08-09
+1131,price,2024-08-09 15:00:00,LU,Negative value,Low,1,-0.11,"Negative price: real market event, worth a look",2024-08-09
+1132,price,2024-08-09 16:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-09
+1133,price,2024-08-10 10:00:00,LU,Negative value,Low,1,-3.0,"Negative price: real market event, worth a look",2024-08-10
+1134,price,2024-08-10 11:00:00,LU,Negative value,Low,1,-12.2,"Negative price: real market event, worth a look",2024-08-10
+1135,price,2024-08-10 12:00:00,LU,Negative value,Low,1,-22.49,"Negative price: real market event, worth a look",2024-08-10
+1136,price,2024-08-10 13:00:00,LU,Negative value,Low,1,-40.77,"Negative price: real market event, worth a look",2024-08-10
+1137,price,2024-08-10 14:00:00,LU,Negative value,Low,1,-40.09,"Negative price: real market event, worth a look",2024-08-10
+1138,price,2024-08-10 15:00:00,LU,Negative value,Low,1,-29.67,"Negative price: real market event, worth a look",2024-08-10
+1139,price,2024-08-10 16:00:00,LU,Negative value,Low,1,-8.2,"Negative price: real market event, worth a look",2024-08-10
+1140,price,2024-08-11 10:00:00,LU,Negative value,Low,1,-5.01,"Negative price: real market event, worth a look",2024-08-11
+1141,price,2024-08-11 11:00:00,LU,Negative value,Low,1,-14.99,"Negative price: real market event, worth a look",2024-08-11
+1142,price,2024-08-11 12:00:00,LU,Negative value,Low,1,-32.04,"Negative price: real market event, worth a look",2024-08-11
+1143,price,2024-08-11 13:00:00,LU,Negative value,Low,1,-59.96,"Negative price: real market event, worth a look",2024-08-11
+1144,price,2024-08-11 14:00:00,LU,Negative value,Low,1,-50.09,"Negative price: real market event, worth a look",2024-08-11
+1145,price,2024-08-11 15:00:00,LU,Negative value,Low,1,-31.42,"Negative price: real market event, worth a look",2024-08-11
+1146,price,2024-08-11 16:00:00,LU,Negative value,Low,1,-4.97,"Negative price: real market event, worth a look",2024-08-11
+1147,price,2024-08-15 14:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-08-15
+1148,price,2024-08-21 11:00:00,LU,Negative value,Low,1,-4.95,"Negative price: real market event, worth a look",2024-08-21
+1149,price,2024-08-21 12:00:00,LU,Negative value,Low,1,-13.01,"Negative price: real market event, worth a look",2024-08-21
+1150,price,2024-08-21 13:00:00,LU,Negative value,Low,1,-20.32,"Negative price: real market event, worth a look",2024-08-21
+1151,price,2024-08-21 14:00:00,LU,Negative value,Low,1,-21.28,"Negative price: real market event, worth a look",2024-08-21
+1152,price,2024-08-21 15:00:00,LU,Negative value,Low,1,-16.05,"Negative price: real market event, worth a look",2024-08-21
+1153,price,2024-08-21 16:00:00,LU,Negative value,Low,1,-12.64,"Negative price: real market event, worth a look",2024-08-21
+1154,price,2024-08-22 12:00:00,LU,Negative value,Low,1,-0.38,"Negative price: real market event, worth a look",2024-08-22
+1155,price,2024-08-22 13:00:00,LU,Negative value,Low,1,-2.56,"Negative price: real market event, worth a look",2024-08-22
+1156,price,2024-08-22 14:00:00,LU,Negative value,Low,1,-1.51,"Negative price: real market event, worth a look",2024-08-22
+1157,price,2024-08-22 15:00:00,LU,Negative value,Low,1,-4.35,"Negative price: real market event, worth a look",2024-08-22
+1158,price,2024-08-22 16:00:00,LU,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-08-22
+1159,price,2024-08-23 10:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-23
+1160,price,2024-08-23 11:00:00,LU,Negative value,Low,1,-3.97,"Negative price: real market event, worth a look",2024-08-23
+1161,price,2024-08-23 12:00:00,LU,Negative value,Low,1,-9.54,"Negative price: real market event, worth a look",2024-08-23
+1162,price,2024-08-23 13:00:00,LU,Negative value,Low,1,-15.32,"Negative price: real market event, worth a look",2024-08-23
+1163,price,2024-08-23 14:00:00,LU,Negative value,Low,1,-16.55,"Negative price: real market event, worth a look",2024-08-23
+1164,price,2024-08-23 15:00:00,LU,Negative value,Low,1,-10.15,"Negative price: real market event, worth a look",2024-08-23
+1165,price,2024-08-23 16:00:00,LU,Negative value,Low,1,-9.18,"Negative price: real market event, worth a look",2024-08-23
+1166,price,2024-08-23 17:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-08-23
+1167,price,2024-08-24 10:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-08-24
+1168,price,2024-08-24 11:00:00,LU,Negative value,Low,1,-6.85,"Negative price: real market event, worth a look",2024-08-24
+1169,price,2024-08-24 12:00:00,LU,Negative value,Low,1,-18.68,"Negative price: real market event, worth a look",2024-08-24
+1170,price,2024-08-24 13:00:00,LU,Negative value,Low,1,-40.09,"Negative price: real market event, worth a look",2024-08-24
+1171,price,2024-08-24 14:00:00,LU,Negative value,Low,1,-44.18,"Negative price: real market event, worth a look",2024-08-24
+1172,price,2024-08-24 15:00:00,LU,Negative value,Low,1,-27.64,"Negative price: real market event, worth a look",2024-08-24
+1173,price,2024-08-24 16:00:00,LU,Negative value,Low,1,-8.15,"Negative price: real market event, worth a look",2024-08-24
+1174,price,2024-08-24 17:00:00,LU,Negative value,Low,1,-0.99,"Negative price: real market event, worth a look",2024-08-24
+1175,price,2024-08-25 01:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-08-25
+1176,price,2024-08-25 02:00:00,LU,Negative value,Low,1,-0.34,"Negative price: real market event, worth a look",2024-08-25
+1177,price,2024-08-25 03:00:00,LU,Negative value,Low,1,-1.0,"Negative price: real market event, worth a look",2024-08-25
+1178,price,2024-08-25 04:00:00,LU,Negative value,Low,1,-0.89,"Negative price: real market event, worth a look",2024-08-25
+1179,price,2024-08-25 05:00:00,LU,Negative value,Low,1,-0.42,"Negative price: real market event, worth a look",2024-08-25
+1180,price,2024-08-25 06:00:00,LU,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-08-25
+1181,price,2024-08-25 07:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-25
+1182,price,2024-08-25 08:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-08-25
+1183,price,2024-08-25 09:00:00,LU,Negative value,Low,1,-1.39,"Negative price: real market event, worth a look",2024-08-25
+1184,price,2024-08-25 10:00:00,LU,Negative value,Low,1,-6.07,"Negative price: real market event, worth a look",2024-08-25
+1185,price,2024-08-25 11:00:00,LU,Negative value,Low,1,-10.1,"Negative price: real market event, worth a look",2024-08-25
+1186,price,2024-08-25 12:00:00,LU,Negative value,Low,1,-15.5,"Negative price: real market event, worth a look",2024-08-25
+1187,price,2024-08-25 13:00:00,LU,Negative value,Low,1,-20.01,"Negative price: real market event, worth a look",2024-08-25
+1188,price,2024-08-25 14:00:00,LU,Negative value,Low,1,-19.83,"Negative price: real market event, worth a look",2024-08-25
+1189,price,2024-08-25 15:00:00,LU,Negative value,Low,1,-10.15,"Negative price: real market event, worth a look",2024-08-25
+1190,price,2024-08-25 16:00:00,LU,Negative value,Low,1,-5.01,"Negative price: real market event, worth a look",2024-08-25
+1191,price,2024-08-31 13:00:00,LU,Negative value,Low,1,-0.59,"Negative price: real market event, worth a look",2024-08-31
+1192,price,2024-08-31 14:00:00,LU,Negative value,Low,1,-0.8,"Negative price: real market event, worth a look",2024-08-31
+1193,price,2024-09-01 11:00:00,LU,Negative value,Low,1,-0.79,"Negative price: real market event, worth a look",2024-09-01
+1194,price,2024-09-01 12:00:00,LU,Negative value,Low,1,-9.17,"Negative price: real market event, worth a look",2024-09-01
+1195,price,2024-09-01 13:00:00,LU,Negative value,Low,1,-24.0,"Negative price: real market event, worth a look",2024-09-01
+1196,price,2024-09-01 14:00:00,LU,Negative value,Low,1,-19.94,"Negative price: real market event, worth a look",2024-09-01
+1197,price,2024-09-01 15:00:00,LU,Negative value,Low,1,-4.99,"Negative price: real market event, worth a look",2024-09-01
+1198,price,2024-09-05 12:00:00,LU,Negative value,Low,1,-3.05,"Negative price: real market event, worth a look",2024-09-05
+1199,price,2024-09-05 13:00:00,LU,Negative value,Low,1,-11.7,"Negative price: real market event, worth a look",2024-09-05
+1200,price,2024-09-05 14:00:00,LU,Negative value,Low,1,-19.68,"Negative price: real market event, worth a look",2024-09-05
+1201,price,2024-09-05 15:00:00,LU,Negative value,Low,1,-7.02,"Negative price: real market event, worth a look",2024-09-05
+1202,price,2024-09-05 16:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-05
+1203,price,2024-09-10 13:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-09-10
+1204,price,2024-09-10 14:00:00,LU,Negative value,Low,1,-0.16,"Negative price: real market event, worth a look",2024-09-10
+1205,price,2024-09-10 15:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-09-10
+1206,price,2024-09-14 13:00:00,LU,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-09-14
+1207,price,2024-09-14 14:00:00,LU,Negative value,Low,1,-0.46,"Negative price: real market event, worth a look",2024-09-14
+1208,price,2024-09-14 15:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-09-14
+1209,price,2024-09-15 13:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-15
+1210,price,2024-09-15 14:00:00,LU,Negative value,Low,1,-0.41,"Negative price: real market event, worth a look",2024-09-15
+1211,price,2024-09-15 15:00:00,LU,Negative value,Low,1,-0.27,"Negative price: real market event, worth a look",2024-09-15
+1212,price,2024-09-18 14:00:00,LU,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-09-18
+1213,price,2024-09-19 13:00:00,LU,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-09-19
+1214,price,2024-09-19 14:00:00,LU,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-09-19
+1215,price,2024-09-20 13:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-20
+1216,price,2024-09-21 13:00:00,LU,Negative value,Low,1,-3.36,"Negative price: real market event, worth a look",2024-09-21
+1217,price,2024-09-21 14:00:00,LU,Negative value,Low,1,-3.95,"Negative price: real market event, worth a look",2024-09-21
+1218,price,2024-09-22 13:00:00,LU,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-09-22
+1219,price,2024-09-27 00:00:00,LU,Negative value,Low,1,-0.06,"Negative price: real market event, worth a look",2024-09-27
+1220,price,2024-09-27 02:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-27
+1221,price,2024-09-27 03:00:00,LU,Negative value,Low,1,-0.59,"Negative price: real market event, worth a look",2024-09-27
+1222,price,2024-09-27 04:00:00,LU,Negative value,Low,1,-0.2,"Negative price: real market event, worth a look",2024-09-27
+1223,price,2024-09-27 05:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-09-27
+1224,price,2024-09-27 10:00:00,LU,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-09-27
+1225,price,2024-09-27 11:00:00,LU,Negative value,Low,1,-3.75,"Negative price: real market event, worth a look",2024-09-27
+1226,price,2024-09-27 12:00:00,LU,Negative value,Low,1,-5.56,"Negative price: real market event, worth a look",2024-09-27
+1227,price,2024-09-27 13:00:00,LU,Negative value,Low,1,-6.32,"Negative price: real market event, worth a look",2024-09-27
+1228,price,2024-09-27 14:00:00,LU,Negative value,Low,1,-5.05,"Negative price: real market event, worth a look",2024-09-27
+1229,price,2024-09-27 15:00:00,LU,Negative value,Low,1,-0.11,"Negative price: real market event, worth a look",2024-09-27
+1230,price,2024-09-29 12:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-09-29
+1231,price,2024-09-29 13:00:00,LU,Negative value,Low,1,-0.5,"Negative price: real market event, worth a look",2024-09-29
+1232,price,2024-09-29 14:00:00,LU,Negative value,Low,1,-0.45,"Negative price: real market event, worth a look",2024-09-29
+1233,price,2024-10-06 13:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-10-06
+1234,price,2024-10-06 14:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-10-06
+1235,price,2024-10-13 01:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-10-13
+1236,price,2024-10-13 02:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-10-13
+1237,price,2024-10-13 03:00:00,LU,Negative value,Low,1,-0.37,"Negative price: real market event, worth a look",2024-10-13
+1238,price,2024-10-13 04:00:00,LU,Negative value,Low,1,-0.51,"Negative price: real market event, worth a look",2024-10-13
+1239,price,2024-10-13 05:00:00,LU,Negative value,Low,1,-0.09,"Negative price: real market event, worth a look",2024-10-13
+1240,price,2024-10-13 06:00:00,LU,Negative value,Low,1,-0.3,"Negative price: real market event, worth a look",2024-10-13
+1241,price,2024-10-13 07:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-10-13
+1242,price,2024-10-13 08:00:00,LU,Negative value,Low,1,-0.07,"Negative price: real market event, worth a look",2024-10-13
+1243,price,2024-10-13 09:00:00,LU,Negative value,Low,1,-0.86,"Negative price: real market event, worth a look",2024-10-13
+1244,price,2024-10-13 10:00:00,LU,Negative value,Low,1,-0.64,"Negative price: real market event, worth a look",2024-10-13
+1245,price,2024-10-13 11:00:00,LU,Negative value,Low,1,-1.97,"Negative price: real market event, worth a look",2024-10-13
+1246,price,2024-10-13 12:00:00,LU,Negative value,Low,1,-7.49,"Negative price: real market event, worth a look",2024-10-13
+1247,price,2024-10-13 13:00:00,LU,Negative value,Low,1,-15.16,"Negative price: real market event, worth a look",2024-10-13
+1248,price,2024-10-13 14:00:00,LU,Negative value,Low,1,-15.69,"Negative price: real market event, worth a look",2024-10-13
+1249,price,2024-10-13 15:00:00,LU,Negative value,Low,1,-5.01,"Negative price: real market event, worth a look",2024-10-13
+1250,price,2024-10-13 16:00:00,LU,Negative value,Low,1,-1.99,"Negative price: real market event, worth a look",2024-10-13
+1251,price,2024-10-20 13:00:00,LU,Negative value,Low,1,-0.98,"Negative price: real market event, worth a look",2024-10-20
+1252,price,2024-10-20 14:00:00,LU,Negative value,Low,1,-2.01,"Negative price: real market event, worth a look",2024-10-20
+1253,price,2024-10-21 00:00:00,LU,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-10-21
+1254,price,2024-10-21 01:00:00,LU,Negative value,Low,1,-0.1,"Negative price: real market event, worth a look",2024-10-21
+1255,price,2024-10-21 02:00:00,LU,Negative value,Low,1,-0.14,"Negative price: real market event, worth a look",2024-10-21
+1256,price,2024-10-21 03:00:00,LU,Negative value,Low,1,-0.08,"Negative price: real market event, worth a look",2024-10-21
+1257,price,2024-10-21 04:00:00,LU,Negative value,Low,1,-0.04,"Negative price: real market event, worth a look",2024-10-21
+1258,price,2024-11-24 03:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-11-24
+1259,price,2024-11-24 04:00:00,LU,Negative value,Low,1,-0.02,"Negative price: real market event, worth a look",2024-11-24
+1260,price,2024-11-24 05:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-11-24
+1261,price,2024-11-24 06:00:00,LU,Negative value,Low,1,-0.05,"Negative price: real market event, worth a look",2024-11-24
+1262,price,2024-11-24 07:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-11-24
+1263,price,2024-11-25 00:00:00,LU,Negative value,Low,1,-1.25,"Negative price: real market event, worth a look",2024-11-25
+1264,price,2024-11-25 01:00:00,LU,Negative value,Low,1,-1.59,"Negative price: real market event, worth a look",2024-11-25
+1265,price,2024-11-25 02:00:00,LU,Negative value,Low,1,-1.42,"Negative price: real market event, worth a look",2024-11-25
+1266,price,2024-11-25 03:00:00,LU,Negative value,Low,1,-1.86,"Negative price: real market event, worth a look",2024-11-25
+1267,price,2024-11-25 04:00:00,LU,Negative value,Low,1,-1.42,"Negative price: real market event, worth a look",2024-11-25
+1268,price,2024-11-25 05:00:00,LU,Negative value,Low,1,-0.28,"Negative price: real market event, worth a look",2024-11-25
+1269,price,2024-12-16 04:00:00,LU,Negative value,Low,1,-0.01,"Negative price: real market event, worth a look",2024-12-16
+1270,price,2024-12-22 01:00:00,LU,Negative value,Low,1,-0.03,"Negative price: real market event, worth a look",2024-12-22
+1271,price,2024-12-22 02:00:00,LU,Negative value,Low,1,-0.46,"Negative price: real market event, worth a look",2024-12-22
+1272,price,2024-12-22 03:00:00,LU,Negative value,Low,1,-1.04,"Negative price: real market event, worth a look",2024-12-22
+1273,price,2024-12-22 04:00:00,LU,Negative value,Low,1,-2.06,"Negative price: real market event, worth a look",2024-12-22
+1274,price,2024-12-22 05:00:00,LU,Negative value,Low,1,-0.47,"Negative price: real market event, worth a look",2024-12-22
+1275,price,2024-12-22 06:00:00,LU,Negative value,Low,1,-0.68,"Negative price: real market event, worth a look",2024-12-22
+1276,price,2024-12-22 07:00:00,LU,Negative value,Low,1,-0.12,"Negative price: real market event, worth a look",2024-12-22
+1277,price,2024-02-07 18:00:00,DE,Price spike,Medium,2,136.22,Monthly average is 61.3 EUR/MWh,2024-02-07
+1278,price,2024-02-08 08:00:00,DE,Price spike,Medium,2,133.15,Monthly average is 61.3 EUR/MWh,2024-02-08
+1279,price,2024-03-18 18:00:00,DE,Price spike,Medium,2,145.71,Monthly average is 64.7 EUR/MWh,2024-03-18
+1280,price,2024-03-20 18:00:00,DE,Price spike,Medium,2,168.54,Monthly average is 64.7 EUR/MWh,2024-03-20
+1281,price,2024-03-20 19:00:00,DE,Price spike,Medium,2,159.05,Monthly average is 64.7 EUR/MWh,2024-03-20
+1282,price,2024-03-25 18:00:00,DE,Price spike,Medium,2,174.7,Monthly average is 64.7 EUR/MWh,2024-03-25
+1283,price,2024-03-25 19:00:00,DE,Price spike,Medium,2,149.75,Monthly average is 64.7 EUR/MWh,2024-03-25
+1284,price,2024-04-10 19:00:00,DE,Price spike,Medium,2,191.15,Monthly average is 62.4 EUR/MWh,2024-04-10
+1285,price,2024-04-10 20:00:00,DE,Price spike,Medium,2,191.19,Monthly average is 62.4 EUR/MWh,2024-04-10
+1286,price,2024-04-28 14:00:00,DE,Price spike,Medium,2,-65.06,Monthly average is 62.4 EUR/MWh,2024-04-28
+1287,price,2024-04-29 20:00:00,DE,Price spike,Medium,2,204.57,Monthly average is 62.4 EUR/MWh,2024-04-29
+1288,price,2024-05-01 12:00:00,DE,Price spike,Medium,2,-91.9,Monthly average is 67.2 EUR/MWh,2024-05-01
+1289,price,2024-05-01 13:00:00,DE,Price spike,Medium,2,-120.0,Monthly average is 67.2 EUR/MWh,2024-05-01
+1290,price,2024-05-01 14:00:00,DE,Price spike,Medium,2,-120.07,Monthly average is 67.2 EUR/MWh,2024-05-01
+1291,price,2024-05-01 15:00:00,DE,Price spike,Medium,2,-79.98,Monthly average is 67.2 EUR/MWh,2024-05-01
+1292,price,2024-05-12 11:00:00,DE,Price spike,Medium,2,-69.64,Monthly average is 67.2 EUR/MWh,2024-05-12
+1293,price,2024-05-12 12:00:00,DE,Price spike,Medium,2,-100.06,Monthly average is 67.2 EUR/MWh,2024-05-12
+1294,price,2024-05-12 13:00:00,DE,Price spike,Medium,2,-135.45,Monthly average is 67.2 EUR/MWh,2024-05-12
+1295,price,2024-05-12 14:00:00,DE,Price spike,Medium,2,-132.85,Monthly average is 67.2 EUR/MWh,2024-05-12
+1296,price,2024-05-12 15:00:00,DE,Price spike,Medium,2,-85.08,Monthly average is 67.2 EUR/MWh,2024-05-12
+1297,price,2024-05-27 20:00:00,DE,Price spike,Medium,2,221.46,Monthly average is 67.2 EUR/MWh,2024-05-27
+1298,price,2024-06-04 20:00:00,DE,Price spike,Medium,2,235.52,Monthly average is 72.9 EUR/MWh,2024-06-04
+1299,price,2024-06-15 14:00:00,DE,Price spike,Medium,2,-80.01,Monthly average is 72.9 EUR/MWh,2024-06-15
+1300,price,2024-07-08 20:00:00,DE,Price spike,Medium,2,257.35,Monthly average is 67.7 EUR/MWh,2024-07-08
+1301,price,2024-07-14 13:00:00,DE,Price spike,Medium,2,-73.96,Monthly average is 67.7 EUR/MWh,2024-07-14
+1302,price,2024-07-14 14:00:00,DE,Price spike,Medium,2,-73.96,Monthly average is 67.7 EUR/MWh,2024-07-14
+1303,price,2024-07-15 20:00:00,DE,Price spike,Medium,2,224.96,Monthly average is 67.7 EUR/MWh,2024-07-15
+1304,price,2024-07-18 20:00:00,DE,Price spike,Medium,2,227.6,Monthly average is 67.7 EUR/MWh,2024-07-18
+1305,price,2024-08-05 20:00:00,DE,Price spike,Medium,2,250.01,Monthly average is 82.0 EUR/MWh,2024-08-05
+1306,price,2024-08-16 20:00:00,DE,Price spike,Medium,2,243.12,Monthly average is 82.0 EUR/MWh,2024-08-16
+1307,price,2024-08-26 20:00:00,DE,Price spike,Medium,2,231.06,Monthly average is 82.0 EUR/MWh,2024-08-26
+1308,price,2024-08-27 19:00:00,DE,Price spike,Medium,2,232.25,Monthly average is 82.0 EUR/MWh,2024-08-27
+1309,price,2024-08-29 20:00:00,DE,Price spike,Medium,2,289.27,Monthly average is 82.0 EUR/MWh,2024-08-29
+1310,price,2024-09-03 20:00:00,DE,Price spike,Medium,2,520.32,Monthly average is 81.6 EUR/MWh,2024-09-03
+1311,price,2024-10-07 18:00:00,DE,Price spike,Medium,2,237.65,Monthly average is 86.1 EUR/MWh,2024-10-07
+1312,price,2024-10-07 19:00:00,DE,Price spike,Medium,2,229.53,Monthly average is 86.1 EUR/MWh,2024-10-07
+1313,price,2024-10-14 18:00:00,DE,Price spike,Medium,2,257.1,Monthly average is 86.1 EUR/MWh,2024-10-14
+1314,price,2024-10-14 19:00:00,DE,Price spike,Medium,2,269.74,Monthly average is 86.1 EUR/MWh,2024-10-14
+1315,price,2024-10-21 18:00:00,DE,Price spike,Medium,2,222.11,Monthly average is 86.1 EUR/MWh,2024-10-21
+1316,price,2024-10-23 18:00:00,DE,Price spike,Medium,2,218.18,Monthly average is 86.1 EUR/MWh,2024-10-23
+1317,price,2024-10-25 18:00:00,DE,Price spike,Medium,2,227.32,Monthly average is 86.1 EUR/MWh,2024-10-25
+1318,price,2024-10-29 17:00:00,DE,Price spike,Medium,2,285.8,Monthly average is 86.1 EUR/MWh,2024-10-29
+1319,price,2024-10-29 18:00:00,DE,Price spike,Medium,2,257.44,Monthly average is 86.1 EUR/MWh,2024-10-29
+1320,price,2024-11-05 16:00:00,DE,Price spike,Medium,2,331.83,Monthly average is 113.9 EUR/MWh,2024-11-05
+1321,price,2024-11-05 19:00:00,DE,Price spike,Medium,2,341.7,Monthly average is 113.9 EUR/MWh,2024-11-05
+1322,price,2024-11-07 17:00:00,DE,Price spike,Medium,2,408.26,Monthly average is 113.9 EUR/MWh,2024-11-07
+1323,price,2024-11-12 17:00:00,DE,Price spike,Medium,2,317.89,Monthly average is 113.9 EUR/MWh,2024-11-12
+1324,price,2024-12-11 12:00:00,DE,Price spike,Medium,2,385.87,Monthly average is 108.3 EUR/MWh,2024-12-11
+1325,price,2024-12-11 13:00:00,DE,Price spike,Medium,2,404.91,Monthly average is 108.3 EUR/MWh,2024-12-11
+1326,price,2024-12-11 16:00:00,DE,Price spike,Medium,2,437.87,Monthly average is 108.3 EUR/MWh,2024-12-11
+1327,price,2024-12-11 17:00:00,DE,Price spike,Medium,2,445.08,Monthly average is 108.3 EUR/MWh,2024-12-11
+1328,price,2024-12-12 10:00:00,DE,Price spike,Medium,2,543.83,Monthly average is 108.3 EUR/MWh,2024-12-12
+1329,price,2024-12-12 11:00:00,DE,Price spike,Medium,2,465.36,Monthly average is 108.3 EUR/MWh,2024-12-12
+1330,price,2024-12-12 12:00:00,DE,Price spike,Medium,2,404.99,Monthly average is 108.3 EUR/MWh,2024-12-12
+1331,price,2024-12-12 13:00:00,DE,Price spike,Medium,2,415.3,Monthly average is 108.3 EUR/MWh,2024-12-12
+1332,price,2024-12-12 14:00:00,DE,Price spike,Medium,2,490.34,Monthly average is 108.3 EUR/MWh,2024-12-12
+1333,price,2024-12-12 19:00:00,DE,Price spike,Medium,2,551.01,Monthly average is 108.3 EUR/MWh,2024-12-12
+1334,price,2024-01-01 00:00:00,AT,Price spike,Medium,2,0.1,Monthly average is 81.3 EUR/MWh,2024-01-01
+1335,price,2024-01-01 01:00:00,AT,Price spike,Medium,2,0.01,Monthly average is 81.3 EUR/MWh,2024-01-01
+1336,price,2024-01-01 02:00:00,AT,Price spike,Medium,2,0.02,Monthly average is 81.3 EUR/MWh,2024-01-01
+1337,price,2024-01-01 03:00:00,AT,Price spike,Medium,2,0.0,Monthly average is 81.3 EUR/MWh,2024-01-01
+1338,price,2024-01-01 04:00:00,AT,Price spike,Medium,2,-0.01,Monthly average is 81.3 EUR/MWh,2024-01-01
+1339,price,2024-01-01 05:00:00,AT,Price spike,Medium,2,-0.01,Monthly average is 81.3 EUR/MWh,2024-01-01
+1340,price,2024-01-01 06:00:00,AT,Price spike,Medium,2,0.0,Monthly average is 81.3 EUR/MWh,2024-01-01
+1341,price,2024-01-01 07:00:00,AT,Price spike,Medium,2,0.0,Monthly average is 81.3 EUR/MWh,2024-01-01
+1342,price,2024-01-01 08:00:00,AT,Price spike,Medium,2,0.0,Monthly average is 81.3 EUR/MWh,2024-01-01
+1343,price,2024-01-01 09:00:00,AT,Price spike,Medium,2,0.04,Monthly average is 81.3 EUR/MWh,2024-01-01
+1344,price,2024-01-01 10:00:00,AT,Price spike,Medium,2,0.06,Monthly average is 81.3 EUR/MWh,2024-01-01
+1345,price,2024-01-01 11:00:00,AT,Price spike,Medium,2,0.54,Monthly average is 81.3 EUR/MWh,2024-01-01
+1346,price,2024-01-01 12:00:00,AT,Price spike,Medium,2,2.24,Monthly average is 81.3 EUR/MWh,2024-01-01
+1347,price,2024-01-01 13:00:00,AT,Price spike,Medium,2,2.58,Monthly average is 81.3 EUR/MWh,2024-01-01
+1348,price,2024-02-04 03:00:00,AT,Price spike,Medium,2,9.91,Monthly average is 65.8 EUR/MWh,2024-02-04
+1349,price,2024-02-04 04:00:00,AT,Price spike,Medium,2,7.12,Monthly average is 65.8 EUR/MWh,2024-02-04
+1350,price,2024-02-04 13:00:00,AT,Price spike,Medium,2,11.73,Monthly average is 65.8 EUR/MWh,2024-02-04
+1351,price,2024-02-05 03:00:00,AT,Price spike,Medium,2,8.35,Monthly average is 65.8 EUR/MWh,2024-02-05
+1352,price,2024-02-05 04:00:00,AT,Price spike,Medium,2,5.48,Monthly average is 65.8 EUR/MWh,2024-02-05
+1353,price,2024-02-07 18:00:00,AT,Price spike,Medium,2,128.05,Monthly average is 65.8 EUR/MWh,2024-02-07
+1354,price,2024-02-08 08:00:00,AT,Price spike,Medium,2,124.86,Monthly average is 65.8 EUR/MWh,2024-02-08
+1355,price,2024-02-22 23:00:00,AT,Price spike,Medium,2,4.43,Monthly average is 65.8 EUR/MWh,2024-02-22
+1356,price,2024-02-23 00:00:00,AT,Price spike,Medium,2,10.73,Monthly average is 65.8 EUR/MWh,2024-02-23
+1357,price,2024-02-23 02:00:00,AT,Price spike,Medium,2,10.31,Monthly average is 65.8 EUR/MWh,2024-02-23
+1358,price,2024-02-23 03:00:00,AT,Price spike,Medium,2,7.96,Monthly average is 65.8 EUR/MWh,2024-02-23
+1359,price,2024-02-23 04:00:00,AT,Price spike,Medium,2,12.81,Monthly average is 65.8 EUR/MWh,2024-02-23
+1360,price,2024-03-20 18:00:00,AT,Price spike,Medium,2,168.54,Monthly average is 63.6 EUR/MWh,2024-03-20
+1361,price,2024-03-20 19:00:00,AT,Price spike,Medium,2,159.05,Monthly average is 63.6 EUR/MWh,2024-03-20
+1362,price,2024-03-25 18:00:00,AT,Price spike,Medium,2,174.7,Monthly average is 63.6 EUR/MWh,2024-03-25
+1363,price,2024-03-25 19:00:00,AT,Price spike,Medium,2,149.75,Monthly average is 63.6 EUR/MWh,2024-03-25
+1364,price,2024-03-31 10:00:00,AT,Price spike,Medium,2,-31.39,Monthly average is 63.6 EUR/MWh,2024-03-31
+1365,price,2024-04-23 07:00:00,AT,Price spike,Medium,2,181.26,Monthly average is 58.7 EUR/MWh,2024-04-23
+1366,price,2024-04-28 12:00:00,AT,Price spike,Medium,2,-117.74,Monthly average is 58.7 EUR/MWh,2024-04-28
+1367,price,2024-04-28 14:00:00,AT,Price spike,Medium,2,-65.06,Monthly average is 58.7 EUR/MWh,2024-04-28
+1368,price,2024-04-29 20:00:00,AT,Price spike,Medium,2,195.88,Monthly average is 58.7 EUR/MWh,2024-04-29
+1369,price,2024-05-01 12:00:00,AT,Price spike,Medium,2,-82.63,Monthly average is 64.1 EUR/MWh,2024-05-01
+1370,price,2024-05-01 13:00:00,AT,Price spike,Medium,2,-105.16,Monthly average is 64.1 EUR/MWh,2024-05-01
+1371,price,2024-05-01 14:00:00,AT,Price spike,Medium,2,-105.99,Monthly average is 64.1 EUR/MWh,2024-05-01
+1372,price,2024-05-01 15:00:00,AT,Price spike,Medium,2,-72.68,Monthly average is 64.1 EUR/MWh,2024-05-01
+1373,price,2024-05-12 11:00:00,AT,Price spike,Medium,2,-65.5,Monthly average is 64.1 EUR/MWh,2024-05-12
+1374,price,2024-05-12 12:00:00,AT,Price spike,Medium,2,-89.44,Monthly average is 64.1 EUR/MWh,2024-05-12
+1375,price,2024-05-12 13:00:00,AT,Price spike,Medium,2,-126.05,Monthly average is 64.1 EUR/MWh,2024-05-12
+1376,price,2024-05-12 14:00:00,AT,Price spike,Medium,2,-126.42,Monthly average is 64.1 EUR/MWh,2024-05-12
+1377,price,2024-05-12 15:00:00,AT,Price spike,Medium,2,-82.42,Monthly average is 64.1 EUR/MWh,2024-05-12
+1378,price,2024-05-27 20:00:00,AT,Price spike,Medium,2,210.84,Monthly average is 64.1 EUR/MWh,2024-05-27
+1379,price,2024-06-03 20:00:00,AT,Price spike,Medium,2,211.1,Monthly average is 67.4 EUR/MWh,2024-06-03
+1380,price,2024-06-04 20:00:00,AT,Price spike,Medium,2,214.1,Monthly average is 67.4 EUR/MWh,2024-06-04
+1381,price,2024-06-15 13:00:00,AT,Price spike,Medium,2,-68.37,Monthly average is 67.4 EUR/MWh,2024-06-15
+1382,price,2024-06-15 14:00:00,AT,Price spike,Medium,2,-83.62,Monthly average is 67.4 EUR/MWh,2024-06-15
+1383,price,2024-07-06 14:00:00,AT,Price spike,Medium,2,-71.12,Monthly average is 63.4 EUR/MWh,2024-07-06
+1384,price,2024-07-06 15:00:00,AT,Price spike,Medium,2,-54.63,Monthly average is 63.4 EUR/MWh,2024-07-06
+1385,price,2024-07-14 12:00:00,AT,Price spike,Medium,2,-63.93,Monthly average is 63.4 EUR/MWh,2024-07-14
+1386,price,2024-07-14 13:00:00,AT,Price spike,Medium,2,-74.78,Monthly average is 63.4 EUR/MWh,2024-07-14
+1387,price,2024-07-14 14:00:00,AT,Price spike,Medium,2,-92.34,Monthly average is 63.4 EUR/MWh,2024-07-14
+1388,price,2024-07-14 15:00:00,AT,Price spike,Medium,2,-61.89,Monthly average is 63.4 EUR/MWh,2024-07-14
+1389,price,2024-08-05 20:00:00,AT,Price spike,Medium,2,210.45,Monthly average is 85.1 EUR/MWh,2024-08-05
+1390,price,2024-08-06 20:00:00,AT,Price spike,Medium,2,213.63,Monthly average is 85.1 EUR/MWh,2024-08-06
+1391,price,2024-08-10 13:00:00,AT,Price spike,Medium,2,-29.87,Monthly average is 85.1 EUR/MWh,2024-08-10
+1392,price,2024-08-11 12:00:00,AT,Price spike,Medium,2,-30.64,Monthly average is 85.1 EUR/MWh,2024-08-11
+1393,price,2024-08-11 13:00:00,AT,Price spike,Medium,2,-57.88,Monthly average is 85.1 EUR/MWh,2024-08-11
+1394,price,2024-08-11 14:00:00,AT,Price spike,Medium,2,-49.66,Monthly average is 85.1 EUR/MWh,2024-08-11
+1395,price,2024-08-12 20:00:00,AT,Price spike,Medium,2,202.73,Monthly average is 85.1 EUR/MWh,2024-08-12
+1396,price,2024-08-24 13:00:00,AT,Price spike,Medium,2,-30.11,Monthly average is 85.1 EUR/MWh,2024-08-24
+1397,price,2024-08-26 20:00:00,AT,Price spike,Medium,2,209.63,Monthly average is 85.1 EUR/MWh,2024-08-26
+1398,price,2024-08-27 19:00:00,AT,Price spike,Medium,2,213.31,Monthly average is 85.1 EUR/MWh,2024-08-27
+1399,price,2024-08-27 20:00:00,AT,Price spike,Medium,2,199.78,Monthly average is 85.1 EUR/MWh,2024-08-27
+1400,price,2024-09-03 18:00:00,AT,Price spike,Medium,2,260.96,Monthly average is 81.9 EUR/MWh,2024-09-03
+1401,price,2024-09-12 19:00:00,AT,Price spike,Medium,2,256.15,Monthly average is 81.9 EUR/MWh,2024-09-12
+1402,price,2024-09-23 19:00:00,AT,Price spike,Medium,2,300.01,Monthly average is 81.9 EUR/MWh,2024-09-23
+1403,price,2024-10-07 18:00:00,AT,Price spike,Medium,2,221.65,Monthly average is 85.6 EUR/MWh,2024-10-07
+1404,price,2024-10-07 19:00:00,AT,Price spike,Medium,2,229.6,Monthly average is 85.6 EUR/MWh,2024-10-07
+1405,price,2024-10-14 18:00:00,AT,Price spike,Medium,2,241.11,Monthly average is 85.6 EUR/MWh,2024-10-14
+1406,price,2024-10-14 19:00:00,AT,Price spike,Medium,2,257.49,Monthly average is 85.6 EUR/MWh,2024-10-14
+1407,price,2024-10-29 17:00:00,AT,Price spike,Medium,2,269.73,Monthly average is 85.6 EUR/MWh,2024-10-29
+1408,price,2024-10-29 18:00:00,AT,Price spike,Medium,2,243.12,Monthly average is 85.6 EUR/MWh,2024-10-29
+1409,price,2024-11-05 19:00:00,AT,Price spike,Medium,2,317.88,Monthly average is 130.8 EUR/MWh,2024-11-05
+1410,price,2024-11-06 19:00:00,AT,Price spike,Medium,2,409.32,Monthly average is 130.8 EUR/MWh,2024-11-06
+1411,price,2024-11-07 17:00:00,AT,Price spike,Medium,2,373.99,Monthly average is 130.8 EUR/MWh,2024-11-07
+1412,price,2024-11-13 08:00:00,AT,Price spike,Medium,2,361.24,Monthly average is 130.8 EUR/MWh,2024-11-13
+1413,price,2024-11-13 09:00:00,AT,Price spike,Medium,2,335.78,Monthly average is 130.8 EUR/MWh,2024-11-13
+1414,price,2024-11-13 10:00:00,AT,Price spike,Medium,2,320.03,Monthly average is 130.8 EUR/MWh,2024-11-13
+1415,price,2024-11-13 11:00:00,AT,Price spike,Medium,2,314.35,Monthly average is 130.8 EUR/MWh,2024-11-13
+1416,price,2024-11-13 12:00:00,AT,Price spike,Medium,2,332.06,Monthly average is 130.8 EUR/MWh,2024-11-13
+1417,price,2024-11-13 13:00:00,AT,Price spike,Medium,2,332.18,Monthly average is 130.8 EUR/MWh,2024-11-13
+1418,price,2024-11-13 14:00:00,AT,Price spike,Medium,2,337.42,Monthly average is 130.8 EUR/MWh,2024-11-13
+1419,price,2024-11-13 15:00:00,AT,Price spike,Medium,2,411.39,Monthly average is 130.8 EUR/MWh,2024-11-13
+1420,price,2024-11-13 16:00:00,AT,Price spike,Medium,2,355.35,Monthly average is 130.8 EUR/MWh,2024-11-13
+1421,price,2024-11-13 18:00:00,AT,Price spike,Medium,2,314.68,Monthly average is 130.8 EUR/MWh,2024-11-13
+1422,price,2024-12-11 11:00:00,AT,Price spike,Medium,2,360.93,Monthly average is 129.7 EUR/MWh,2024-12-11
+1423,price,2024-12-11 13:00:00,AT,Price spike,Medium,2,372.08,Monthly average is 129.7 EUR/MWh,2024-12-11
+1424,price,2024-12-11 14:00:00,AT,Price spike,Medium,2,359.25,Monthly average is 129.7 EUR/MWh,2024-12-11
+1425,price,2024-12-11 15:00:00,AT,Price spike,Medium,2,367.08,Monthly average is 129.7 EUR/MWh,2024-12-11
+1426,price,2024-12-11 16:00:00,AT,Price spike,Medium,2,436.79,Monthly average is 129.7 EUR/MWh,2024-12-11
+1427,price,2024-12-11 17:00:00,AT,Price spike,Medium,2,438.03,Monthly average is 129.7 EUR/MWh,2024-12-11
+1428,price,2024-12-11 18:00:00,AT,Price spike,Medium,2,359.5,Monthly average is 129.7 EUR/MWh,2024-12-11
+1429,price,2024-12-12 09:00:00,AT,Price spike,Medium,2,428.52,Monthly average is 129.7 EUR/MWh,2024-12-12
+1430,price,2024-12-12 10:00:00,AT,Price spike,Medium,2,377.82,Monthly average is 129.7 EUR/MWh,2024-12-12
+1431,price,2024-12-12 11:00:00,AT,Price spike,Medium,2,379.01,Monthly average is 129.7 EUR/MWh,2024-12-12
+1432,price,2024-12-12 13:00:00,AT,Price spike,Medium,2,376.67,Monthly average is 129.7 EUR/MWh,2024-12-12
+1433,price,2024-12-12 14:00:00,AT,Price spike,Medium,2,444.45,Monthly average is 129.7 EUR/MWh,2024-12-12
+1434,price,2024-02-07 18:00:00,LU,Price spike,Medium,2,136.22,Monthly average is 61.3 EUR/MWh,2024-02-07
+1435,price,2024-02-08 08:00:00,LU,Price spike,Medium,2,133.15,Monthly average is 61.3 EUR/MWh,2024-02-08
+1436,price,2024-03-18 18:00:00,LU,Price spike,Medium,2,145.71,Monthly average is 64.7 EUR/MWh,2024-03-18
+1437,price,2024-03-20 18:00:00,LU,Price spike,Medium,2,168.54,Monthly average is 64.7 EUR/MWh,2024-03-20
+1438,price,2024-03-20 19:00:00,LU,Price spike,Medium,2,159.05,Monthly average is 64.7 EUR/MWh,2024-03-20
+1439,price,2024-03-25 18:00:00,LU,Price spike,Medium,2,174.7,Monthly average is 64.7 EUR/MWh,2024-03-25
+1440,price,2024-03-25 19:00:00,LU,Price spike,Medium,2,149.75,Monthly average is 64.7 EUR/MWh,2024-03-25
+1441,price,2024-04-10 19:00:00,LU,Price spike,Medium,2,191.15,Monthly average is 62.4 EUR/MWh,2024-04-10
+1442,price,2024-04-10 20:00:00,LU,Price spike,Medium,2,191.19,Monthly average is 62.4 EUR/MWh,2024-04-10
+1443,price,2024-04-28 14:00:00,LU,Price spike,Medium,2,-65.06,Monthly average is 62.4 EUR/MWh,2024-04-28
+1444,price,2024-04-29 20:00:00,LU,Price spike,Medium,2,204.57,Monthly average is 62.4 EUR/MWh,2024-04-29
+1445,price,2024-05-01 12:00:00,LU,Price spike,Medium,2,-91.9,Monthly average is 67.2 EUR/MWh,2024-05-01
+1446,price,2024-05-01 13:00:00,LU,Price spike,Medium,2,-120.0,Monthly average is 67.2 EUR/MWh,2024-05-01
+1447,price,2024-05-01 14:00:00,LU,Price spike,Medium,2,-120.07,Monthly average is 67.2 EUR/MWh,2024-05-01
+1448,price,2024-05-01 15:00:00,LU,Price spike,Medium,2,-79.98,Monthly average is 67.2 EUR/MWh,2024-05-01
+1449,price,2024-05-12 11:00:00,LU,Price spike,Medium,2,-69.64,Monthly average is 67.2 EUR/MWh,2024-05-12
+1450,price,2024-05-12 12:00:00,LU,Price spike,Medium,2,-100.06,Monthly average is 67.2 EUR/MWh,2024-05-12
+1451,price,2024-05-12 13:00:00,LU,Price spike,Medium,2,-135.45,Monthly average is 67.2 EUR/MWh,2024-05-12
+1452,price,2024-05-12 14:00:00,LU,Price spike,Medium,2,-132.85,Monthly average is 67.2 EUR/MWh,2024-05-12
+1453,price,2024-05-12 15:00:00,LU,Price spike,Medium,2,-85.08,Monthly average is 67.2 EUR/MWh,2024-05-12
+1454,price,2024-05-27 20:00:00,LU,Price spike,Medium,2,221.46,Monthly average is 67.2 EUR/MWh,2024-05-27
+1455,price,2024-06-04 20:00:00,LU,Price spike,Medium,2,235.52,Monthly average is 72.9 EUR/MWh,2024-06-04
+1456,price,2024-06-15 14:00:00,LU,Price spike,Medium,2,-80.01,Monthly average is 72.9 EUR/MWh,2024-06-15
+1457,price,2024-07-08 20:00:00,LU,Price spike,Medium,2,257.35,Monthly average is 67.7 EUR/MWh,2024-07-08
+1458,price,2024-07-14 13:00:00,LU,Price spike,Medium,2,-73.96,Monthly average is 67.7 EUR/MWh,2024-07-14
+1459,price,2024-07-14 14:00:00,LU,Price spike,Medium,2,-73.96,Monthly average is 67.7 EUR/MWh,2024-07-14
+1460,price,2024-07-15 20:00:00,LU,Price spike,Medium,2,224.96,Monthly average is 67.7 EUR/MWh,2024-07-15
+1461,price,2024-07-18 20:00:00,LU,Price spike,Medium,2,227.6,Monthly average is 67.7 EUR/MWh,2024-07-18
+1462,price,2024-08-05 20:00:00,LU,Price spike,Medium,2,250.01,Monthly average is 82.0 EUR/MWh,2024-08-05
+1463,price,2024-08-16 20:00:00,LU,Price spike,Medium,2,243.12,Monthly average is 82.0 EUR/MWh,2024-08-16
+1464,price,2024-08-26 20:00:00,LU,Price spike,Medium,2,231.06,Monthly average is 82.0 EUR/MWh,2024-08-26
+1465,price,2024-08-27 19:00:00,LU,Price spike,Medium,2,232.25,Monthly average is 82.0 EUR/MWh,2024-08-27
+1466,price,2024-08-29 20:00:00,LU,Price spike,Medium,2,289.27,Monthly average is 82.0 EUR/MWh,2024-08-29
+1467,price,2024-09-02 19:00:00,LU,Price spike,Medium,2,255.4,Monthly average is 78.3 EUR/MWh,2024-09-02
+1468,price,2024-09-03 18:00:00,LU,Price spike,Medium,2,300.01,Monthly average is 78.3 EUR/MWh,2024-09-03
+1469,price,2024-09-04 19:00:00,LU,Price spike,Medium,2,320.07,Monthly average is 78.3 EUR/MWh,2024-09-04
+1470,price,2024-09-12 19:00:00,LU,Price spike,Medium,2,300.01,Monthly average is 78.3 EUR/MWh,2024-09-12
+1471,price,2024-09-12 20:00:00,LU,Price spike,Medium,2,250.02,Monthly average is 78.3 EUR/MWh,2024-09-12
+1472,price,2024-09-23 19:00:00,LU,Price spike,Medium,2,328.39,Monthly average is 78.3 EUR/MWh,2024-09-23
+1473,price,2024-10-07 18:00:00,LU,Price spike,Medium,2,237.65,Monthly average is 86.1 EUR/MWh,2024-10-07
+1474,price,2024-10-07 19:00:00,LU,Price spike,Medium,2,229.53,Monthly average is 86.1 EUR/MWh,2024-10-07
+1475,price,2024-10-14 18:00:00,LU,Price spike,Medium,2,257.1,Monthly average is 86.1 EUR/MWh,2024-10-14
+1476,price,2024-10-14 19:00:00,LU,Price spike,Medium,2,269.74,Monthly average is 86.1 EUR/MWh,2024-10-14
+1477,price,2024-10-21 18:00:00,LU,Price spike,Medium,2,222.11,Monthly average is 86.1 EUR/MWh,2024-10-21
+1478,price,2024-10-23 18:00:00,LU,Price spike,Medium,2,218.18,Monthly average is 86.1 EUR/MWh,2024-10-23
+1479,price,2024-10-25 18:00:00,LU,Price spike,Medium,2,227.32,Monthly average is 86.1 EUR/MWh,2024-10-25
+1480,price,2024-10-29 17:00:00,LU,Price spike,Medium,2,285.8,Monthly average is 86.1 EUR/MWh,2024-10-29
+1481,price,2024-10-29 18:00:00,LU,Price spike,Medium,2,257.44,Monthly average is 86.1 EUR/MWh,2024-10-29
+1482,price,2024-11-05 16:00:00,LU,Price spike,Medium,2,331.83,Monthly average is 113.9 EUR/MWh,2024-11-05
+1483,price,2024-11-05 19:00:00,LU,Price spike,Medium,2,341.7,Monthly average is 113.9 EUR/MWh,2024-11-05
+1484,price,2024-11-07 17:00:00,LU,Price spike,Medium,2,408.26,Monthly average is 113.9 EUR/MWh,2024-11-07
+1485,price,2024-11-12 17:00:00,LU,Price spike,Medium,2,317.89,Monthly average is 113.9 EUR/MWh,2024-11-12
+1486,price,2024-12-11 12:00:00,LU,Price spike,Medium,2,385.87,Monthly average is 108.3 EUR/MWh,2024-12-11
+1487,price,2024-12-11 13:00:00,LU,Price spike,Medium,2,404.91,Monthly average is 108.3 EUR/MWh,2024-12-11
+1488,price,2024-12-11 16:00:00,LU,Price spike,Medium,2,437.87,Monthly average is 108.3 EUR/MWh,2024-12-11
+1489,price,2024-12-11 17:00:00,LU,Price spike,Medium,2,445.08,Monthly average is 108.3 EUR/MWh,2024-12-11
+1490,price,2024-12-12 10:00:00,LU,Price spike,Medium,2,543.83,Monthly average is 108.3 EUR/MWh,2024-12-12
+1491,price,2024-12-12 11:00:00,LU,Price spike,Medium,2,465.36,Monthly average is 108.3 EUR/MWh,2024-12-12
+1492,price,2024-12-12 12:00:00,LU,Price spike,Medium,2,404.99,Monthly average is 108.3 EUR/MWh,2024-12-12
+1493,price,2024-12-12 13:00:00,LU,Price spike,Medium,2,415.3,Monthly average is 108.3 EUR/MWh,2024-12-12
+1494,price,2024-12-12 14:00:00,LU,Price spike,Medium,2,490.34,Monthly average is 108.3 EUR/MWh,2024-12-12
+1495,price,2024-12-12 19:00:00,LU,Price spike,Medium,2,551.01,Monthly average is 108.3 EUR/MWh,2024-12-12
+1496,price,2024-09-03 19:00:00,DE,Price spike,High,3,656.37,Monthly average is 81.6 EUR/MWh,2024-09-03
+1497,price,2024-09-12 18:00:00,DE,Price spike,High,3,2500.0,Monthly average is 81.6 EUR/MWh,2024-09-12
+1498,price,2024-11-05 17:00:00,DE,Price spike,High,3,505.31,Monthly average is 113.9 EUR/MWh,2024-11-05
+1499,price,2024-11-05 18:00:00,DE,Price spike,High,3,468.74,Monthly average is 113.9 EUR/MWh,2024-11-05
+1500,price,2024-11-06 16:00:00,DE,Price spike,High,3,524.25,Monthly average is 113.9 EUR/MWh,2024-11-06
+1501,price,2024-11-06 17:00:00,DE,Price spike,High,3,820.11,Monthly average is 113.9 EUR/MWh,2024-11-06
+1502,price,2024-11-06 18:00:00,DE,Price spike,High,3,805.08,Monthly average is 113.9 EUR/MWh,2024-11-06
+1503,price,2024-11-06 19:00:00,DE,Price spike,High,3,450.0,Monthly average is 113.9 EUR/MWh,2024-11-06
+1504,price,2024-12-12 07:00:00,DE,Price spike,High,3,599.99,Monthly average is 108.3 EUR/MWh,2024-12-12
+1505,price,2024-12-12 08:00:00,DE,Price spike,High,3,655.6,Monthly average is 108.3 EUR/MWh,2024-12-12
+1506,price,2024-12-12 09:00:00,DE,Price spike,High,3,646.76,Monthly average is 108.3 EUR/MWh,2024-12-12
+1507,price,2024-12-12 15:00:00,DE,Price spike,High,3,668.49,Monthly average is 108.3 EUR/MWh,2024-12-12
+1508,price,2024-12-12 16:00:00,DE,Price spike,High,3,818.98,Monthly average is 108.3 EUR/MWh,2024-12-12
+1509,price,2024-12-12 17:00:00,DE,Price spike,High,3,936.28,Monthly average is 108.3 EUR/MWh,2024-12-12
+1510,price,2024-12-12 18:00:00,DE,Price spike,High,3,674.18,Monthly average is 108.3 EUR/MWh,2024-12-12
+1511,price,2024-09-03 19:00:00,AT,Price spike,High,3,555.73,Monthly average is 81.9 EUR/MWh,2024-09-03
+1512,price,2024-09-03 20:00:00,AT,Price spike,High,3,448.24,Monthly average is 81.9 EUR/MWh,2024-09-03
+1513,price,2024-11-05 17:00:00,AT,Price spike,High,3,438.16,Monthly average is 130.8 EUR/MWh,2024-11-05
+1514,price,2024-11-05 18:00:00,AT,Price spike,High,3,420.16,Monthly average is 130.8 EUR/MWh,2024-11-05
+1515,price,2024-11-06 16:00:00,AT,Price spike,High,3,460.02,Monthly average is 130.8 EUR/MWh,2024-11-06
+1516,price,2024-11-06 17:00:00,AT,Price spike,High,3,721.95,Monthly average is 130.8 EUR/MWh,2024-11-06
+1517,price,2024-11-06 18:00:00,AT,Price spike,High,3,714.07,Monthly average is 130.8 EUR/MWh,2024-11-06
+1518,price,2024-12-12 07:00:00,AT,Price spike,High,3,535.76,Monthly average is 129.7 EUR/MWh,2024-12-12
+1519,price,2024-12-12 08:00:00,AT,Price spike,High,3,655.6,Monthly average is 129.7 EUR/MWh,2024-12-12
+1520,price,2024-12-12 15:00:00,AT,Price spike,High,3,601.61,Monthly average is 129.7 EUR/MWh,2024-12-12
+1521,price,2024-12-12 16:00:00,AT,Price spike,High,3,795.12,Monthly average is 129.7 EUR/MWh,2024-12-12
+1522,price,2024-12-12 17:00:00,AT,Price spike,High,3,850.0,Monthly average is 129.7 EUR/MWh,2024-12-12
+1523,price,2024-12-12 18:00:00,AT,Price spike,High,3,668.73,Monthly average is 129.7 EUR/MWh,2024-12-12
+1524,price,2024-12-12 19:00:00,AT,Price spike,High,3,546.32,Monthly average is 129.7 EUR/MWh,2024-12-12
+1525,price,2024-09-03 19:00:00,LU,Price spike,High,3,656.37,Monthly average is 78.3 EUR/MWh,2024-09-03
+1526,price,2024-09-03 20:00:00,LU,Price spike,High,3,520.32,Monthly average is 78.3 EUR/MWh,2024-09-03
+1527,price,2024-11-05 17:00:00,LU,Price spike,High,3,505.31,Monthly average is 113.9 EUR/MWh,2024-11-05
+1528,price,2024-11-05 18:00:00,LU,Price spike,High,3,468.74,Monthly average is 113.9 EUR/MWh,2024-11-05
+1529,price,2024-11-06 16:00:00,LU,Price spike,High,3,524.25,Monthly average is 113.9 EUR/MWh,2024-11-06
+1530,price,2024-11-06 17:00:00,LU,Price spike,High,3,820.11,Monthly average is 113.9 EUR/MWh,2024-11-06
+1531,price,2024-11-06 18:00:00,LU,Price spike,High,3,805.08,Monthly average is 113.9 EUR/MWh,2024-11-06
+1532,price,2024-11-06 19:00:00,LU,Price spike,High,3,450.0,Monthly average is 113.9 EUR/MWh,2024-11-06
+1533,price,2024-12-12 07:00:00,LU,Price spike,High,3,599.99,Monthly average is 108.3 EUR/MWh,2024-12-12
+1534,price,2024-12-12 08:00:00,LU,Price spike,High,3,655.6,Monthly average is 108.3 EUR/MWh,2024-12-12
+1535,price,2024-12-12 09:00:00,LU,Price spike,High,3,646.76,Monthly average is 108.3 EUR/MWh,2024-12-12
+1536,price,2024-12-12 15:00:00,LU,Price spike,High,3,668.49,Monthly average is 108.3 EUR/MWh,2024-12-12
+1537,price,2024-12-12 16:00:00,LU,Price spike,High,3,818.98,Monthly average is 108.3 EUR/MWh,2024-12-12
+1538,price,2024-12-12 17:00:00,LU,Price spike,High,3,936.28,Monthly average is 108.3 EUR/MWh,2024-12-12
+1539,price,2024-12-12 18:00:00,LU,Price spike,High,3,674.18,Monthly average is 108.3 EUR/MWh,2024-12-12

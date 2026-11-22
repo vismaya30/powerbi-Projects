@@ -1,0 +1,29 @@
+table Date
+	lineageTag: 27afb1eb-2cb0-4fce-a12b-e74ab620d2e5
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: Short Date
+		lineageTag: 066f485a-dd43-4b46-b462-35c391e5b7fc
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+	column Month = FORMAT('Date'[Date], "MMM")
+		dataType: string
+		lineageTag: 7d08e3f4-a2b8-468a-990a-3f8202686c25
+		summarizeBy: none
+		sortByColumn: MonthNo
+
+	column MonthNo = MONTH('Date'[Date])
+		dataType: int64
+		formatString: 0
+		lineageTag: 483b1814-df06-42f8-a512-180f115506b8
+		summarizeBy: none
+
+	partition Date = calculated
+		mode: import
+		source = CALENDAR(DATE(2024, 1, 1), DATE(2024, 12, 31))
+

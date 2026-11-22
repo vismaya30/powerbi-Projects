@@ -1,0 +1,290 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "quality_tableEx_19",
+  "position": {
+    "x": 20,
+    "y": 654,
+    "z": 9000,
+    "height": 382,
+    "width": 1154,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "error_log"
+                    }
+                  },
+                  "Property": "ts"
+                }
+              },
+              "queryRef": "error_log.ts",
+              "nativeQueryRef": "ts"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "error_log"
+                    }
+                  },
+                  "Property": "region"
+                }
+              },
+              "queryRef": "error_log.region",
+              "nativeQueryRef": "region"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "error_log"
+                    }
+                  },
+                  "Property": "check_type"
+                }
+              },
+              "queryRef": "error_log.check_type",
+              "nativeQueryRef": "check_type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "error_log"
+                    }
+                  },
+                  "Property": "severity"
+                }
+              },
+              "queryRef": "error_log.severity",
+              "nativeQueryRef": "severity"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "error_log"
+                    }
+                  },
+                  "Property": "value"
+                }
+              },
+              "queryRef": "error_log.value",
+              "nativeQueryRef": "value"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "error_log"
+                    }
+                  },
+                  "Property": "details"
+                }
+              },
+              "queryRef": "error_log.details",
+              "nativeQueryRef": "details"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "error_log"
+                    }
+                  },
+                  "Property": "responsible_team"
+                }
+              },
+              "queryRef": "error_log.responsible_team",
+              "nativeQueryRef": "responsible_team"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "error_log"
+                    }
+                  },
+                  "Property": "match_status"
+                }
+              },
+              "queryRef": "error_log.match_status",
+              "nativeQueryRef": "match_status"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "error_log"
+                  }
+                },
+                "Property": "details"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Error details'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "a889585596039dc352ae",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "error_log"
+              }
+            },
+            "Property": "ts"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "ab773a876cb9d4ac6b02",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "error_log"
+              }
+            },
+            "Property": "region"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "ac302fc019a4449105c5",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "error_log"
+              }
+            },
+            "Property": "check_type"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "e146247547670004b891",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "error_log"
+              }
+            },
+            "Property": "severity"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "022a26de509659066e02",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "error_log"
+              }
+            },
+            "Property": "value"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "94f21f8dc6e021071bb7",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "error_log"
+              }
+            },
+            "Property": "details"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "563635401de080985b34",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "error_log"
+              }
+            },
+            "Property": "responsible_team"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "90f6f16d0a092de853ee",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "error_log"
+              }
+            },
+            "Property": "match_status"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

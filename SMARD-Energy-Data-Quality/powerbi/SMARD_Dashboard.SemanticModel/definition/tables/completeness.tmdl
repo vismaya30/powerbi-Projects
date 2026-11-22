@@ -1,0 +1,52 @@
+table completeness
+	lineageTag: 2a4e1a17-f956-4554-b8be-e943864878a2
+
+	measure '% Complete Hours' = DIVIDE(SUM(completeness[present_hours]), SUM(completeness[expected_hours]))
+		formatString: 0.00%
+		lineageTag: 3c8e0f1e-558b-46db-b505-ae7ff7d1e138
+
+	column dataset
+		dataType: string
+		lineageTag: d36b87c3-a34f-4e07-88bf-3da98d3d6706
+		summarizeBy: none
+		sourceColumn: dataset
+
+	column region
+		dataType: string
+		lineageTag: 108e5027-9a19-4df8-a4e2-51f2fff15753
+		summarizeBy: none
+		sourceColumn: region
+
+	column day
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 7077ad77-0141-4e1b-9829-7377abfd030e
+		summarizeBy: none
+		sourceColumn: day
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column expected_hours
+		dataType: int64
+		formatString: 0
+		lineageTag: 92f9ec0d-190f-434b-b0c7-4de006be7c51
+		summarizeBy: none
+		sourceColumn: expected_hours
+
+	column present_hours
+		dataType: int64
+		formatString: 0
+		lineageTag: 29784c83-c4c5-4e03-ad7b-26c1f4959d29
+		summarizeBy: none
+		sourceColumn: present_hours
+
+	partition completeness = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "python\csv_for_powerbi\completeness.csv"), [Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"dataset", type text}, {"region", type text}, {"day", type date}, {"expected_hours", Int64.Type}, {"present_hours", Int64.Type}}, "en-US")
+				in
+				    Typed
+

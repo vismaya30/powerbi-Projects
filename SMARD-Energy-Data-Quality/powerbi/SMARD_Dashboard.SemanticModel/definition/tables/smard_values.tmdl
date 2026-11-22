@@ -1,0 +1,67 @@
+table smard_values
+	lineageTag: af67f0c7-6d07-4a66-8b92-380bf77cd539
+
+	measure 'Avg Price' = CALCULATE(AVERAGE(smard_values[value]), smard_values[dataset] = "price")
+		formatString: #,0.00
+		lineageTag: 358a7be3-03b8-4d37-91a9-db188c4fca34
+
+	measure 'Max Price' = CALCULATE(MAX(smard_values[value]), smard_values[dataset] = "price")
+		formatString: #,0.00
+		lineageTag: 69095edb-35ea-416a-98a3-345ae177a2bf
+
+	measure 'Total Load GWh' = CALCULATE(SUM(smard_values[value]), smard_values[dataset] = "load") / 1000
+		formatString: #,0
+		lineageTag: be759f70-70bd-415b-a15b-d8e04a7e4dcd
+
+	column dataset
+		dataType: string
+		lineageTag: 014038a8-c3fd-4178-abfb-cb0b40e9d860
+		summarizeBy: none
+		sourceColumn: dataset
+
+	column ts
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: a5a22546-ce84-459f-b962-86fc066c5c35
+		summarizeBy: none
+		sourceColumn: ts
+
+		variation Variation
+			isDefault
+			relationship: 4d2b6953-c1fc-48f8-b883-93b0a1236adf
+			defaultHierarchy: LocalDateTable_a199d0fb-42b4-4619-956c-1d9467ed4d6b.'Date Hierarchy'
+
+	column region
+		dataType: string
+		lineageTag: 68e7011c-8aa3-40c4-aa47-df1db2253b55
+		summarizeBy: none
+		sourceColumn: region
+
+	column value
+		dataType: double
+		formatString: #,0.00
+		lineageTag: dbe9e9a9-b751-46ee-b8f3-3be42b0ea795
+		summarizeBy: sum
+		sourceColumn: value
+
+		annotation SummarizationSetBy = Automatic
+
+	column day
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 2f276077-8500-4582-8de4-720eaad514dd
+		summarizeBy: none
+		sourceColumn: day
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition smard_values = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "python\csv_for_powerbi\smard_values.csv"), [Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"dataset", type text}, {"ts", type datetime}, {"region", type text}, {"value", type number}, {"day", type date}}, "en-US")
+				in
+				    Typed
+
